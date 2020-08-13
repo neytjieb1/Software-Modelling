@@ -170,6 +170,87 @@ Beer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Beer.cpp.s
 .PHONY : Beer.cpp.s
 
+BeerProductionStation.o: BeerProductionStation.cpp.o
+
+.PHONY : BeerProductionStation.o
+
+# target to build an object file
+BeerProductionStation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o
+.PHONY : BeerProductionStation.cpp.o
+
+BeerProductionStation.i: BeerProductionStation.cpp.i
+
+.PHONY : BeerProductionStation.i
+
+# target to preprocess a source file
+BeerProductionStation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/BeerProductionStation.cpp.i
+.PHONY : BeerProductionStation.cpp.i
+
+BeerProductionStation.s: BeerProductionStation.cpp.s
+
+.PHONY : BeerProductionStation.s
+
+# target to generate assembly for a file
+BeerProductionStation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/BeerProductionStation.cpp.s
+.PHONY : BeerProductionStation.cpp.s
+
+Bottle.o: Bottle.cpp.o
+
+.PHONY : Bottle.o
+
+# target to build an object file
+Bottle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Bottle.cpp.o
+.PHONY : Bottle.cpp.o
+
+Bottle.i: Bottle.cpp.i
+
+.PHONY : Bottle.i
+
+# target to preprocess a source file
+Bottle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Bottle.cpp.i
+.PHONY : Bottle.cpp.i
+
+Bottle.s: Bottle.cpp.s
+
+.PHONY : Bottle.s
+
+# target to generate assembly for a file
+Bottle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Bottle.cpp.s
+.PHONY : Bottle.cpp.s
+
+Lager.o: Lager.cpp.o
+
+.PHONY : Lager.o
+
+# target to build an object file
+Lager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Lager.cpp.o
+.PHONY : Lager.cpp.o
+
+Lager.i: Lager.cpp.i
+
+.PHONY : Lager.i
+
+# target to preprocess a source file
+Lager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Lager.cpp.i
+.PHONY : Lager.cpp.i
+
+Lager.s: Lager.cpp.s
+
+.PHONY : Lager.s
+
+# target to generate assembly for a file
+Lager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Lager.cpp.s
+.PHONY : Lager.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -209,6 +290,15 @@ help:
 	@echo "... Beer.o"
 	@echo "... Beer.i"
 	@echo "... Beer.s"
+	@echo "... BeerProductionStation.o"
+	@echo "... BeerProductionStation.i"
+	@echo "... BeerProductionStation.s"
+	@echo "... Bottle.o"
+	@echo "... Bottle.i"
+	@echo "... Bottle.s"
+	@echo "... Lager.o"
+	@echo "... Lager.i"
+	@echo "... Lager.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

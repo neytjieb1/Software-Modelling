@@ -90,6 +90,24 @@
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Beer.h">
 			<Option target="Tut1"/>
 		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerProductionStation.cpp">
+			<Option target="Tut1"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerProductionStation.h">
+			<Option target="Tut1"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Bottle.cpp">
+			<Option target="Tut1"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Bottle.h">
+			<Option target="Tut1"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Lager.cpp">
+			<Option target="Tut1"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Lager.h">
+			<Option target="Tut1"/>
+		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/main.cpp">
 			<Option target="Tut1"/>
 		</Unit>

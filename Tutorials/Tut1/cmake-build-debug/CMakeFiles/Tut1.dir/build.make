@@ -103,19 +103,64 @@ CMakeFiles/Tut1.dir/Beer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tut1.dir/Beer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Beer.cpp -o CMakeFiles/Tut1.dir/Beer.cpp.s
 
+CMakeFiles/Tut1.dir/Lager.cpp.o: CMakeFiles/Tut1.dir/flags.make
+CMakeFiles/Tut1.dir/Lager.cpp.o: Lager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tut1.dir/Lager.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tut1.dir/Lager.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Lager.cpp
+
+CMakeFiles/Tut1.dir/Lager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tut1.dir/Lager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Lager.cpp > CMakeFiles/Tut1.dir/Lager.cpp.i
+
+CMakeFiles/Tut1.dir/Lager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tut1.dir/Lager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Lager.cpp -o CMakeFiles/Tut1.dir/Lager.cpp.s
+
+CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o: CMakeFiles/Tut1.dir/flags.make
+CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o: BeerProductionStation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerProductionStation.cpp
+
+CMakeFiles/Tut1.dir/BeerProductionStation.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tut1.dir/BeerProductionStation.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerProductionStation.cpp > CMakeFiles/Tut1.dir/BeerProductionStation.cpp.i
+
+CMakeFiles/Tut1.dir/BeerProductionStation.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tut1.dir/BeerProductionStation.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerProductionStation.cpp -o CMakeFiles/Tut1.dir/BeerProductionStation.cpp.s
+
+CMakeFiles/Tut1.dir/Bottle.cpp.o: CMakeFiles/Tut1.dir/flags.make
+CMakeFiles/Tut1.dir/Bottle.cpp.o: Bottle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Tut1.dir/Bottle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tut1.dir/Bottle.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Bottle.cpp
+
+CMakeFiles/Tut1.dir/Bottle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tut1.dir/Bottle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Bottle.cpp > CMakeFiles/Tut1.dir/Bottle.cpp.i
+
+CMakeFiles/Tut1.dir/Bottle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tut1.dir/Bottle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Bottle.cpp -o CMakeFiles/Tut1.dir/Bottle.cpp.s
+
 # Object files for target Tut1
 Tut1_OBJECTS = \
 "CMakeFiles/Tut1.dir/main.cpp.o" \
-"CMakeFiles/Tut1.dir/Beer.cpp.o"
+"CMakeFiles/Tut1.dir/Beer.cpp.o" \
+"CMakeFiles/Tut1.dir/Lager.cpp.o" \
+"CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o" \
+"CMakeFiles/Tut1.dir/Bottle.cpp.o"
 
 # External object files for target Tut1
 Tut1_EXTERNAL_OBJECTS =
 
 Tut1: CMakeFiles/Tut1.dir/main.cpp.o
 Tut1: CMakeFiles/Tut1.dir/Beer.cpp.o
+Tut1: CMakeFiles/Tut1.dir/Lager.cpp.o
+Tut1: CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o
+Tut1: CMakeFiles/Tut1.dir/Bottle.cpp.o
 Tut1: CMakeFiles/Tut1.dir/build.make
 Tut1: CMakeFiles/Tut1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Tut1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Tut1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tut1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

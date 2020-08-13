@@ -12,24 +12,13 @@ public:
     Beer(string, string);
     string getType();
     string getBrand();
-
+    virtual ~Beer();
 private:
     string type;
     string brand;
 };
 
-Beer::Beer(string t, string b) {
-    this->type = t;
-    this->brand = b;
-}
 
-string Beer::getType() {
-    return this->type;
-}
-
-string Beer::getBrand() {
-    return this->brand;
-}
 
 
 #endif //TUT1_BEER_H
