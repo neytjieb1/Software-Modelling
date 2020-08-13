@@ -64,16 +64,16 @@ RM = /home/jo/Downloads/clion-2020.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1
+CMAKE_SOURCE_DIR = /home/jo/CLionProjects/ClassExamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jo/CLionProjects/ClassExamples/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Tut1.dir/all
+all: CMakeFiles/ClassExamples.dir/all
 
 .PHONY : all
 
@@ -83,36 +83,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Tut1.dir/clean
+clean: CMakeFiles/ClassExamples.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Tut1.dir
+# Target rules for target CMakeFiles/ClassExamples.dir
 
 # All Build rule for target.
-CMakeFiles/Tut1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Tut1"
-.PHONY : CMakeFiles/Tut1.dir/all
+CMakeFiles/ClassExamples.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassExamples.dir/build.make CMakeFiles/ClassExamples.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassExamples.dir/build.make CMakeFiles/ClassExamples.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jo/CLionProjects/ClassExamples/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target ClassExamples"
+.PHONY : CMakeFiles/ClassExamples.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Tut1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Tut1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Tut1.dir/rule
+CMakeFiles/ClassExamples.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/ClassExamples/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ClassExamples.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/ClassExamples/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/ClassExamples.dir/rule
 
 # Convenience name for target.
-Tut1: CMakeFiles/Tut1.dir/rule
+ClassExamples: CMakeFiles/ClassExamples.dir/rule
 
-.PHONY : Tut1
+.PHONY : ClassExamples
 
 # clean rule for target.
-CMakeFiles/Tut1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/clean
-.PHONY : CMakeFiles/Tut1.dir/clean
+CMakeFiles/ClassExamples.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassExamples.dir/build.make CMakeFiles/ClassExamples.dir/clean
+.PHONY : CMakeFiles/ClassExamples.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

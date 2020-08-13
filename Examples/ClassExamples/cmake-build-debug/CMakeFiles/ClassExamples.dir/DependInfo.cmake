@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Beer.cpp" "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/Beer.cpp.o"
-  "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/main.cpp" "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/main.cpp.o"
+  "/home/jo/CLionProjects/ClassExamples/TemplateMethod.cpp" "/home/jo/CLionProjects/ClassExamples/cmake-build-debug/CMakeFiles/ClassExamples.dir/TemplateMethod.cpp.o"
+  "/home/jo/CLionProjects/ClassExamples/main.cpp" "/home/jo/CLionProjects/ClassExamples/cmake-build-debug/CMakeFiles/ClassExamples.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

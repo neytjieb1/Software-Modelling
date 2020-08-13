@@ -68,10 +68,10 @@ RM = /home/jo/Downloads/clion-2020.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1
+CMAKE_SOURCE_DIR = /home/jo/CLionProjects/ClassExamples
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jo/CLionProjects/ClassExamples/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/ClassExamples/cmake-build-debug/CMakeFiles /home/jo/CLionProjects/ClassExamples/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/ClassExamples/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Tut1
+# Target rules for targets named ClassExamples
 
 # Build rule for target.
-Tut1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Tut1
-.PHONY : Tut1
+ClassExamples: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ClassExamples
+.PHONY : ClassExamples
 
 # fast build rule for target.
-Tut1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/build
-.PHONY : Tut1/fast
+ClassExamples/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassExamples.dir/build.make CMakeFiles/ClassExamples.dir/build
+.PHONY : ClassExamples/fast
 
-Beer.o: Beer.cpp.o
+TemplateMethod.o: TemplateMethod.cpp.o
 
-.PHONY : Beer.o
+.PHONY : TemplateMethod.o
 
 # target to build an object file
-Beer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Beer.cpp.o
-.PHONY : Beer.cpp.o
+TemplateMethod.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassExamples.dir/build.make CMakeFiles/ClassExamples.dir/TemplateMethod.cpp.o
+.PHONY : TemplateMethod.cpp.o
 
-Beer.i: Beer.cpp.i
+TemplateMethod.i: TemplateMethod.cpp.i
 
-.PHONY : Beer.i
+.PHONY : TemplateMethod.i
 
 # target to preprocess a source file
-Beer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Beer.cpp.i
-.PHONY : Beer.cpp.i
+TemplateMethod.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassExamples.dir/build.make CMakeFiles/ClassExamples.dir/TemplateMethod.cpp.i
+.PHONY : TemplateMethod.cpp.i
 
-Beer.s: Beer.cpp.s
+TemplateMethod.s: TemplateMethod.cpp.s
 
-.PHONY : Beer.s
+.PHONY : TemplateMethod.s
 
 # target to generate assembly for a file
-Beer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Beer.cpp.s
-.PHONY : Beer.cpp.s
+TemplateMethod.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassExamples.dir/build.make CMakeFiles/ClassExamples.dir/TemplateMethod.cpp.s
+.PHONY : TemplateMethod.cpp.s
 
 main.o: main.cpp.o
 
@@ -176,7 +176,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassExamples.dir/build.make CMakeFiles/ClassExamples.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -185,7 +185,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassExamples.dir/build.make CMakeFiles/ClassExamples.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -194,7 +194,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ClassExamples.dir/build.make CMakeFiles/ClassExamples.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -205,10 +205,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Tut1"
-	@echo "... Beer.o"
-	@echo "... Beer.i"
-	@echo "... Beer.s"
+	@echo "... ClassExamples"
+	@echo "... TemplateMethod.o"
+	@echo "... TemplateMethod.i"
+	@echo "... TemplateMethod.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

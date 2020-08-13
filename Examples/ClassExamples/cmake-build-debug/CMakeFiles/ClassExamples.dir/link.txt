@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/ClassExamples.dir/main.cpp.o CMakeFiles/ClassExamples.dir/TemplateMethod.cpp.o  -o ClassExamples 
