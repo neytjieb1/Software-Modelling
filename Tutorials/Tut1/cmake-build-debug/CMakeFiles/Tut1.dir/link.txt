@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Tut1.dir/main.cpp.o CMakeFiles/Tut1.dir/Beer.cpp.o  -o Tut1 
