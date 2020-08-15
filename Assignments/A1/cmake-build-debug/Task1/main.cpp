@@ -8,7 +8,7 @@
 
 using namespace std;
 
-int pHP = 10;
+int pHP = 15;
 string pType = "Wildebeest";
 double pDam = 5.0;
 
@@ -19,24 +19,36 @@ void resetPrey(Prey &p) {
 }
 
 int main() {
-    Lion* lion = new Lion(13, 5, "his bow and arrow");
-    Cheetah* cheetah = new Cheetah(11,4,"bewitching voice");
-    Wolf* wolf = new Wolf(8,2,"parkour skills");
-    WildDog* wildDog = new WildDog(6,3,"quadrille-dancing abilities");
     Prey prey = Prey(pHP,pType, pDam);
 
+    /*Lion* lion = new Lion(13, 5, "his bow and arrow");
     lion->setSpeciality("claws");
-    cheetah->setSpeciality("teeth");
-    wolf->setSpeciality("nails");
-    wildDog->setSpeciality("tail");
-
     lion->hunt(prey);
     resetPrey(prey);
+    lion->hunt(prey);*/
+
+    /*Cheetah* cheetah = new Cheetah(11,4,"bewitching voice");
+    cheetah->setSpeciality("teeth");
     cheetah->hunt(prey);
-    resetPrey(prey);
+    resetPrey(prey);*/
+
+/*    Wolf* wolf = new Wolf(8,2,"parkour skills");
+    wolf->setSpeciality("nails");
     wolf->hunt(prey);
-    resetPrey(prey);
+    resetPrey(prey);*/
+
+    WildDog* wildDog = new WildDog(6,3,"quadrille-dancing abilities");
+    wildDog->setSpeciality("tail");
     wildDog->hunt(prey);
+    resetPrey(prey);
+//    wildDog->hunt(prey)
+
+
+
+
+
+
+
 
 
 

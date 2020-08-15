@@ -55,12 +55,16 @@ Predator::~Predator() {
     cout << "Destructor: Predator" << endl;
 }
 
-void Predator::hunt(Prey p) {
-    cout << this->getHP() << " " << p.getHP() << endl;
+void Predator::hunt(Prey& p) {
+    cout << "\nInitial" << endl;
     while (this->getHP() > 0 && p.getHP() > 0) {
+        this->printInfo();
+        p.printInfo();
+
         if (this->getHP() < 5) {
             this->speciality();
         }
+
         if (this->catchPrey(&p)) {      //prey is caught
             if (this->getAttacked(&p)) {
                 this->die();
@@ -71,5 +75,9 @@ void Predator::hunt(Prey p) {
             this->setHp(this->getHP() - 1);
         }
     }
+}
+
+void Predator::printInfo() {
+    cout << "Predator:\tHP " << HP << "\tDamage: " << damage << endl;
 }
 

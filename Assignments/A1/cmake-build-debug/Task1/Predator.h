@@ -24,8 +24,9 @@ public:
     double getDamage() const;
     string getSpeciality() const;
     virtual ~Predator();
+    void printInfo();
 
-    void hunt(Prey);
+    void hunt(Prey &);
     virtual bool catchPrey(Prey *p) = 0;
     virtual bool getAttacked(Prey *p) = 0;
     virtual bool attack(Prey *p) = 0;

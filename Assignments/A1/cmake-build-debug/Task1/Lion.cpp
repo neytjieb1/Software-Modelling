@@ -12,14 +12,13 @@ bool Lion::catchPrey(Prey *p) {
 }
 
 bool Lion::getAttacked(Prey *p) {
-    if (catchPrey(p)) {
+
         int damage = p->fight();
         //right?
         if (damage > 0) {
             cout << "The " << p->getType() << " stands on the lions tail inflicting " << damage << " damage!" << endl;
             this->setHp(this->getHP() - damage);
         }
-    }
     if (this->getHP() <= 0) {
         this->setDamage(this->initDamage);
         return true;

@@ -28,6 +28,7 @@ public:
     bool run();
     int fight();
     int takeDamage(int damage);
+    void printInfo();
 };
 
 #endif // Prey_H

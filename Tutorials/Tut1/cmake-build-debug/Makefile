@@ -170,6 +170,33 @@ Beer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Beer.cpp.s
 .PHONY : Beer.cpp.s
 
+BeerCase.o: BeerCase.cpp.o
+
+.PHONY : BeerCase.o
+
+# target to build an object file
+BeerCase.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/BeerCase.cpp.o
+.PHONY : BeerCase.cpp.o
+
+BeerCase.i: BeerCase.cpp.i
+
+.PHONY : BeerCase.i
+
+# target to preprocess a source file
+BeerCase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/BeerCase.cpp.i
+.PHONY : BeerCase.cpp.i
+
+BeerCase.s: BeerCase.cpp.s
+
+.PHONY : BeerCase.s
+
+# target to generate assembly for a file
+BeerCase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/BeerCase.cpp.s
+.PHONY : BeerCase.cpp.s
+
 BeerProductionStation.o: BeerProductionStation.cpp.o
 
 .PHONY : BeerProductionStation.o
@@ -224,6 +251,33 @@ Bottle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Bottle.cpp.s
 .PHONY : Bottle.cpp.s
 
+ConcreateBeerProducers.o: ConcreateBeerProducers.cpp.o
+
+.PHONY : ConcreateBeerProducers.o
+
+# target to build an object file
+ConcreateBeerProducers.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/ConcreateBeerProducers.cpp.o
+.PHONY : ConcreateBeerProducers.cpp.o
+
+ConcreateBeerProducers.i: ConcreateBeerProducers.cpp.i
+
+.PHONY : ConcreateBeerProducers.i
+
+# target to preprocess a source file
+ConcreateBeerProducers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/ConcreateBeerProducers.cpp.i
+.PHONY : ConcreateBeerProducers.cpp.i
+
+ConcreateBeerProducers.s: ConcreateBeerProducers.cpp.s
+
+.PHONY : ConcreateBeerProducers.s
+
+# target to generate assembly for a file
+ConcreateBeerProducers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/ConcreateBeerProducers.cpp.s
+.PHONY : ConcreateBeerProducers.cpp.s
+
 Lager.o: Lager.cpp.o
 
 .PHONY : Lager.o
@@ -250,6 +304,60 @@ Lager.s: Lager.cpp.s
 Lager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Lager.cpp.s
 .PHONY : Lager.cpp.s
+
+Memento.o: Memento.cpp.o
+
+.PHONY : Memento.o
+
+# target to build an object file
+Memento.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Memento.cpp.o
+.PHONY : Memento.cpp.o
+
+Memento.i: Memento.cpp.i
+
+.PHONY : Memento.i
+
+# target to preprocess a source file
+Memento.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Memento.cpp.i
+.PHONY : Memento.cpp.i
+
+Memento.s: Memento.cpp.s
+
+.PHONY : Memento.s
+
+# target to generate assembly for a file
+Memento.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/Memento.cpp.s
+.PHONY : Memento.cpp.s
+
+State.o: State.cpp.o
+
+.PHONY : State.o
+
+# target to build an object file
+State.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/State.cpp.o
+.PHONY : State.cpp.o
+
+State.i: State.cpp.i
+
+.PHONY : State.i
+
+# target to preprocess a source file
+State.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/State.cpp.i
+.PHONY : State.cpp.i
+
+State.s: State.cpp.s
+
+.PHONY : State.s
+
+# target to generate assembly for a file
+State.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut1.dir/build.make CMakeFiles/Tut1.dir/State.cpp.s
+.PHONY : State.cpp.s
 
 main.o: main.cpp.o
 
@@ -290,15 +398,27 @@ help:
 	@echo "... Beer.o"
 	@echo "... Beer.i"
 	@echo "... Beer.s"
+	@echo "... BeerCase.o"
+	@echo "... BeerCase.i"
+	@echo "... BeerCase.s"
 	@echo "... BeerProductionStation.o"
 	@echo "... BeerProductionStation.i"
 	@echo "... BeerProductionStation.s"
 	@echo "... Bottle.o"
 	@echo "... Bottle.i"
 	@echo "... Bottle.s"
+	@echo "... ConcreateBeerProducers.o"
+	@echo "... ConcreateBeerProducers.i"
+	@echo "... ConcreateBeerProducers.s"
 	@echo "... Lager.o"
 	@echo "... Lager.i"
 	@echo "... Lager.s"
+	@echo "... Memento.o"
+	@echo "... Memento.i"
+	@echo "... Memento.s"
+	@echo "... State.o"
+	@echo "... State.i"
+	@echo "... State.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

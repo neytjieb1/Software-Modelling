@@ -4,7 +4,7 @@
 
 #ifndef A1_WILDDOGFACTORY_H
 #define A1_WILDDOGFACTORY_H
-#include "Predator.h"
+#include "cmake-build-debug/Task1/Predator.h"
 
 class WildDogFactory {
     Predator* createPredator(string huntingMethod, string speciality);

@@ -6,23 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/jo/CLionProjects/A1/Cheetah.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Cheetah.h
 Predator.h
-/home/jo/CLionProjects/A1/Predator.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
 
-/home/jo/CLionProjects/A1/Lion.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Lion.h
 Predator.h
-/home/jo/CLionProjects/A1/Predator.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
 
-/home/jo/CLionProjects/A1/Predator.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
 string
 -
 Predator.h
-/home/jo/CLionProjects/A1/Predator.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
 Prey.h
-/home/jo/CLionProjects/A1/Prey.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
 
-/home/jo/CLionProjects/A1/Prey.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
 string
 -
 stdlib.h
@@ -32,27 +32,27 @@ time.h
 iostream
 -
 
-/home/jo/CLionProjects/A1/WildDog.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/WildDog.h
 Predator.h
-/home/jo/CLionProjects/A1/Predator.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
 
-/home/jo/CLionProjects/A1/Wolf.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Wolf.h
 Predator.h
-/home/jo/CLionProjects/A1/Predator.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
 
-/home/jo/CLionProjects/A1/main.cpp
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/main.cpp
 iostream
 -
 Predator.h
-/home/jo/CLionProjects/A1/Predator.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
 Prey.h
-/home/jo/CLionProjects/A1/Prey.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
 Lion.h
-/home/jo/CLionProjects/A1/Lion.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Lion.h
 Wolf.h
-/home/jo/CLionProjects/A1/Wolf.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Wolf.h
 Cheetah.h
-/home/jo/CLionProjects/A1/Cheetah.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Cheetah.h
 WildDog.h
-/home/jo/CLionProjects/A1/WildDog.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/WildDog.h
 

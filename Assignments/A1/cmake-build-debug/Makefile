@@ -68,10 +68,10 @@ RM = /home/jo/Downloads/clion-2020.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jo/CLionProjects/A1
+CMAKE_SOURCE_DIR = /home/jo/CLionProjects/Software-Modelling/Assignments/A1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jo/CLionProjects/A1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/A1/cmake-build-debug/CMakeFiles /home/jo/CLionProjects/A1/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/CMakeFiles /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/A1/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,33 +143,6 @@ A1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/build
 .PHONY : A1/fast
 
-Cheetah.o: Cheetah.cpp.o
-
-.PHONY : Cheetah.o
-
-# target to build an object file
-Cheetah.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Cheetah.cpp.o
-.PHONY : Cheetah.cpp.o
-
-Cheetah.i: Cheetah.cpp.i
-
-.PHONY : Cheetah.i
-
-# target to preprocess a source file
-Cheetah.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Cheetah.cpp.i
-.PHONY : Cheetah.cpp.i
-
-Cheetah.s: Cheetah.cpp.s
-
-.PHONY : Cheetah.s
-
-# target to generate assembly for a file
-Cheetah.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Cheetah.cpp.s
-.PHONY : Cheetah.cpp.s
-
 CheetahFactory.o: CheetahFactory.cpp.o
 
 .PHONY : CheetahFactory.o
@@ -196,33 +169,6 @@ CheetahFactory.s: CheetahFactory.cpp.s
 CheetahFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/CheetahFactory.cpp.s
 .PHONY : CheetahFactory.cpp.s
-
-Lion.o: Lion.cpp.o
-
-.PHONY : Lion.o
-
-# target to build an object file
-Lion.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Lion.cpp.o
-.PHONY : Lion.cpp.o
-
-Lion.i: Lion.cpp.i
-
-.PHONY : Lion.i
-
-# target to preprocess a source file
-Lion.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Lion.cpp.i
-.PHONY : Lion.cpp.i
-
-Lion.s: Lion.cpp.s
-
-.PHONY : Lion.s
-
-# target to generate assembly for a file
-Lion.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Lion.cpp.s
-.PHONY : Lion.cpp.s
 
 LionFactory.o: LionFactory.cpp.o
 
@@ -251,33 +197,6 @@ LionFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/LionFactory.cpp.s
 .PHONY : LionFactory.cpp.s
 
-Predator.o: Predator.cpp.o
-
-.PHONY : Predator.o
-
-# target to build an object file
-Predator.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Predator.cpp.o
-.PHONY : Predator.cpp.o
-
-Predator.i: Predator.cpp.i
-
-.PHONY : Predator.i
-
-# target to preprocess a source file
-Predator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Predator.cpp.i
-.PHONY : Predator.cpp.i
-
-Predator.s: Predator.cpp.s
-
-.PHONY : Predator.s
-
-# target to generate assembly for a file
-Predator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Predator.cpp.s
-.PHONY : Predator.cpp.s
-
 PredatorFactory.o: PredatorFactory.cpp.o
 
 .PHONY : PredatorFactory.o
@@ -305,59 +224,194 @@ PredatorFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/PredatorFactory.cpp.s
 .PHONY : PredatorFactory.cpp.s
 
-Prey.o: Prey.cpp.o
+Task1/Cheetah.o: Task1/Cheetah.cpp.o
 
-.PHONY : Prey.o
-
-# target to build an object file
-Prey.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Prey.cpp.o
-.PHONY : Prey.cpp.o
-
-Prey.i: Prey.cpp.i
-
-.PHONY : Prey.i
-
-# target to preprocess a source file
-Prey.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Prey.cpp.i
-.PHONY : Prey.cpp.i
-
-Prey.s: Prey.cpp.s
-
-.PHONY : Prey.s
-
-# target to generate assembly for a file
-Prey.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Prey.cpp.s
-.PHONY : Prey.cpp.s
-
-WildDog.o: WildDog.cpp.o
-
-.PHONY : WildDog.o
+.PHONY : Task1/Cheetah.o
 
 # target to build an object file
-WildDog.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/WildDog.cpp.o
-.PHONY : WildDog.cpp.o
+Task1/Cheetah.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Cheetah.cpp.o
+.PHONY : Task1/Cheetah.cpp.o
 
-WildDog.i: WildDog.cpp.i
+Task1/Cheetah.i: Task1/Cheetah.cpp.i
 
-.PHONY : WildDog.i
+.PHONY : Task1/Cheetah.i
 
 # target to preprocess a source file
-WildDog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/WildDog.cpp.i
-.PHONY : WildDog.cpp.i
+Task1/Cheetah.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Cheetah.cpp.i
+.PHONY : Task1/Cheetah.cpp.i
 
-WildDog.s: WildDog.cpp.s
+Task1/Cheetah.s: Task1/Cheetah.cpp.s
 
-.PHONY : WildDog.s
+.PHONY : Task1/Cheetah.s
 
 # target to generate assembly for a file
-WildDog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/WildDog.cpp.s
-.PHONY : WildDog.cpp.s
+Task1/Cheetah.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Cheetah.cpp.s
+.PHONY : Task1/Cheetah.cpp.s
+
+Task1/Lion.o: Task1/Lion.cpp.o
+
+.PHONY : Task1/Lion.o
+
+# target to build an object file
+Task1/Lion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Lion.cpp.o
+.PHONY : Task1/Lion.cpp.o
+
+Task1/Lion.i: Task1/Lion.cpp.i
+
+.PHONY : Task1/Lion.i
+
+# target to preprocess a source file
+Task1/Lion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Lion.cpp.i
+.PHONY : Task1/Lion.cpp.i
+
+Task1/Lion.s: Task1/Lion.cpp.s
+
+.PHONY : Task1/Lion.s
+
+# target to generate assembly for a file
+Task1/Lion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Lion.cpp.s
+.PHONY : Task1/Lion.cpp.s
+
+Task1/Predator.o: Task1/Predator.cpp.o
+
+.PHONY : Task1/Predator.o
+
+# target to build an object file
+Task1/Predator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Predator.cpp.o
+.PHONY : Task1/Predator.cpp.o
+
+Task1/Predator.i: Task1/Predator.cpp.i
+
+.PHONY : Task1/Predator.i
+
+# target to preprocess a source file
+Task1/Predator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Predator.cpp.i
+.PHONY : Task1/Predator.cpp.i
+
+Task1/Predator.s: Task1/Predator.cpp.s
+
+.PHONY : Task1/Predator.s
+
+# target to generate assembly for a file
+Task1/Predator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Predator.cpp.s
+.PHONY : Task1/Predator.cpp.s
+
+Task1/Prey.o: Task1/Prey.cpp.o
+
+.PHONY : Task1/Prey.o
+
+# target to build an object file
+Task1/Prey.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Prey.cpp.o
+.PHONY : Task1/Prey.cpp.o
+
+Task1/Prey.i: Task1/Prey.cpp.i
+
+.PHONY : Task1/Prey.i
+
+# target to preprocess a source file
+Task1/Prey.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Prey.cpp.i
+.PHONY : Task1/Prey.cpp.i
+
+Task1/Prey.s: Task1/Prey.cpp.s
+
+.PHONY : Task1/Prey.s
+
+# target to generate assembly for a file
+Task1/Prey.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Prey.cpp.s
+.PHONY : Task1/Prey.cpp.s
+
+Task1/WildDog.o: Task1/WildDog.cpp.o
+
+.PHONY : Task1/WildDog.o
+
+# target to build an object file
+Task1/WildDog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/WildDog.cpp.o
+.PHONY : Task1/WildDog.cpp.o
+
+Task1/WildDog.i: Task1/WildDog.cpp.i
+
+.PHONY : Task1/WildDog.i
+
+# target to preprocess a source file
+Task1/WildDog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/WildDog.cpp.i
+.PHONY : Task1/WildDog.cpp.i
+
+Task1/WildDog.s: Task1/WildDog.cpp.s
+
+.PHONY : Task1/WildDog.s
+
+# target to generate assembly for a file
+Task1/WildDog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/WildDog.cpp.s
+.PHONY : Task1/WildDog.cpp.s
+
+Task1/Wolf.o: Task1/Wolf.cpp.o
+
+.PHONY : Task1/Wolf.o
+
+# target to build an object file
+Task1/Wolf.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Wolf.cpp.o
+.PHONY : Task1/Wolf.cpp.o
+
+Task1/Wolf.i: Task1/Wolf.cpp.i
+
+.PHONY : Task1/Wolf.i
+
+# target to preprocess a source file
+Task1/Wolf.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Wolf.cpp.i
+.PHONY : Task1/Wolf.cpp.i
+
+Task1/Wolf.s: Task1/Wolf.cpp.s
+
+.PHONY : Task1/Wolf.s
+
+# target to generate assembly for a file
+Task1/Wolf.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Wolf.cpp.s
+.PHONY : Task1/Wolf.cpp.s
+
+Task1/main.o: Task1/main.cpp.o
+
+.PHONY : Task1/main.o
+
+# target to build an object file
+Task1/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/main.cpp.o
+.PHONY : Task1/main.cpp.o
+
+Task1/main.i: Task1/main.cpp.i
+
+.PHONY : Task1/main.i
+
+# target to preprocess a source file
+Task1/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/main.cpp.i
+.PHONY : Task1/main.cpp.i
+
+Task1/main.s: Task1/main.cpp.s
+
+.PHONY : Task1/main.s
+
+# target to generate assembly for a file
+Task1/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/main.cpp.s
+.PHONY : Task1/main.cpp.s
 
 WildDogFactory.o: WildDogFactory.cpp.o
 
@@ -386,33 +440,6 @@ WildDogFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/WildDogFactory.cpp.s
 .PHONY : WildDogFactory.cpp.s
 
-Wolf.o: Wolf.cpp.o
-
-.PHONY : Wolf.o
-
-# target to build an object file
-Wolf.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Wolf.cpp.o
-.PHONY : Wolf.cpp.o
-
-Wolf.i: Wolf.cpp.i
-
-.PHONY : Wolf.i
-
-# target to preprocess a source file
-Wolf.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Wolf.cpp.i
-.PHONY : Wolf.cpp.i
-
-Wolf.s: Wolf.cpp.s
-
-.PHONY : Wolf.s
-
-# target to generate assembly for a file
-Wolf.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Wolf.cpp.s
-.PHONY : Wolf.cpp.s
-
 WolfFactory.o: WolfFactory.cpp.o
 
 .PHONY : WolfFactory.o
@@ -440,33 +467,6 @@ WolfFactory.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/WolfFactory.cpp.s
 .PHONY : WolfFactory.cpp.s
 
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -476,42 +476,42 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... A1"
-	@echo "... Cheetah.o"
-	@echo "... Cheetah.i"
-	@echo "... Cheetah.s"
 	@echo "... CheetahFactory.o"
 	@echo "... CheetahFactory.i"
 	@echo "... CheetahFactory.s"
-	@echo "... Lion.o"
-	@echo "... Lion.i"
-	@echo "... Lion.s"
 	@echo "... LionFactory.o"
 	@echo "... LionFactory.i"
 	@echo "... LionFactory.s"
-	@echo "... Predator.o"
-	@echo "... Predator.i"
-	@echo "... Predator.s"
 	@echo "... PredatorFactory.o"
 	@echo "... PredatorFactory.i"
 	@echo "... PredatorFactory.s"
-	@echo "... Prey.o"
-	@echo "... Prey.i"
-	@echo "... Prey.s"
-	@echo "... WildDog.o"
-	@echo "... WildDog.i"
-	@echo "... WildDog.s"
+	@echo "... Task1/Cheetah.o"
+	@echo "... Task1/Cheetah.i"
+	@echo "... Task1/Cheetah.s"
+	@echo "... Task1/Lion.o"
+	@echo "... Task1/Lion.i"
+	@echo "... Task1/Lion.s"
+	@echo "... Task1/Predator.o"
+	@echo "... Task1/Predator.i"
+	@echo "... Task1/Predator.s"
+	@echo "... Task1/Prey.o"
+	@echo "... Task1/Prey.i"
+	@echo "... Task1/Prey.s"
+	@echo "... Task1/WildDog.o"
+	@echo "... Task1/WildDog.i"
+	@echo "... Task1/WildDog.s"
+	@echo "... Task1/Wolf.o"
+	@echo "... Task1/Wolf.i"
+	@echo "... Task1/Wolf.s"
+	@echo "... Task1/main.o"
+	@echo "... Task1/main.i"
+	@echo "... Task1/main.s"
 	@echo "... WildDogFactory.o"
 	@echo "... WildDogFactory.i"
 	@echo "... WildDogFactory.s"
-	@echo "... Wolf.o"
-	@echo "... Wolf.i"
-	@echo "... Wolf.s"
 	@echo "... WolfFactory.o"
 	@echo "... WolfFactory.i"
 	@echo "... WolfFactory.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
 .PHONY : help
 
 

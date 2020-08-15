@@ -5,7 +5,7 @@
 #ifndef A1_PREDATORFACTORY_H
 #define A1_PREDATORFACTORY_H
 #include <string>
-#include "Predator.h"
+#include "cmake-build-debug/Task1/Predator.h"
 using namespace std;
 
 class PredatorFactory {

@@ -7,7 +7,7 @@
 Bottle *BeerProductionStation::produce(string brand) {
     Beer* keg;
 
-    keg = brew(brand);
+    keg = brew(brand);      //because concrete creators know which type to make
     Bottle* Case = new Bottle[24];
 
     for (int i = 0; i < 24; ++i) {

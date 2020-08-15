@@ -4,7 +4,7 @@
 
 #ifndef A1_CHEETAHFACTORY_H
 #define A1_CHEETAHFACTORY_H
-#include "Predator.h"
+#include "cmake-build-debug/Task1/Predator.h"
 
 class CheetahFactory {
     Predator* createPredator(string huntingMethod, string speciality);

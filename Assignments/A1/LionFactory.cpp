@@ -3,7 +3,7 @@
 //
 
 #include "LionFactory.h"
-#include "Lion.h"
+#include "cmake-build-debug/Task1/Lion.h"
 
 Predator *LionFactory::createPredator(string huntingMethod, string speciality) {
     return new Lion(13, 5.0, huntingMethod, speciality);

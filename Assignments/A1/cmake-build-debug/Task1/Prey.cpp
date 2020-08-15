@@ -71,3 +71,7 @@ int Prey::takeDamage(int damage)
     this->setHP(this->getHP() - damage);
     return this->getHP();
 }
+
+void Prey::printInfo() {
+    cout << "Prey:\tHP: " << HP << "\tDamage: " << damage << endl;
+}

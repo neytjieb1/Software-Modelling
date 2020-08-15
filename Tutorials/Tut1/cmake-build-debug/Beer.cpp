@@ -4,10 +4,7 @@
 
 #include "Beer.h"
 
-Beer::Beer(string t, string b) {
-    this->type = t;
-    this->brand = b;
-}
+Beer::Beer(string type, string brand): brand(brand), type(type){}
 
 string Beer::getType() {
     return this->type;

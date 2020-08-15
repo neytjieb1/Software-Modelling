@@ -9,19 +9,19 @@
 class Lager: public Beer {
 public:
     string brand;
-    Lager(string b) : Beer(b, "BeerTypes") { this->brand = b;}
+    Lager(string brand) : Beer(brand, "BeerTypes") { this->brand = brand;}
 };
 
-/*class Pilsner: public Beer {
+class Pilsner: public Beer {
 public:
     string brand;
-    Pilsner(string b) : Beer(b, "BeerTypes") { this->brand = b;}
+    Pilsner(string brand) : Beer(brand, "BeerTypes") { this->brand = brand;}
 };
 
 class Stout: public Beer {
 public:
     string brand;
-    Stout(string b) : Beer(b, "BeerTypes") { this->brand = b;}
-};*/
+    Stout(string brand) : Beer(brand, "BeerTypes") { this->brand = brand;}
+};
 
 #endif //TUT1_LAGER_H

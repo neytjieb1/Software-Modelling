@@ -4,7 +4,7 @@
 
 #ifndef A1_WOLFFACTORY_H
 #define A1_WOLFFACTORY_H
-#include "Predator.h"
+#include "cmake-build-debug/Task1/Predator.h"
 
 class WolfFactory {
     Predator* createPredator(string huntingMethod, string speciality);
