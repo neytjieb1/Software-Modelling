@@ -132,6 +132,24 @@
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h">
 			<Option target="A1"/>
 		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.cpp">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.cpp">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorStore.cpp">
+			<Option target="A1"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorStore.h">
+			<Option target="A1"/>
+		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.cpp">
 			<Option target="A1"/>
 		</Unit>

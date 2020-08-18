@@ -20,10 +20,10 @@ bool WildDog::catchPrey(Prey *p) {
 
 bool WildDog::getAttacked(Prey *p) {
     //assumption: prey is caught
-    bool killed = false;
-    if (p->fight() == 0) { return killed; }
+    if (p->fight() == 0) { return false; }
     else {
-        cout << "The " << p->getType() << " rams into the wild dog removing " << p->getDamage() << " health points" << endl;
+        cout << "The " << p->getType() << " rams into the wild dog removing " << p->getDamage() << " health points"
+             << endl;
         this->setHp(this->getHP() - p->getDamage());
         return (this->getHP() <= 0);
     }
@@ -32,7 +32,7 @@ bool WildDog::getAttacked(Prey *p) {
 bool WildDog::attack(Prey *p) {
     cout << "The wild dog's " << this->getPrimHuntMethod() << " pays off, leaving its " << p->getType() << " with "
          << this->getDamage() << "health points less." << endl;
-    return ( p->takeDamage(this->getDamage()) <= 0);
+    return (p->takeDamage(this->getDamage()) <= 0);
 }
 
 void WildDog::die() {
@@ -41,6 +41,10 @@ void WildDog::die() {
 
 void WildDog::speciality() {
     cout << "The wild dog plays dead before using " << this->getSpeciality() << endl;
-    this->setDamage(this->getDamage()*1.1);
+    this->setDamage(this->getDamage() * 1.1);
+}
+
+WildDog::~WildDog() {
+    cout << "WildDog object destroyed" << endl;
 }
 

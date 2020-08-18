@@ -23,6 +23,8 @@ public:
     Cheetah();
 
     Cheetah(int HP, double damage, string method="", string special="");
+
+    ~Cheetah() override;
 };
 
 

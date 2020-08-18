@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="A1_trytwo"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A1_trytwo">
+				<Option output="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/A1_trytwo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1_trytwo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="A1_trytwo/fast">
+				<Option output="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/A1_trytwo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 A1_trytwo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Cheetah.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Cheetah.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/CheetahFactory.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/CheetahFactory.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Lion.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Lion.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/LionFactory.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/LionFactory.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Predator.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Predator.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorFactory.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorFactory.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorStore.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorStore.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyStore.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyStore.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WildDog.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WildDog.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WildDogFactory.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WildDogFactory.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Wolf.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Wolf.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WolfFactory.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WolfFactory.h">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/main.cpp">
+			<Option target="A1_trytwo"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

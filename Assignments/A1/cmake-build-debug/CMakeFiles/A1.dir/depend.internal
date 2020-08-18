@@ -4,8 +4,11 @@
 CMakeFiles/A1.dir/CheetahFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/CheetahFactory.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/CheetahFactory.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/PredatorFactory.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Cheetah.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
 CMakeFiles/A1.dir/LionFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/LionFactory.cpp
@@ -13,36 +16,69 @@ CMakeFiles/A1.dir/LionFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/PredatorFactory.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Lion.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
 CMakeFiles/A1.dir/PredatorFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/PredatorFactory.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/PredatorFactory.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
 CMakeFiles/A1.dir/Task1/Cheetah.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Cheetah.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Cheetah.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
 CMakeFiles/A1.dir/Task1/Lion.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Lion.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Lion.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
 CMakeFiles/A1.dir/Task1/Predator.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
+CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.cpp
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
+CMakeFiles/A1.dir/Task1/PredatorState.cpp.o
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.cpp
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
+CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorStore.cpp
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorStore.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
 CMakeFiles/A1.dir/Task1/Prey.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
 CMakeFiles/A1.dir/Task1/WildDog.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/WildDog.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/WildDog.h
 CMakeFiles/A1.dir/Task1/Wolf.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Wolf.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Wolf.h
@@ -50,19 +86,27 @@ CMakeFiles/A1.dir/Task1/main.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Cheetah.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Lion.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/WildDog.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Wolf.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/main.cpp
 CMakeFiles/A1.dir/WildDogFactory.cpp.o
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/PredatorFactory.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/WildDogFactory.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/WildDogFactory.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/WildDog.h
 CMakeFiles/A1.dir/WolfFactory.cpp.o
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/PredatorFactory.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/WolfFactory.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/WolfFactory.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Predator.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Prey.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/Wolf.h

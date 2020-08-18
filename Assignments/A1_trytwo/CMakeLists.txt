@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.17)
+project(A1_trytwo)
+
+set(CMAKE_CXX_STANDARD 17)
+
+add_executable(A1_trytwo main.cpp cmake-build-debug/Predator.cpp cmake-build-debug/Predator.h cmake-build-debug/Cheetah.cpp cmake-build-debug/Cheetah.h cmake-build-debug/Lion.cpp cmake-build-debug/Lion.h cmake-build-debug/Wolf.cpp cmake-build-debug/Wolf.h cmake-build-debug/WildDog.cpp cmake-build-debug/WildDog.h cmake-build-debug/Prey.cpp cmake-build-debug/Prey.h cmake-build-debug/PredatorState.cpp cmake-build-debug/PredatorState.h cmake-build-debug/PredatorMemento.cpp cmake-build-debug/PredatorMemento.h cmake-build-debug/PredatorStore.cpp cmake-build-debug/PredatorStore.h cmake-build-debug/PredatorFactory.cpp cmake-build-debug/PredatorFactory.h cmake-build-debug/WolfFactory.cpp cmake-build-debug/WolfFactory.h cmake-build-debug/WildDogFactory.cpp cmake-build-debug/WildDogFactory.h cmake-build-debug/CheetahFactory.cpp cmake-build-debug/CheetahFactory.h cmake-build-debug/LionFactory.cpp cmake-build-debug/LionFactory.h cmake-build-debug/PreyState.cpp cmake-build-debug/PreyState.h cmake-build-debug/PreyMemento.cpp cmake-build-debug/PreyMemento.h cmake-build-debug/PreyStore.cpp cmake-build-debug/PreyStore.h)

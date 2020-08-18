@@ -5,6 +5,9 @@
 #include "Predator.h"
 #include "Prey.h"
 #include <iostream>
+#include "PredatorMemento.h"
+#include "PredatorState.h"
+
 using namespace std;
 
 void Predator::setHp(int hp) {
@@ -79,5 +82,15 @@ void Predator::hunt(Prey& p) {
 
 void Predator::printInfo() {
     cout << "Predator:\tHP " << HP << "\tDamage: " << damage << endl;
+}
+
+PredatorMemento* Predator::createMemento() {
+    PredatorMemento* mem = new PredatorMemento();
+    mem->setState(this->state);
+    return mem;
+}
+
+void Predator::setMemento(PredatorMemento* mem) {
+    this->state = mem->getState();
 }
 

@@ -305,6 +305,87 @@ Task1/Predator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/Predator.cpp.s
 .PHONY : Task1/Predator.cpp.s
 
+Task1/PredatorMemento.o: Task1/PredatorMemento.cpp.o
+
+.PHONY : Task1/PredatorMemento.o
+
+# target to build an object file
+Task1/PredatorMemento.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o
+.PHONY : Task1/PredatorMemento.cpp.o
+
+Task1/PredatorMemento.i: Task1/PredatorMemento.cpp.i
+
+.PHONY : Task1/PredatorMemento.i
+
+# target to preprocess a source file
+Task1/PredatorMemento.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.i
+.PHONY : Task1/PredatorMemento.cpp.i
+
+Task1/PredatorMemento.s: Task1/PredatorMemento.cpp.s
+
+.PHONY : Task1/PredatorMemento.s
+
+# target to generate assembly for a file
+Task1/PredatorMemento.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.s
+.PHONY : Task1/PredatorMemento.cpp.s
+
+Task1/PredatorState.o: Task1/PredatorState.cpp.o
+
+.PHONY : Task1/PredatorState.o
+
+# target to build an object file
+Task1/PredatorState.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/PredatorState.cpp.o
+.PHONY : Task1/PredatorState.cpp.o
+
+Task1/PredatorState.i: Task1/PredatorState.cpp.i
+
+.PHONY : Task1/PredatorState.i
+
+# target to preprocess a source file
+Task1/PredatorState.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/PredatorState.cpp.i
+.PHONY : Task1/PredatorState.cpp.i
+
+Task1/PredatorState.s: Task1/PredatorState.cpp.s
+
+.PHONY : Task1/PredatorState.s
+
+# target to generate assembly for a file
+Task1/PredatorState.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/PredatorState.cpp.s
+.PHONY : Task1/PredatorState.cpp.s
+
+Task1/PredatorStore.o: Task1/PredatorStore.cpp.o
+
+.PHONY : Task1/PredatorStore.o
+
+# target to build an object file
+Task1/PredatorStore.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o
+.PHONY : Task1/PredatorStore.cpp.o
+
+Task1/PredatorStore.i: Task1/PredatorStore.cpp.i
+
+.PHONY : Task1/PredatorStore.i
+
+# target to preprocess a source file
+Task1/PredatorStore.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/PredatorStore.cpp.i
+.PHONY : Task1/PredatorStore.cpp.i
+
+Task1/PredatorStore.s: Task1/PredatorStore.cpp.s
+
+.PHONY : Task1/PredatorStore.s
+
+# target to generate assembly for a file
+Task1/PredatorStore.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A1.dir/build.make CMakeFiles/A1.dir/Task1/PredatorStore.cpp.s
+.PHONY : Task1/PredatorStore.cpp.s
+
 Task1/Prey.o: Task1/Prey.cpp.o
 
 .PHONY : Task1/Prey.o
@@ -494,6 +575,15 @@ help:
 	@echo "... Task1/Predator.o"
 	@echo "... Task1/Predator.i"
 	@echo "... Task1/Predator.s"
+	@echo "... Task1/PredatorMemento.o"
+	@echo "... Task1/PredatorMemento.i"
+	@echo "... Task1/PredatorMemento.s"
+	@echo "... Task1/PredatorState.o"
+	@echo "... Task1/PredatorState.i"
+	@echo "... Task1/PredatorState.s"
+	@echo "... Task1/PredatorStore.o"
+	@echo "... Task1/PredatorStore.i"
+	@echo "... Task1/PredatorStore.s"
 	@echo "... Task1/Prey.o"
 	@echo "... Task1/Prey.i"
 	@echo "... Task1/Prey.s"

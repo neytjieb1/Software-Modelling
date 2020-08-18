@@ -1,4 +1,5 @@
 #include <iostream>
+#include <random>
 #include "Predator.h"
 #include "Prey.h"
 #include "Lion.h"
@@ -20,7 +21,7 @@ void resetPrey(Prey &p) {
 
 int main() {
     Prey prey = Prey(pHP,pType, pDam);
-
+    srand (time(NULL));
     /*Lion* lion = new Lion(13, 5, "his bow and arrow");
     lion->setSpeciality("claws");
     lion->hunt(prey);
@@ -37,22 +38,14 @@ int main() {
     wolf->hunt(prey);
     resetPrey(prey);*/
 
-    WildDog* wildDog = new WildDog(6,3,"quadrille-dancing abilities");
+    /*WildDog* wildDog = new WildDog(6,3,"quadrille-dancing abilities");
     wildDog->setSpeciality("tail");
     wildDog->hunt(prey);
-    resetPrey(prey);
-//    wildDog->hunt(prey)
+    resetPrey(prey);*/
+    //wildDog->hunt(prey)
 
-
-
-
-
-
-
-
-
-
-
+    if ("cheetah"=="cheetah") cout << "equal";
+    else cout << "unequal";
 
     return 0;
 }

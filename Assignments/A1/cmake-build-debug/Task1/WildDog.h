@@ -24,6 +24,8 @@ public:
     WildDog();
 
     WildDog(int HP, double damage, string method="", string special="");
+
+    ~WildDog() override;
 };
 
 

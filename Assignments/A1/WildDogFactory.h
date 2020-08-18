@@ -5,8 +5,9 @@
 #ifndef A1_WILDDOGFACTORY_H
 #define A1_WILDDOGFACTORY_H
 #include "cmake-build-debug/Task1/Predator.h"
+#include "PredatorFactory.h"
 
-class WildDogFactory {
+class WildDogFactory: public PredatorFactory {
     Predator* createPredator(string huntingMethod, string speciality);
 };
 

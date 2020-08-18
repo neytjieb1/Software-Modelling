@@ -3,8 +3,11 @@
 
 CMakeFiles/A1.dir/CheetahFactory.cpp.o: ../CheetahFactory.cpp
 CMakeFiles/A1.dir/CheetahFactory.cpp.o: ../CheetahFactory.h
+CMakeFiles/A1.dir/CheetahFactory.cpp.o: ../PredatorFactory.h
 CMakeFiles/A1.dir/CheetahFactory.cpp.o: Task1/Cheetah.h
 CMakeFiles/A1.dir/CheetahFactory.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/CheetahFactory.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/CheetahFactory.cpp.o: Task1/PredatorState.h
 CMakeFiles/A1.dir/CheetahFactory.cpp.o: Task1/Prey.h
 
 CMakeFiles/A1.dir/LionFactory.cpp.o: ../LionFactory.cpp
@@ -12,36 +15,69 @@ CMakeFiles/A1.dir/LionFactory.cpp.o: ../LionFactory.h
 CMakeFiles/A1.dir/LionFactory.cpp.o: ../PredatorFactory.h
 CMakeFiles/A1.dir/LionFactory.cpp.o: Task1/Lion.h
 CMakeFiles/A1.dir/LionFactory.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/LionFactory.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/LionFactory.cpp.o: Task1/PredatorState.h
 CMakeFiles/A1.dir/LionFactory.cpp.o: Task1/Prey.h
 
 CMakeFiles/A1.dir/PredatorFactory.cpp.o: ../PredatorFactory.cpp
 CMakeFiles/A1.dir/PredatorFactory.cpp.o: ../PredatorFactory.h
 CMakeFiles/A1.dir/PredatorFactory.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/PredatorFactory.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/PredatorFactory.cpp.o: Task1/PredatorState.h
 CMakeFiles/A1.dir/PredatorFactory.cpp.o: Task1/Prey.h
 
 CMakeFiles/A1.dir/Task1/Cheetah.cpp.o: Task1/Cheetah.cpp
 CMakeFiles/A1.dir/Task1/Cheetah.cpp.o: Task1/Cheetah.h
 CMakeFiles/A1.dir/Task1/Cheetah.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/Task1/Cheetah.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/Task1/Cheetah.cpp.o: Task1/PredatorState.h
 CMakeFiles/A1.dir/Task1/Cheetah.cpp.o: Task1/Prey.h
 
 CMakeFiles/A1.dir/Task1/Lion.cpp.o: Task1/Lion.cpp
 CMakeFiles/A1.dir/Task1/Lion.cpp.o: Task1/Lion.h
 CMakeFiles/A1.dir/Task1/Lion.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/Task1/Lion.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/Task1/Lion.cpp.o: Task1/PredatorState.h
 CMakeFiles/A1.dir/Task1/Lion.cpp.o: Task1/Prey.h
 
 CMakeFiles/A1.dir/Task1/Predator.cpp.o: Task1/Predator.cpp
 CMakeFiles/A1.dir/Task1/Predator.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/Task1/Predator.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/Task1/Predator.cpp.o: Task1/PredatorState.h
 CMakeFiles/A1.dir/Task1/Predator.cpp.o: Task1/Prey.h
+
+CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o: Task1/PredatorMemento.cpp
+CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o: Task1/PredatorState.h
+CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o: Task1/Prey.h
+
+CMakeFiles/A1.dir/Task1/PredatorState.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/Task1/PredatorState.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/Task1/PredatorState.cpp.o: Task1/PredatorState.cpp
+CMakeFiles/A1.dir/Task1/PredatorState.cpp.o: Task1/PredatorState.h
+CMakeFiles/A1.dir/Task1/PredatorState.cpp.o: Task1/Prey.h
+
+CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o: Task1/PredatorState.h
+CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o: Task1/PredatorStore.cpp
+CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o: Task1/PredatorStore.h
+CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o: Task1/Prey.h
 
 CMakeFiles/A1.dir/Task1/Prey.cpp.o: Task1/Prey.cpp
 CMakeFiles/A1.dir/Task1/Prey.cpp.o: Task1/Prey.h
 
 CMakeFiles/A1.dir/Task1/WildDog.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/Task1/WildDog.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/Task1/WildDog.cpp.o: Task1/PredatorState.h
 CMakeFiles/A1.dir/Task1/WildDog.cpp.o: Task1/Prey.h
 CMakeFiles/A1.dir/Task1/WildDog.cpp.o: Task1/WildDog.cpp
 CMakeFiles/A1.dir/Task1/WildDog.cpp.o: Task1/WildDog.h
 
 CMakeFiles/A1.dir/Task1/Wolf.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/Task1/Wolf.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/Task1/Wolf.cpp.o: Task1/PredatorState.h
 CMakeFiles/A1.dir/Task1/Wolf.cpp.o: Task1/Prey.h
 CMakeFiles/A1.dir/Task1/Wolf.cpp.o: Task1/Wolf.cpp
 CMakeFiles/A1.dir/Task1/Wolf.cpp.o: Task1/Wolf.h
@@ -49,20 +85,28 @@ CMakeFiles/A1.dir/Task1/Wolf.cpp.o: Task1/Wolf.h
 CMakeFiles/A1.dir/Task1/main.cpp.o: Task1/Cheetah.h
 CMakeFiles/A1.dir/Task1/main.cpp.o: Task1/Lion.h
 CMakeFiles/A1.dir/Task1/main.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/Task1/main.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/Task1/main.cpp.o: Task1/PredatorState.h
 CMakeFiles/A1.dir/Task1/main.cpp.o: Task1/Prey.h
 CMakeFiles/A1.dir/Task1/main.cpp.o: Task1/WildDog.h
 CMakeFiles/A1.dir/Task1/main.cpp.o: Task1/Wolf.h
 CMakeFiles/A1.dir/Task1/main.cpp.o: Task1/main.cpp
 
+CMakeFiles/A1.dir/WildDogFactory.cpp.o: ../PredatorFactory.h
 CMakeFiles/A1.dir/WildDogFactory.cpp.o: ../WildDogFactory.cpp
 CMakeFiles/A1.dir/WildDogFactory.cpp.o: ../WildDogFactory.h
 CMakeFiles/A1.dir/WildDogFactory.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/WildDogFactory.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/WildDogFactory.cpp.o: Task1/PredatorState.h
 CMakeFiles/A1.dir/WildDogFactory.cpp.o: Task1/Prey.h
 CMakeFiles/A1.dir/WildDogFactory.cpp.o: Task1/WildDog.h
 
+CMakeFiles/A1.dir/WolfFactory.cpp.o: ../PredatorFactory.h
 CMakeFiles/A1.dir/WolfFactory.cpp.o: ../WolfFactory.cpp
 CMakeFiles/A1.dir/WolfFactory.cpp.o: ../WolfFactory.h
 CMakeFiles/A1.dir/WolfFactory.cpp.o: Task1/Predator.h
+CMakeFiles/A1.dir/WolfFactory.cpp.o: Task1/PredatorMemento.h
+CMakeFiles/A1.dir/WolfFactory.cpp.o: Task1/PredatorState.h
 CMakeFiles/A1.dir/WolfFactory.cpp.o: Task1/Prey.h
 CMakeFiles/A1.dir/WolfFactory.cpp.o: Task1/Wolf.h
 

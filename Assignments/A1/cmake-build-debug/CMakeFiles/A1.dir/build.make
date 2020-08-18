@@ -233,6 +233,45 @@ CMakeFiles/A1.dir/WildDogFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A1.dir/WildDogFactory.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A1/WildDogFactory.cpp -o CMakeFiles/A1.dir/WildDogFactory.cpp.s
 
+CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o: CMakeFiles/A1.dir/flags.make
+CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o: Task1/PredatorMemento.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.cpp
+
+CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.cpp > CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.i
+
+CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorMemento.cpp -o CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.s
+
+CMakeFiles/A1.dir/Task1/PredatorState.cpp.o: CMakeFiles/A1.dir/flags.make
+CMakeFiles/A1.dir/Task1/PredatorState.cpp.o: Task1/PredatorState.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/A1.dir/Task1/PredatorState.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A1.dir/Task1/PredatorState.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.cpp
+
+CMakeFiles/A1.dir/Task1/PredatorState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A1.dir/Task1/PredatorState.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.cpp > CMakeFiles/A1.dir/Task1/PredatorState.cpp.i
+
+CMakeFiles/A1.dir/Task1/PredatorState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A1.dir/Task1/PredatorState.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorState.cpp -o CMakeFiles/A1.dir/Task1/PredatorState.cpp.s
+
+CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o: CMakeFiles/A1.dir/flags.make
+CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o: Task1/PredatorStore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorStore.cpp
+
+CMakeFiles/A1.dir/Task1/PredatorStore.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A1.dir/Task1/PredatorStore.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorStore.cpp > CMakeFiles/A1.dir/Task1/PredatorStore.cpp.i
+
+CMakeFiles/A1.dir/Task1/PredatorStore.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A1.dir/Task1/PredatorStore.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/Task1/PredatorStore.cpp -o CMakeFiles/A1.dir/Task1/PredatorStore.cpp.s
+
 # Object files for target A1
 A1_OBJECTS = \
 "CMakeFiles/A1.dir/Task1/main.cpp.o" \
@@ -246,7 +285,10 @@ A1_OBJECTS = \
 "CMakeFiles/A1.dir/LionFactory.cpp.o" \
 "CMakeFiles/A1.dir/CheetahFactory.cpp.o" \
 "CMakeFiles/A1.dir/WolfFactory.cpp.o" \
-"CMakeFiles/A1.dir/WildDogFactory.cpp.o"
+"CMakeFiles/A1.dir/WildDogFactory.cpp.o" \
+"CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o" \
+"CMakeFiles/A1.dir/Task1/PredatorState.cpp.o" \
+"CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o"
 
 # External object files for target A1
 A1_EXTERNAL_OBJECTS =
@@ -263,9 +305,12 @@ A1: CMakeFiles/A1.dir/LionFactory.cpp.o
 A1: CMakeFiles/A1.dir/CheetahFactory.cpp.o
 A1: CMakeFiles/A1.dir/WolfFactory.cpp.o
 A1: CMakeFiles/A1.dir/WildDogFactory.cpp.o
+A1: CMakeFiles/A1.dir/Task1/PredatorMemento.cpp.o
+A1: CMakeFiles/A1.dir/Task1/PredatorState.cpp.o
+A1: CMakeFiles/A1.dir/Task1/PredatorStore.cpp.o
 A1: CMakeFiles/A1.dir/build.make
 A1: CMakeFiles/A1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable A1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable A1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/A1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
