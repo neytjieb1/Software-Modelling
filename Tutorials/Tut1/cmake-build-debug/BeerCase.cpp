@@ -6,7 +6,7 @@
 
 Memento beerCase::createMemento() {
     Memento* m = new Memento();
-    m.setState();
+//    m.setState();
     return *m;
 }
 

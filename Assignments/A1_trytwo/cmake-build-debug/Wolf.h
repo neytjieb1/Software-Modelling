@@ -24,6 +24,8 @@ public:
 
     Wolf(int HP, double damage, string method="", string special="");
 
+    Wolf(string method, string special);
+
     ~Wolf();
 };
 

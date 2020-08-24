@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Tut2" targetName="Tut2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a0188dc9-c02f-42d3-acea-1b9cbe67785e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Progress/9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/BeerCase.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/Bottle.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/ConcreateBeerProducers.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/Memento.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/State.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/main.cpp.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Tut2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MemoTypes.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MemoTypes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tut2.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tut2.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tut2.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tut2.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tut2.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tut2.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Tut2.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Tut2.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memosender.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/memosender.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CT_two/.idea/CT_two.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/BeerCase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/BeerCase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Progress/10" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Progress/7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Progress/8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/Beer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/Beer.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/Lager.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/Lager.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/CMakeFiles/Tut1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/ConcreateBeerProducers.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/ConcreateBeerProducers.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/cmake-build-debug/State.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/cmake-build-debug/State.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tut1/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Tut1/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1gNAFSgat6rDKP6jbkpohB2Uf0T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tut2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tut2" TARGET_NAME="Tut2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tut2" RUN_TARGET_NAME="Tut2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a0188dc9-c02f-42d3-acea-1b9cbe67785e" name="Default Changelist" comment="" />
+      <created>1597944572200</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597944572200</updated>
+      <workItem from="1597944573764" duration="3511000" />
+      <workItem from="1598001335026" duration="4366000" />
+      <workItem from="1598259971731" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser" timestamp="1598003254451">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser/0.30.1366.738@0.30.1366.738" timestamp="1598003254451" />
+    <state width="1320" height="146" key="GridCell.Tab.0.bottom" timestamp="1597997910441">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1320" height="146" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1597997910441" />
+    <state width="1320" height="146" key="GridCell.Tab.0.center" timestamp="1597997910440">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1320" height="146" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1597997910440" />
+    <state width="1320" height="146" key="GridCell.Tab.0.left" timestamp="1597997910440">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1320" height="146" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1597997910440" />
+    <state width="1320" height="146" key="GridCell.Tab.0.right" timestamp="1597997910440">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1320" height="146" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1597997910440" />
+    <state x="346" y="89" key="search.everywhere.popup" timestamp="1598002595853">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="346" y="89" key="search.everywhere.popup/0.30.1366.738@0.30.1366.738" timestamp="1598002595853" />
+    <state x="408" y="313" width="540" height="174" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1597946434347">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="408" y="313" width="540" height="174" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.30.1366.738@0.30.1366.738" timestamp="1597946434347" />
+  </component>
+</project>

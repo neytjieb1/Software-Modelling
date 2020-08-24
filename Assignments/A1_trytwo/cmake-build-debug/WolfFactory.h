@@ -8,6 +8,10 @@
 #include "Wolf.h"
 
 class WolfFactory: public PredatorFactory {
+public:
+    WolfFactory();
+
+private:
     Predator* createPredator(string huntingMethod, string speciality);
 };
 

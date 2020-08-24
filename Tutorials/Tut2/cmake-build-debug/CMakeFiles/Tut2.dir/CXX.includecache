@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/main.cpp
+memosender.h
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memosender.h
+
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memo.cpp
+memo.h
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memo.h
+
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memo.h
+string
+-
+iostream
+-
+
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memosender.cpp
+memosender.h
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memosender.h
+
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memosender.h
+memo.h
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memo.h
+

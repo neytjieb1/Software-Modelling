@@ -8,6 +8,10 @@
 #include "WildDog.h"
 
 class WildDogFactory: public PredatorFactory {
+public:
+    WildDogFactory() {cout << "Making a factory for WildDog"<<endl;}
+
+private:
     Predator* createPredator(string huntingMethod, string speciality);
 };
 

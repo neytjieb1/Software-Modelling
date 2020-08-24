@@ -5,5 +5,11 @@
 #include "LionFactory.h"
 
 Predator *LionFactory::createPredator(string huntingMethod, string speciality) {
-    return new Lion(13, 5.0, huntingMethod, speciality);
+    cout << "Making a Lion in the Factory" << endl;
+    return new Lion( huntingMethod, speciality);
+}
+
+LionFactory::LionFactory() {
+    cout << "Making a factory for Lion"<<endl;
+
 }

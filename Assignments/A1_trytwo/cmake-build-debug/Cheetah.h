@@ -22,6 +22,8 @@ public:
 
     Cheetah();
 
+    Cheetah(string method="", string special="");
+
     Cheetah(int HP, double damage, string method="", string special="");
 
     ~Cheetah() override;

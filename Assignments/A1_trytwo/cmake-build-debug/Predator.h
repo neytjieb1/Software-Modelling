@@ -25,7 +25,7 @@ public:
     string getSpeciality() const;
     void printInfo();
 
-    void hunt(Prey &);
+    void hunt(Prey* );
     virtual bool catchPrey(Prey *p) = 0;
     virtual bool getAttacked(Prey *p) = 0;
     virtual bool attack(Prey *p) = 0;
@@ -39,6 +39,7 @@ private:
     int HP;
     string primHuntMethod;
     double damage;
+    double initDamage;
     string specialSkill;
     PredatorState* state;
 };

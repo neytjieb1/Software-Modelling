@@ -8,6 +8,10 @@
 #include "Lion.h"
 
 class LionFactory: public PredatorFactory {
+public:
+    LionFactory();
+
+private:
     Predator* createPredator(string huntingMethod, string speciality);
 };
 

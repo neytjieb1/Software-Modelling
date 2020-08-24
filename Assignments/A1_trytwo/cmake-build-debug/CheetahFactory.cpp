@@ -5,5 +5,10 @@
 #include "CheetahFactory.h"
 
 Predator *CheetahFactory::createPredator(string huntingMethod, string speciality) {
-    return new Cheetah(11,4.0, huntingMethod, speciality);
+    cout << "Making Cheetah in Factory" << endl;
+    return new Cheetah(huntingMethod, speciality);
+}
+
+CheetahFactory::CheetahFactory() {
+    cout << "Making a factory for Cheetah"<<endl;
 }

@@ -6,37 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Beer.cpp
-Beer.h
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Beer.h
-
 /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Beer.h
 iostream
 -
 
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerProductionStation.cpp
-BeerProductionStation.h
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerProductionStation.h
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerCase.cpp
+BeerCase.h
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerCase.h
 
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerProductionStation.h
-iostream
--
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerCase.h
 Bottle.h
 /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Bottle.h
-Beer.h
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Beer.h
-
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Bottle.cpp
-Bottle.h
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Bottle.h
+Memento.h
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Memento.h
 
 /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Bottle.h
-BeerProductionStation.h
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/BeerProductionStation.h
-Lager.h
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Lager.h
-
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Lager.cpp
 Lager.h
 /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Lager.h
 
@@ -44,9 +28,17 @@ Lager.h
 Beer.h
 /home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Beer.h
 
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/main.cpp
-iostream
--
-BeerProductionStation.h
-/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/BeerProductionStation.h
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Memento.cpp
+Memento.h
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Memento.h
+
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/Memento.h
+State.h
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/State.h
+
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/State.cpp
+State.h
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/State.h
+
+/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut1/cmake-build-debug/State.h
 

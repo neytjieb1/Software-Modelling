@@ -5,5 +5,6 @@
 #include "WildDogFactory.h"
 
 Predator *WildDogFactory::createPredator(string huntingMethod, string speciality) {
-    return new WildDog(6,3.0, huntingMethod, speciality);
+    cout << "Wild Dog Factory" << endl;
+    return new WildDog( huntingMethod, speciality);
 }

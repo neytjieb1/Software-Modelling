@@ -9,8 +9,13 @@ Wolf::Wolf() {
     cout << "Constructor(Default): Wolf" << endl;
 }
 
+Wolf::Wolf(string method, string special): Predator(8, method, 2, special) {
+    cout << "Constructor(Copy 1): Wolf" << endl;
+}
+
+
 Wolf::Wolf(int HP, double damage, string method, string special) : Predator(HP, method, damage, special) {
-    cout << "Constructor(Copy): Wolf" << endl;
+    cout << "Constructor(Copy 2): Wolf" << endl;
 }
 
 bool Wolf::catchPrey(Prey *p) {
@@ -20,16 +25,18 @@ bool Wolf::catchPrey(Prey *p) {
 
 bool Wolf::getAttacked(Prey *p) {
     //assumption: prey is caught
-    if (p->fight() == 0) { return false; }
+    if (p->fight() == 0) {
+        cout << "The " << p->getType() << " doesn't fight" << endl;
+        return false; }
     else {
-        cout << "The " << p->getType() << " spots the wolf,jumps onto it’s back imposing " << p->getDamage() << endl;
+        cout << "The " << p->getType() << " spots the wolf, jumps onto it’s back imposing " << p->getDamage() << endl;
         this->setHp(this->getHP() - p->getDamage());
         return (this->getHP() <= 0);
     }
 }
 
 bool Wolf::attack(Prey *p) {
-    cout << "The wolf's " << this->getPrimHuntMethod() << " caused " << this->getDamage() << " to the " << p->getType()
+    cout << "The wolf's " << this->getPrimHuntMethod() << " caused " << this->getDamage() << " damage to the " << p->getType()
          << endl;
     return (p->takeDamage(this->getDamage()) <= 0);
 }

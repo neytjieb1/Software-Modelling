@@ -33,9 +33,9 @@ Beer *StoutProduction::brew(string brand) {
 }
 
 void StoutProduction::cap(Bottle *) {
-    cout << "Cap the bottle with a brand tag: " <<bottle->getBeerInside()->getBrand() << endl;
+//    cout << "Cap the bottle with a brand tag: " <<bottle->getBeerInside()->getBrand() << endl;
 }
 
 void StoutProduction::label(Bottle *) {
-    cout << "Label the bottle with a type: " <<bottle->getBeerInside()->getType() << endl;
+//    cout << "Label the bottle with a type: " <<bottle->getBeerInside()->getType() << endl;
 }

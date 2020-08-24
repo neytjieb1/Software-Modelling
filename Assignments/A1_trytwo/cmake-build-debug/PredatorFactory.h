@@ -10,7 +10,7 @@ using namespace std;
 
 class PredatorFactory {
 public:
-    PredatorFactory() {}
+    PredatorFactory() { cout << "Predator Factory" << endl; }
     virtual ~PredatorFactory(){}
     virtual Predator* createPredator(string, string) = 0;
 };

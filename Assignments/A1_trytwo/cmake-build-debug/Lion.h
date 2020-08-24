@@ -25,6 +25,8 @@ public:
 
     Lion(int HP, double damage, string method="", string special="");
 
+    Lion(string method="", string special="");
+
     ~Lion();
 };
 

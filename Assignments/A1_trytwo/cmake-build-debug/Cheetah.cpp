@@ -9,8 +9,12 @@ Cheetah::Cheetah() {
     cout << "Constructor(Default): Cheetah" << endl;
 }
 
+Cheetah::Cheetah(string method, string special) : Predator(11, method, 4, special) {
+    cout << "Constructor(Copy 1): Cheetah" << endl;
+}
+
 Cheetah::Cheetah(int HP, double damage, string method, string special) : Predator(HP, method, damage, special) {
-    cout << "Constructor(Copy): Cheetah" << endl;
+    cout << "Constructor(Copy 2): Cheetah" << endl;
 }
 
 bool Cheetah::catchPrey(Prey *p) {
@@ -20,8 +24,10 @@ bool Cheetah::catchPrey(Prey *p) {
 
 bool Cheetah::getAttacked(Prey *p) {
     //assumption: prey is caught
-    if (p->fight() == 0) { return false; }
-    else {
+    if (p->fight() == 0) {
+        cout << "The " << p->getType() << " doesn't fight" << endl;
+        return false;
+    } else {
         cout << "The " << p->getType() << "sidesteps the cheetah, kicks back and causes " << p->getDamage()
              << " damage in the process." << endl;
         this->setHp(this->getHP() - p->getDamage());

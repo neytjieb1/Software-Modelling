@@ -9,8 +9,12 @@ Lion::Lion() {
     cout << "Constructor(Default): Lion" << endl;
 }
 
+Lion::Lion(string method, string special) : Predator(13,method, 5, special) {
+    cout << "Constructor(Copy 1): Lion" << endl;
+}
+
 Lion::Lion(int HP, double damage, string method, string special) : Predator(HP, method, damage, special) {
-    cout << "Constructor(Copy): Lion" << endl;
+    cout << "Constructor(Copy 2): Lion" << endl;
 }
 
 
@@ -20,9 +24,12 @@ bool Lion::catchPrey(Prey *p) {
 }
 
 bool Lion::getAttacked(Prey *p) {
-    if (p->fight() == 0) { return false; }
+    if (p->fight() == 0) {
+        cout << "The " << p->getType() << " doesn't fight" << endl;
+        return false;
+    }
     else {
-        cout << "The " << p->getType() << " stands on the lions tail inflicting " << this->getDamage() << " damage!" << endl;
+        cout << "The " << p->getType() << " stands on the lions tail inflicting " << p->getDamage() << " damage!" << endl;
         this->setHp(this->getHP() - p->getDamage());
         return (this->getHP() <= 0);
     }
@@ -42,7 +49,9 @@ return true;
 bool Lion::attack(Prey *p) {
     cout << "The lion uses " << this->getPrimHuntMethod() << " to inflict " << this->getDamage() << " damage on the "
          << p->getType() << endl;
-    return (p->takeDamage(this->getHP()) <= 0);
+
+
+    return (p->takeDamage(this->getDamage()) <= 0);
 }
 
 void Lion::die() {
@@ -58,5 +67,7 @@ void Lion::speciality() {
 Lion::~Lion() {
     cout << "Lion object destroyed" << endl;
 }
+
+
 
 

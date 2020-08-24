@@ -5,5 +5,11 @@
 #include "WolfFactory.h"
 
 Predator *WolfFactory::createPredator(string huntingMethod, string speciality) {
-    return new Wolf(8,2.0, huntingMethod, speciality);
+    cout << "Making a Wolf in the Factory" << endl;
+    return new Wolf( huntingMethod, speciality);
+}
+
+WolfFactory::WolfFactory() {
+    cout << "Making a factory for Wolf"<<endl;
+
 }

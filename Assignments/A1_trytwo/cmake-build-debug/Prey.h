@@ -13,24 +13,24 @@ using namespace std;
 class Prey
 {
 private:
-    int HP;
+    double HP;
     string type;
-    int damage;
+    double damage;
 
 public:
     Prey();
-    Prey(int HP, string type, int damage);
+    Prey(double HP, string type, double damage);
     ~Prey();
     Prey *clone();
-    int getHP();
-    void setHP(int HP);
+    double getHP();
+    void setHP(double HP);
     string getType();
     void setType(string type);
-    int getDamage();
-    void setDamage(int damage);
+    double getDamage();
+    void setDamage(double damage);
     bool run();
-    int fight();
-    int takeDamage(int damage);
+    double fight();
+    double takeDamage(double damage);
     void printInfo();
 };
 

@@ -105,5 +105,18 @@ CMakeFiles/A1_trytwo.dir/WolfFactory.cpp.o: Wolf.h
 CMakeFiles/A1_trytwo.dir/WolfFactory.cpp.o: WolfFactory.cpp
 CMakeFiles/A1_trytwo.dir/WolfFactory.cpp.o: WolfFactory.h
 
+CMakeFiles/A1_trytwo.dir/main.cpp.o: Cheetah.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: CheetahFactory.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: Lion.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: LionFactory.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: Predator.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: PredatorFactory.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: PredatorMemento.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: PredatorState.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: Prey.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: WildDog.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: WildDogFactory.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: Wolf.h
+CMakeFiles/A1_trytwo.dir/main.cpp.o: WolfFactory.h
 CMakeFiles/A1_trytwo.dir/main.cpp.o: ../main.cpp
 

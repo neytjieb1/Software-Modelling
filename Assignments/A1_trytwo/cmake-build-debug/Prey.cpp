@@ -5,7 +5,7 @@ Prey::Prey()
     cout << "Prey Created." << endl;
 }
 
-Prey::Prey(int HP, string type, int damage)
+Prey::Prey(double HP, string type, double damage)
 {
     srand(0);
     cout << "Prey Created." << endl;
@@ -21,15 +21,16 @@ Prey::~Prey()
 
 Prey *Prey::clone()
 {
+    cout << "Cloned ";
     return new Prey(this->getHP(), this->getType(), this->getDamage());
 }
 
-int Prey::getHP()
+double Prey::getHP()
 {
     return this->HP;
 }
 
-void Prey::setHP(int HP)
+void Prey::setHP(double HP)
 {
     this->HP = HP;
 }
@@ -44,12 +45,12 @@ void Prey::setType(string type)
     this->type = type;
 }
 
-int Prey::getDamage()
+double Prey::getDamage()
 {
     return this->damage;
 }
 
-void Prey::setDamage(int damage)
+void Prey::setDamage(double damage)
 {
     this->damage = damage;
 }
@@ -59,14 +60,14 @@ bool Prey::run()
     return ((rand() % 100) + 1) > 50;
 }
 
-int Prey::fight()
+double Prey::fight()
 {
     if ((rand() % 100 + 1) > 80)
         return this->getDamage();
     return 0;
 }
 
-int Prey::takeDamage(int damage)
+double Prey::takeDamage(double damage)
 {
     this->setHP(this->getHP() - damage);
     return this->getHP();

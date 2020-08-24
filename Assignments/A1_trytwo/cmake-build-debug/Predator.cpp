@@ -6,6 +6,20 @@
 
 using namespace std;
 
+Predator::Predator() {
+    cout << "Constructor(Default): Predator" << endl;
+    this->initDamage = 0;
+}
+
+Predator::Predator(int hp, string prim, double dam, string spec) {
+    cout << "Constructor(Copy): Predator" << endl;
+    this->HP = hp;
+    this->primHuntMethod = prim;
+    this->damage = dam;
+    this->specialSkill = spec;
+    this->initDamage = damage;
+}
+
 void Predator::setHp(int hp) {
     HP = hp;
 }
@@ -38,41 +52,35 @@ string Predator::getSpeciality() const {
     return specialSkill;
 }
 
-Predator::Predator() {
-    cout << "Constructor(Default): Predator" << endl;
-}
-
-Predator::Predator(int hp, string prim, double dam, string spec) {
-    cout << "Constructor(Copy): Predator" << endl;
-    this->HP = hp;
-    this->primHuntMethod = prim;
-    this->damage = dam;
-    this->specialSkill = spec;
-}
-
 Predator::~Predator() {
     cout << "Destructor: Predator" << endl;
 }
 
-void Predator::hunt(Prey& p) {
+void Predator::hunt(Prey *p) {
     cout << "\nInitial" << endl;
-    while (this->getHP() > 0 && p.getHP() > 0) {
+    while (this->getHP() > 0 && p->getHP() > 0) {
         this->printInfo();
-        p.printInfo();
+        p->printInfo();
 
         if (this->getHP() < 5) {
             this->speciality();
+            this->printInfo();
+            p->printInfo();
         }
 
-        if (this->catchPrey(&p)) {      //prey is caught
-            if (this->getAttacked(&p)) {
+        if (this->catchPrey(p)) {      //prey is caught
+            if (this->getAttacked(p)) {
                 this->die();
+                this->setDamage(initDamage);
             } else {
-                this->attack(&p);
+                this->attack(p);
             }
         } else {
             this->setHp(this->getHP() - 1);
         }
+    }
+    if (p->getHP() <=0 ) {
+        cout << "The " << p->getType() << " dies" << endl;
     }
 }
 
@@ -89,4 +97,5 @@ PredatorMemento* Predator::createMemento() {
 void Predator::setMemento(PredatorMemento* mem) {
     this->state = mem->getState();
 }
+
 

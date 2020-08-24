@@ -7,7 +7,7 @@
 
 class State {
 private:
-    b
+
 };
 
 

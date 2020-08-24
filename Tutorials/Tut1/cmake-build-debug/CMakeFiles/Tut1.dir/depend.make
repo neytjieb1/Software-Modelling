@@ -4,6 +4,14 @@
 CMakeFiles/Tut1.dir/Beer.cpp.o: Beer.cpp
 CMakeFiles/Tut1.dir/Beer.cpp.o: Beer.h
 
+CMakeFiles/Tut1.dir/BeerCase.cpp.o: Beer.h
+CMakeFiles/Tut1.dir/BeerCase.cpp.o: BeerCase.cpp
+CMakeFiles/Tut1.dir/BeerCase.cpp.o: BeerCase.h
+CMakeFiles/Tut1.dir/BeerCase.cpp.o: Bottle.h
+CMakeFiles/Tut1.dir/BeerCase.cpp.o: Lager.h
+CMakeFiles/Tut1.dir/BeerCase.cpp.o: Memento.h
+CMakeFiles/Tut1.dir/BeerCase.cpp.o: State.h
+
 CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o: Beer.h
 CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o: BeerProductionStation.cpp
 CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o: BeerProductionStation.h
@@ -11,14 +19,27 @@ CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o: Bottle.h
 CMakeFiles/Tut1.dir/BeerProductionStation.cpp.o: Lager.h
 
 CMakeFiles/Tut1.dir/Bottle.cpp.o: Beer.h
-CMakeFiles/Tut1.dir/Bottle.cpp.o: BeerProductionStation.h
 CMakeFiles/Tut1.dir/Bottle.cpp.o: Bottle.cpp
 CMakeFiles/Tut1.dir/Bottle.cpp.o: Bottle.h
 CMakeFiles/Tut1.dir/Bottle.cpp.o: Lager.h
 
+CMakeFiles/Tut1.dir/ConcreateBeerProducers.cpp.o: Beer.h
+CMakeFiles/Tut1.dir/ConcreateBeerProducers.cpp.o: BeerProductionStation.h
+CMakeFiles/Tut1.dir/ConcreateBeerProducers.cpp.o: Bottle.h
+CMakeFiles/Tut1.dir/ConcreateBeerProducers.cpp.o: ConcreateBeerProducers.cpp
+CMakeFiles/Tut1.dir/ConcreateBeerProducers.cpp.o: ConcreateBeerProducers.h
+CMakeFiles/Tut1.dir/ConcreateBeerProducers.cpp.o: Lager.h
+
 CMakeFiles/Tut1.dir/Lager.cpp.o: Beer.h
 CMakeFiles/Tut1.dir/Lager.cpp.o: Lager.cpp
 CMakeFiles/Tut1.dir/Lager.cpp.o: Lager.h
+
+CMakeFiles/Tut1.dir/Memento.cpp.o: Memento.cpp
+CMakeFiles/Tut1.dir/Memento.cpp.o: Memento.h
+CMakeFiles/Tut1.dir/Memento.cpp.o: State.h
+
+CMakeFiles/Tut1.dir/State.cpp.o: State.cpp
+CMakeFiles/Tut1.dir/State.cpp.o: State.h
 
 CMakeFiles/Tut1.dir/main.cpp.o: ../main.cpp
 
