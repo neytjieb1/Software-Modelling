@@ -10,5 +10,9 @@ Predator *CheetahFactory::createPredator(string huntingMethod, string speciality
 }
 
 CheetahFactory::CheetahFactory() {
-    cout << "Making a factory for Cheetah"<<endl;
+    cout << "Constructor: Cheetah Factory"<<endl;
+}
+
+CheetahFactory::~CheetahFactory() {
+    cout << "Destructor: Cheetah Factory" << endl;
 }

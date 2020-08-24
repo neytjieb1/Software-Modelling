@@ -10,8 +10,7 @@
 class LionFactory: public PredatorFactory {
 public:
     LionFactory();
-
-private:
+    ~LionFactory();
     Predator* createPredator(string huntingMethod, string speciality);
 };
 

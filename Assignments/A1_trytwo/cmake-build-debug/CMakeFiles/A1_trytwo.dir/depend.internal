@@ -8,6 +8,8 @@ CMakeFiles/A1_trytwo.dir/Cheetah.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
 CMakeFiles/A1_trytwo.dir/CheetahFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Cheetah.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/CheetahFactory.cpp
@@ -17,6 +19,8 @@ CMakeFiles/A1_trytwo.dir/CheetahFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
 CMakeFiles/A1_trytwo.dir/Lion.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Lion.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Lion.h
@@ -24,6 +28,8 @@ CMakeFiles/A1_trytwo.dir/Lion.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
 CMakeFiles/A1_trytwo.dir/LionFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Lion.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/LionFactory.cpp
@@ -33,12 +39,16 @@ CMakeFiles/A1_trytwo.dir/LionFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
 CMakeFiles/A1_trytwo.dir/Predator.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Predator.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Predator.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
 CMakeFiles/A1_trytwo.dir/PredatorFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Predator.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorFactory.cpp
@@ -46,6 +56,8 @@ CMakeFiles/A1_trytwo.dir/PredatorFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
 CMakeFiles/A1_trytwo.dir/PredatorMemento.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
@@ -61,6 +73,8 @@ CMakeFiles/A1_trytwo.dir/PredatorStore.cpp.o
 CMakeFiles/A1_trytwo.dir/Prey.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
 CMakeFiles/A1_trytwo.dir/PreyMemento.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
@@ -78,6 +92,8 @@ CMakeFiles/A1_trytwo.dir/WildDog.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WildDog.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WildDog.h
 CMakeFiles/A1_trytwo.dir/WildDogFactory.cpp.o
@@ -86,6 +102,8 @@ CMakeFiles/A1_trytwo.dir/WildDogFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WildDog.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WildDogFactory.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WildDogFactory.h
@@ -94,6 +112,8 @@ CMakeFiles/A1_trytwo.dir/Wolf.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Wolf.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Wolf.h
 CMakeFiles/A1_trytwo.dir/WolfFactory.cpp.o
@@ -102,6 +122,8 @@ CMakeFiles/A1_trytwo.dir/WolfFactory.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Wolf.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WolfFactory.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WolfFactory.h
@@ -114,7 +136,11 @@ CMakeFiles/A1_trytwo.dir/main.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorFactory.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorMemento.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorState.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PredatorStore.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Prey.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyMemento.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyState.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/PreyStore.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WildDog.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/WildDogFactory.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A1_trytwo/cmake-build-debug/Wolf.h

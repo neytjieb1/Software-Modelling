@@ -8,11 +8,14 @@
 #include "cmake-build-debug/CheetahFactory.h"
 #include "cmake-build-debug/WolfFactory.h"
 #include "cmake-build-debug/WildDogFactory.h"
+#include "cmake-build-debug/PredatorStore.h"
+#include "cmake-build-debug/PreyStore.h"
 
+#include <random>
 
-int main()
-{
-    Predator** p;
+int main() {
+    srand(123456789);
+    Predator **p;
     Prey *prey;
     /************************************************************/
     /************************** TASK 1 **************************/
@@ -147,7 +150,7 @@ int main()
     /************************** TASK 4 **************************/
     /************************************************************/
 
-    /*prey = new Prey(15, "Bok", 10);
+/*    prey = new Prey(15, "Bok", 10);
     p = new Predator *[1];
     pf = new PredatorFactory *[1];
     pf[0] = new LionFactory();
@@ -165,6 +168,86 @@ int main()
     prey = nullptr;
     pf = nullptr;
     cout << endl;*/
+
+
+    /************************************************************/
+    /************************** TASK 5 **************************/
+    /************************************************************/
+
+    cout << "==============================TASK 5==============================" << endl;
+
+    cout << "CONSTRUCTION OF OBJECTS " << endl;
+
+    Predator **hunter = new Predator *[4];
+    hunter[0] = new Lion("Lion Hunting", "Lion Special");
+    hunter[1] = new Cheetah("Cheetah Hunting", "Cheetah Special");
+    hunter[2] = new Wolf("Wolf Hunting", "Wolf Special");
+    hunter[3] = new WildDog("WildDog Hunting", "WildDog Special");
+    //hunter[1]->setHp(hunter[1]->getHP()+1)
+
+    PredatorStore **predatorStore = new PredatorStore *[4];
+    for (int i = 0; i < 4; ++i) {
+        predatorStore[i] = new PredatorStore();
+        predatorStore[i]->storeMemento(hunter[i]->createMemento());
+    }
+
+
+    cout << endl << "STORING MEMENTOS" << endl;
+    Prey **hunted = new Prey *[2];
+    hunted[0] = new Prey(15, "Bok", 10);
+    hunted[1] = new Prey(9, "Wildebeest", 5);
+    PreyStore **preyStore = new PreyStore *[4];
+    for (int i = 0; i < 2; ++i) {
+        preyStore[i] = new PreyStore();
+        preyStore[i]->storeMemento(hunted[i]->createMemento());
+    }
+
+    int wins_pred[4] = {0,0,0,0};
+    int wins_prey[2] = {0, 0};
+
+    cout << endl;
+
+    cout << "HUNTING BEGINS" << endl;
+    for (int i = 0; i < 2; ++i) {
+        for (int j = 0; j < 4; ++j) {
+            hunter[j]->reinstateMemento(predatorStore[j]->retreivePredatorMemento());
+            hunted[i]->reinstateMemento(preyStore[i]->retreivePreyMemento());
+            cout << hunter[j]->getType() << " hunts " << hunted[i]->getType() << endl;
+            hunter[j]->hunt(hunted[i]);
+
+            (hunter[j]->getHP() > 0 ? wins_pred[j]++ : wins_prey[i]++);
+            cout << endl;
+        }
+    }
+
+    cout << "WINS FOR PREDATORS" << endl;
+    for (int i = 0; i < 4; ++i) {
+        cout << wins_pred[i] << ": " << hunter[i]->getType() <<  endl;
+    }
+    cout << "\nWINS FOR PREY" << endl;
+    for (int i = 0; i < 2; ++i) {
+        cout << wins_prey[i] << ": " << hunted[i]->getType() <<  endl;
+    }
+
+    cout << endl;
+
+
+    cout << "DESTRUCTION OF OBJECTS" << endl;
+    // Memory free
+    for (int i = 0; i < 4; i++)
+    {
+        delete hunter[i];
+        delete predatorStore[i];
+    }
+    delete[] hunter;
+    delete[] predatorStore;
+
+    for (int i = 0; i < 2; ++i) {
+        delete hunted[i];
+        delete preyStore[i];
+    }
+    delete[] hunted;
+    delete[] preyStore;
 
     return 0;
 }

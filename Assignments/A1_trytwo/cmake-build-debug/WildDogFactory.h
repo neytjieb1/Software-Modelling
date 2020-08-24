@@ -9,9 +9,8 @@
 
 class WildDogFactory: public PredatorFactory {
 public:
-    WildDogFactory() {cout << "Making a factory for WildDog"<<endl;}
-
-private:
+    WildDogFactory();
+    ~WildDogFactory();
     Predator* createPredator(string huntingMethod, string speciality);
 };
 

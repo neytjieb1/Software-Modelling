@@ -76,3 +76,15 @@ double Prey::takeDamage(double damage)
 void Prey::printInfo() {
     cout << "Prey:\tHP: " << HP << "\tDamage: " << damage << endl;
 }
+
+PreyMemento *Prey::createMemento() {
+    auto* mem = new PreyMemento();
+    mem->setState(new PreyState(HP, type, damage));
+    return mem;
+}
+
+void Prey::reinstateMemento(PreyMemento *mem) {
+    this->type = mem->getState()->getType();
+    this->HP = mem->getState()->getHP();
+    this->damage = mem->getState()->getDamage();
+}

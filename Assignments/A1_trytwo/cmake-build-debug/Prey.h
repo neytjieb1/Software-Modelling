@@ -8,6 +8,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <iostream>
+#include "PreyMemento.h"
 
 using namespace std;
 class Prey
@@ -32,6 +33,9 @@ public:
     double fight();
     double takeDamage(double damage);
     void printInfo();
+
+    PreyMemento* createMemento();
+    void reinstateMemento(PreyMemento *mem);
 };
 
 

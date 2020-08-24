@@ -11,13 +11,14 @@ Predator::Predator() {
     this->initDamage = 0;
 }
 
-Predator::Predator(int hp, string prim, double dam, string spec) {
+Predator::Predator(int hp, string prim, double dam, string spec, string predType) {
     cout << "Constructor(Copy): Predator" << endl;
     this->HP = hp;
     this->primHuntMethod = prim;
     this->damage = dam;
     this->specialSkill = spec;
-    this->initDamage = damage;
+    this->type = predType;
+    this->initDamage = dam;
 }
 
 void Predator::setHp(int hp) {
@@ -56,22 +57,27 @@ Predator::~Predator() {
     cout << "Destructor: Predator" << endl;
 }
 
-void Predator::hunt(Prey *p) {
-    cout << "\nInitial" << endl;
+void Predator::hunt(Prey *p, bool verbose) {
+    if (verbose) cout << "\nInitial" << endl;
     while (this->getHP() > 0 && p->getHP() > 0) {
-        this->printInfo();
-        p->printInfo();
+        if (verbose) {
+            this->printInfo();
+            p->printInfo();
+        }
 
         if (this->getHP() < 5) {
             this->speciality();
-            this->printInfo();
-            p->printInfo();
+            if (verbose) {
+                this->printInfo();
+                p->printInfo();
+            }
         }
 
         if (this->catchPrey(p)) {      //prey is caught
             if (this->getAttacked(p)) {
                 this->die();
                 this->setDamage(initDamage);
+                return;
             } else {
                 this->attack(p);
             }
@@ -82,6 +88,9 @@ void Predator::hunt(Prey *p) {
     if (p->getHP() <=0 ) {
         cout << "The " << p->getType() << " dies" << endl;
     }
+    if (this->getHP()<=0) {
+        cout << "The " << this->type << " died from exhaustion" << endl;
+    }
 }
 
 void Predator::printInfo() {
@@ -89,13 +98,24 @@ void Predator::printInfo() {
 }
 
 PredatorMemento* Predator::createMemento() {
-    auto* mem = new PredatorMemento();
-    mem->setState(this->state);
+    PredatorMemento* mem = new PredatorMemento();
+    mem->setState(new PredatorState(HP, primHuntMethod, damage, specialSkill));
     return mem;
 }
 
-void Predator::setMemento(PredatorMemento* mem) {
-    this->state = mem->getState();
+void Predator::reinstateMemento(PredatorMemento* mem) {
+   this->damage = mem->getState()->getDamage();
+   this->HP = mem->getState()->getHP();
+   this->specialSkill = mem->getState()->getSpeciality();
+   this->primHuntMethod = mem->getState()->getPrimHuntMethod();
+}
+
+const string &Predator::getType() const {
+    return type;
+}
+
+void Predator::setType(const string &type) {
+   this->type = type;
 }
 
 

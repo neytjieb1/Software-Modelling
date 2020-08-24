@@ -10,6 +10,11 @@ Predator *LionFactory::createPredator(string huntingMethod, string speciality) {
 }
 
 LionFactory::LionFactory() {
-    cout << "Making a factory for Lion"<<endl;
+    cout << "Constructor: LionFactory"<<endl;
+
+}
+
+LionFactory::~LionFactory() {
+    cout << "Destructor: LionFactory" << endl;
 
 }
