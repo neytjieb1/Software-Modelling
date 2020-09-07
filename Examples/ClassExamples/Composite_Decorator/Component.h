@@ -1,0 +1,14 @@
+//
+// Created by jo on 2020/09/02.
+//
+
+#ifndef COMPOSITE_DECORATOR_COMPONENT_H
+#define COMPOSITE_DECORATOR_COMPONENT_H
+
+
+class Component {
+
+};
+
+
+#endif //COMPOSITE_DECORATOR_COMPONENT_H

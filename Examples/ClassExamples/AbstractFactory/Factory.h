@@ -1,0 +1,8 @@
+//
+// Created by jo on 2020/08/27.
+//
+
+#ifndef ABSTRACTFACTORY_FACTORY_H
+#define ABSTRACTFACTORY_FACTORY_H
+
+#endif //ABSTRACTFACTORY_FACTORY_H
