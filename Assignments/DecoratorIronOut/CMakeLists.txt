@@ -3,4 +3,4 @@ project(DecoratorIronOut)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(DecoratorIronOut main.cpp)
+add_executable(DecoratorIronOut main.cpp Decorator.h Prototype.h termcolor.h)
