@@ -30,23 +30,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22799b0c-1b72-4824-8ce2-42cf1c16385f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/maskAlert.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanitiser.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tempCheck.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment 1/A1/.idea/A1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment 1/A1_trytwo/.idea/A1_trytwo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DecoratorIronOut/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DecoratorIronOut/.idea/DecoratorIronOut.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DecoratorIronOut/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DecoratorIronOut/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DecoratorIronOut/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DecoratorIronOut/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DecoratorIronOut/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/.idea/AbstractFactory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/.idea/Composite_Decorator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/Pizza.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/Pizza.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Strategy_State/.idea/Strategy_State.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../A1/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../A1/.idea/A1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../A1/.idea/misc.xml" beforeDir="false" />
@@ -242,36 +225,7 @@
       <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../A1_trytwo/main.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseImage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BaseImage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseImage.h" beforeDir="false" afterPath="$PROJECT_DIR$/BaseImage.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageAddOns.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageAddOns.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageAddOns.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageAddOns.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageElement.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageElement.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mask.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mask.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mask.h" beforeDir="false" afterPath="$PROJECT_DIR$/Mask.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Poster.h" beforeDir="false" afterPath="$PROJECT_DIR$/Poster.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TemperatureCheck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureCheck.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TemperatureCheck.h" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureCheck.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UseHandSanitiser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UseHandSanitiser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UseHandSanitiser.h" beforeDir="false" afterPath="$PROJECT_DIR$/UseHandSanitiser.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WashHands.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/WashHands.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WashHands.h" beforeDir="false" afterPath="$PROJECT_DIR$/WashHands.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/A" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/BaseImage.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/BaseImage.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/ImageAddOns.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/ImageAddOns.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/ImageElement.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/ImageElement.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/Mask.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/Mask.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/Poster.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/Poster.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/TemperatureCheck.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/TemperatureCheck.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/UseHandSanitiser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/UseHandSanitiser.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/WashHands.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/WashHands.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/washhands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/washhands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Makefile" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Cheetah.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Cheetah.h" beforeDir="false" />
@@ -319,6 +273,7 @@
       <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/Component.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/GraphicMemory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/GraphicMemory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/Pizza.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/Pizza.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SalesOrder.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SalesOrder.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SalesTicket.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SalesTicket.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SomeClass.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SomeClass.h" afterDir="false" />
@@ -419,7 +374,7 @@
       <workItem from="1599208390229" duration="261000" />
       <workItem from="1599472575132" duration="9778000" />
       <workItem from="1599547234531" duration="18136000" />
-      <workItem from="1599627957208" duration="1332000" />
+      <workItem from="1599627957208" duration="1624000" />
     </task>
     <servers />
   </component>
