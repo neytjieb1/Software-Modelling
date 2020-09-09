@@ -13,21 +13,20 @@ class ImageAddOns;
 
 class Poster {
 public:
-    Poster() : height(0), width(0) {};
-    void setHeight(int h) {height = h;};
-    void setWidth(int h) {width = h;};
-    int getHeight() {return height;};
-    int getWidth() {return width;};
+    Poster() {height = 0;};
     virtual void drawPoster() = 0;
+    virtual void addLine(string line) = 0;
+    virtual void addImage(Poster* i) = 0;
+    void setHeight(int h) {height = h;};
+    int getHeight() {return height;};
+    virtual ~Poster() {};
+
+private:
+    int height = 0;
 
 protected:
-    Poster(int height, int width) {
-        this->height = height;
-        this->width = width;
-    }
-    int height = 0;
-    int width = 0;
     char borderPixel = '|';
+    int width = 30;
 
 };
 

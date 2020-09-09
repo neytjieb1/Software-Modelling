@@ -5,36 +5,16 @@
 #include "UseHandSanitiser.h"
 
 
-void UseHandSanitiser::drawPoster() {
-    cout << termcolor::reset << termcolor::green;
-    ImageAddOns::drawPoster();
+UseHandSanitiser::UseHandSanitiser() {
+    readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/sanitiser.txt");
+}
 
-/*    ifstream inFile;
-    inFile.open("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/sanitiser.txt");
-    if (!inFile) {
-        cerr << "Unable to open file";
-        exit(1);
+void UseHandSanitiser::drawPoster() {
+    //cout << termcolor::reset << termcolor::cyan ;
+    for (string l: lines) {
+        addLine(l);
     }
-    string line;
-    while (getline(inFile, line)) {
-        cout << line << endl;
-        cout << ImageAddOns::fillAndPad(line, addOn->getWidth() - 33) << endl;
-    }
-    inFile.close();*/
+    ImageAddOns::drawPoster();
 }
 
 UseHandSanitiser::~UseHandSanitiser() {}
-
-UseHandSanitiser::UseHandSanitiser(Poster *image) : ImageAddOns(image) {
-    ifstream inFile;
-    inFile.open("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/sanitiser.txt");
-    if (!inFile) {
-        cerr << "Unable to open file";
-        exit(1);
-    }
-    string line;
-    while (getline(inFile, line)) {
-        static_cast<ImageElement*>(addOn)->addLine(line);
-    }
-    inFile.close();
-}

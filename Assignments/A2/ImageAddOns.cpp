@@ -4,25 +4,10 @@
 
 #include "ImageAddOns.h"
 
-void ImageAddOns::drawPoster() {
-    addOn->drawPoster();
 
-}
 
-ImageAddOns::ImageAddOns(Poster *imageElement) : Poster(imageElement->getHeight(), imageElement->getWidth()) {
-    if (imageElement->getHeight()==0 && imageElement->getWidth()==0) {
-        addOn = nullptr;
-    }
-    else {
-        addOn = imageElement;
-    }
-}
 
-ImageAddOns::~ImageAddOns() {
-    //delete addOn;
-}
-
-string ImageAddOns::fillAndPad(string line, int end) {
+/*string ImageAddOns::fillAndPad(string line, int end) {
     vector<char> newLine;
     for (int i = 0; i < 16; ++i) {
         newLine.push_back(borderPixel);
@@ -34,8 +19,49 @@ string ImageAddOns::fillAndPad(string line, int end) {
     }
 
     return string(newLine.begin(), newLine.end());
+}*/
+ImageAddOns::ImageAddOns() {
+    topping = nullptr;
 }
 
-ImageAddOns::ImageAddOns() {
-    this->addOn = nullptr;
+void ImageAddOns::addLine(string line) {
+    if (topping == nullptr) {
+        cout << "Do Nothing" << endl;
+    }
+    else {
+        topping->addLine(line);
+    }
+}
+
+void ImageAddOns::addImage(Poster *i) {
+    if (topping == nullptr) {
+        topping = i;
+    } else{
+        topping->addImage(i);
+    }
+}
+
+void ImageAddOns::drawPoster() {
+    if (topping == nullptr) return;
+    else {
+        topping->drawPoster();
+    }
+}
+
+ImageAddOns::~ImageAddOns() {
+    delete topping;
+}
+
+void ImageAddOns::readFile(string filename) {
+    ifstream inFile;
+    inFile.open(filename);
+    if (!inFile) {
+        cerr << "Unable to open file";
+        exit(1);
+    }
+    string line;
+    while (getline(inFile, line)) {
+        lines.push_back(line);
+    }
+    inFile.close();
 }

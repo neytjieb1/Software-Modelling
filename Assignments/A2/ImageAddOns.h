@@ -16,15 +16,18 @@ using namespace std;
 class ImageAddOns : public Poster{
 public:
     ImageAddOns();
-    ImageAddOns(Poster *imageElement);
+    void addLine(string line) override;
+    void addImage(Poster *i) override;
     void drawPoster() override;
-    ~ImageAddOns();
-    virtual string getFilename() = 0;
-    string fillAndPad(string line,int end);
 
 protected:
     Poster* addOn;
+    ~ImageAddOns();
+    void readFile(string filename);
+    vector<string> lines;
 
+private:
+    Poster* topping;
 };
 
 

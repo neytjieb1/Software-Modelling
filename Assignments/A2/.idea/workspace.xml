@@ -30,15 +30,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22799b0c-1b72-4824-8ce2-42cf1c16385f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseImage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BaseImage.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseImage.h" beforeDir="false" afterPath="$PROJECT_DIR$/BaseImage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageAddOns.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageAddOns.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageAddOns.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageAddOns.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageElement.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mask.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mask.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mask.h" beforeDir="false" afterPath="$PROJECT_DIR$/Mask.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poster.h" beforeDir="false" afterPath="$PROJECT_DIR$/Poster.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemperatureCheck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureCheck.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemperatureCheck.h" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureCheck.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseHandSanitiser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UseHandSanitiser.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseHandSanitiser.h" beforeDir="false" afterPath="$PROJECT_DIR$/UseHandSanitiser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WashHands.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/WashHands.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WashHands.h" beforeDir="false" afterPath="$PROJECT_DIR$/WashHands.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/DecoratorIronOut" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/DecoratorIronOut" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Factory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Factory.h" afterDir="false" />
@@ -115,12 +127,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="A2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="A2" TARGET_NAME="A2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="A2" RUN_TARGET_NAME="A2">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="A2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="A2" TARGET_NAME="A2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="A2" RUN_TARGET_NAME="A2">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -150,8 +162,7 @@
       <workItem from="1599208390229" duration="261000" />
       <workItem from="1599472575132" duration="9778000" />
       <workItem from="1599547234531" duration="18136000" />
-      <workItem from="1599627957208" duration="2375000" />
-      <workItem from="1599666699254" duration="17000" />
+      <workItem from="1599627957208" duration="3655000" />
     </task>
     <servers />
   </component>
@@ -171,30 +182,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser" timestamp="1599589809830">
+    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser" timestamp="1599667769621">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser/0.30.1366.738@0.30.1366.738" timestamp="1599589809830" />
+    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser/0.30.1366.738@0.30.1366.738" timestamp="1599667769621" />
     <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598948724845">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1366.738@0.30.1366.738" timestamp="1598948724845" />
-    <state width="1320" height="233" key="GridCell.Tab.0.bottom" timestamp="1599590644386">
+    <state width="886" height="434" key="GridCell.Tab.0.bottom" timestamp="1599668018107">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1320" height="233" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1599590644386" />
-    <state width="1320" height="233" key="GridCell.Tab.0.center" timestamp="1599590644385">
+    <state width="886" height="434" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1599668018107" />
+    <state width="886" height="434" key="GridCell.Tab.0.center" timestamp="1599668018107">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1320" height="233" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1599590644385" />
-    <state width="1320" height="233" key="GridCell.Tab.0.left" timestamp="1599590644385">
+    <state width="886" height="434" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1599668018107" />
+    <state width="886" height="434" key="GridCell.Tab.0.left" timestamp="1599668018106">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1320" height="233" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1599590644385" />
-    <state width="1320" height="233" key="GridCell.Tab.0.right" timestamp="1599590644385">
+    <state width="886" height="434" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1599668018106" />
+    <state width="886" height="434" key="GridCell.Tab.0.right" timestamp="1599668018107">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1320" height="233" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1599590644385" />
+    <state width="886" height="434" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1599668018107" />
     <state width="1320" height="233" key="GridCell.Tab.1.bottom" timestamp="1599590644386">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
@@ -234,49 +245,14 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>55</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/BaseImage.h</url>
-          <line>13</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/BaseImage.cpp</url>
-          <line>15</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Mask.cpp</url>
-          <line>30</line>
+          <line>19</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/TemperatureCheck.cpp</url>
-          <line>20</line>
+          <line>7</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>50</line>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/main.cpp</url>
-          <line>47</line>
-          <option name="timeStamp" value="29" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/TemperatureCheck.cpp</url>
-          <line>45</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Mask.cpp</url>
-          <line>61</line>
-          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

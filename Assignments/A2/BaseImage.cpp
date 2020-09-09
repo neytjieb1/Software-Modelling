@@ -7,23 +7,37 @@
 void BaseImage::drawPoster() {
 //header
     cout << termcolor::reset << termcolor::crossed;
-    for (int i = 0; i < getWidth(); ++i) {
+    for (int i = 0; i < width; ++i) {
         cout << borderPixel;
     }
-    cout << endl;
+    cout << termcolor::reset << endl;
 //inner
-    for (Poster *bit : imageHeight) {
-        bit->drawPoster();
+    for (Poster* p: imageHeight) {
+        //cout << "drawing an image" << endl;
+        p->drawPoster();
     }
 //footer
     cout << termcolor::reset << termcolor::crossed;
-    for (int i = 0; i < getWidth(); ++i) {
+    for (int i = 0; i < width; ++i) {
         cout << borderPixel;
     }
     cout << endl;
 
 }
 
-void BaseImage::addImage(Poster *image) {
-    imageHeight.push_back(image);
+void BaseImage::addImage(Poster *i) {
+    if (imageHeight.size() < getHeight()) {
+        imageHeight.push_back( i);
+    }
+    else {
+        cout << "Full. Can't add more to poster" << endl;
+    }
 }
+
+BaseImage::BaseImage() {
+    int h = 5;
+    setHeight(h);
+    imageHeight.reserve(getHeight());
+}
+
+void BaseImage::addLine(string line) {}

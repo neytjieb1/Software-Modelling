@@ -8,10 +8,9 @@
 
 class TemperatureCheck: public ImageAddOns {
 public:
-    TemperatureCheck(Poster* image) ;
+    TemperatureCheck() ;
     ~TemperatureCheck();
     void drawPoster() override;
-    string getFilename() override {"/home/jo/CLionProjects/Software-Modelling/Assignments/A2/tempCheck.txt";};
 };
 
 

@@ -8,10 +8,9 @@
 
 class WashHands : public ImageAddOns{
 public:
+    WashHands();
     void drawPoster() override;
-    WashHands(Poster* image) ;
     ~WashHands();
-    string getFilename() override {"/home/jo/CLionProjects/Software-Modelling/Assignments/A2/washhands.txt";};
 };
 
 

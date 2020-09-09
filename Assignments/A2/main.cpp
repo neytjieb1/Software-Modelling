@@ -39,22 +39,36 @@ int main() {
 
 
     ////*** ***SECTION B*** ***////
-    BaseImage *poster = new BaseImage(15, 50);
+    Poster* e1;
+    e1 = new Mask();
+    e1->addImage(new UseHandSanitiser());
+    e1->addImage(new Mask());
+    e1->addImage(new ImageElement());
 
-    /*ImageAddOns *deco1 = new Mask(new ImageElement(15, 50));
-    TemperatureCheck* deco2 = new TemperatureCheck(new ImageElement(15,50));
-    UseHandSanitiser* deco3 = new UseHandSanitiser(new ImageElement(15,50));*/
-    WashHands* deco4 = new WashHands(new ImageElement());
-    ImageAddOns* deco1 = new Mask(new TemperatureCheck( new ImageElement()));
+    Poster* e2;
+    e2 = new UseHandSanitiser();
+    e2->addImage(new ImageElement());
+    e2->addImage(new ImageElement());
 
+    Poster* e3 = new WashHands();
+    e3->addImage(new ImageElement());
 
-    //poster->addImage(deco1);
-    /*poster->addImage(deco2);
-    poster->addImage(deco3);*/
-    poster->addImage(deco4);
+    Poster* poster = new BaseImage();
+    poster->addImage(e1);
+    poster->addImage(e2);
+    poster->addImage(e3);
+
+    for (int i = 0; i < 5; ++i) {
+        Poster* e = new WashHands();
+        e->addImage(new ImageElement());
+        poster->addImage(e);
+    }
 
     poster->drawPoster();
 
+    delete e1;
+    delete e2;
+    delete poster;
 
     return 0;
 
