@@ -20,7 +20,7 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="A" targetName="A" />
+      <config projectName="A2" targetName="A2" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -30,241 +30,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22799b0c-1b72-4824-8ce2-42cf1c16385f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../A1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/.idea/A1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/CheetahFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/CheetahFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/LionFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/LionFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/PredatorFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/PredatorFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/WildDogFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/WildDogFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/WolfFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/WolfFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/A1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/A1.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/CheetahFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/LionFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/PredatorFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/Task1/Cheetah.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/Task1/Lion.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/Task1/Predator.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/Task1/Prey.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/Task1/WildDog.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/Task1/Wolf.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/Task1/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/WildDogFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/WolfFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/A1.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/13" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/Cheetah.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/Cheetah.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/Lion.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/Lion.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/Predator.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/Predator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/PredatorMemento.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/PredatorMemento.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/PredatorState.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/PredatorState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/PredatorStore.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/PredatorStore.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/Prey.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/Prey.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/WildDog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/WildDog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/Wolf.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/Wolf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/Task1/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/.HopefulFinal.vpp.lck" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/.idea/A1_trytwo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/A1_Hopeful_Final.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/B_UML_T4.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/BerneUML_T4.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/HopefulFinal.vpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/HopefulFinal.vpp.bak_000f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/HopefulFinal.vpp.bak_001d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/HopefulFinal.vux" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/A1_trytwo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/A1_trytwo.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/Cheetah.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/CheetahFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/Lion.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/LionFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/Predator.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/PredatorFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/PredatorMemento.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/PredatorState.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/PredatorStore.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/Prey.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/PreyMemento.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/PreyState.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/PreyStore.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/WildDog.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/WildDogFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/Wolf.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/WolfFactory.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/A1_trytwo.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/Cheetah.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/Cheetah.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CheetahFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/CheetahFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/Lion.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/Lion.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/LionFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/LionFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/Predator.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/Predator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PredatorFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PredatorFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PredatorMemento.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PredatorMemento.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PredatorState.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PredatorState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PredatorStore.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PredatorStore.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/Prey.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/Prey.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PreyMemento.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PreyMemento.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PreyState.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PreyState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PreyStore.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/PreyStore.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/WildDog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/WildDog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/WildDogFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/WildDogFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/Wolf.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/Wolf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/WolfFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/WolfFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/cmake-build-debug/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../A1_trytwo/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/DecoratorIronOut" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/DecoratorIronOut" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Cheetah.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Cheetah.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/CheetahFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/CheetahFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Lion.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Lion.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/LionFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/LionFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Predator.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Predator.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PredatorFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PredatorFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PredatorMemento.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PredatorMemento.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PredatorState.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PredatorState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PredatorStore.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PredatorStore.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Prey.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Prey.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PreyMemento.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PreyMemento.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PreyState.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PreyState.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PreyStore.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/PreyStore.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/WildDog.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/WildDog.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/WildDogFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/WildDogFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Wolf.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/Wolf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/WolfFactory.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/WolfFactory.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/main" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../u17091820_A1_214/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Factory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Factory.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Shape.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Shape.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/ShapesAbstractFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/ShapesAbstractFactory.h" afterDir="false" />
@@ -339,12 +115,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
-    <configuration name="A" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="A" TARGET_NAME="A" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="A" RUN_TARGET_NAME="A">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="A2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="A2" TARGET_NAME="A2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="A2" RUN_TARGET_NAME="A2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -374,7 +150,8 @@
       <workItem from="1599208390229" duration="261000" />
       <workItem from="1599472575132" duration="9778000" />
       <workItem from="1599547234531" duration="18136000" />
-      <workItem from="1599627957208" duration="1624000" />
+      <workItem from="1599627957208" duration="2375000" />
+      <workItem from="1599666699254" duration="17000" />
     </task>
     <servers />
   </component>

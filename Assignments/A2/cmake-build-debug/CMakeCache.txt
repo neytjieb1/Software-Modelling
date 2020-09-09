@@ -15,6 +15,12 @@
 ########################
 
 //Value Computed by CMake
+A2_BINARY_DIR:STATIC=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug
+
+//Value Computed by CMake
+A2_SOURCE_DIR:STATIC=/home/jo/CLionProjects/Software-Modelling/Assignments/A2
+
+//Value Computed by CMake
 A_BINARY_DIR:STATIC=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug
 
 //Value Computed by CMake
@@ -162,7 +168,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=A
+CMAKE_PROJECT_NAME:STATIC=A2
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib

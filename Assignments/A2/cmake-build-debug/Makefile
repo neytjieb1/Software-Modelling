@@ -131,17 +131,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named A
+# Target rules for targets named A2
 
 # Build rule for target.
-A : cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 A
-.PHONY : A
+A2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 A2
+.PHONY : A2
 
 # fast build rule for target.
-A/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/build
-.PHONY : A/fast
+A2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/build
+.PHONY : A2/fast
 
 BaseImage.o: BaseImage.cpp.o
 
@@ -149,7 +149,7 @@ BaseImage.o: BaseImage.cpp.o
 
 # target to build an object file
 BaseImage.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/BaseImage.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/BaseImage.cpp.o
 .PHONY : BaseImage.cpp.o
 
 BaseImage.i: BaseImage.cpp.i
@@ -158,7 +158,7 @@ BaseImage.i: BaseImage.cpp.i
 
 # target to preprocess a source file
 BaseImage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/BaseImage.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/BaseImage.cpp.i
 .PHONY : BaseImage.cpp.i
 
 BaseImage.s: BaseImage.cpp.s
@@ -167,7 +167,7 @@ BaseImage.s: BaseImage.cpp.s
 
 # target to generate assembly for a file
 BaseImage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/BaseImage.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/BaseImage.cpp.s
 .PHONY : BaseImage.cpp.s
 
 ImageAddOns.o: ImageAddOns.cpp.o
@@ -176,7 +176,7 @@ ImageAddOns.o: ImageAddOns.cpp.o
 
 # target to build an object file
 ImageAddOns.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/ImageAddOns.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/ImageAddOns.cpp.o
 .PHONY : ImageAddOns.cpp.o
 
 ImageAddOns.i: ImageAddOns.cpp.i
@@ -185,7 +185,7 @@ ImageAddOns.i: ImageAddOns.cpp.i
 
 # target to preprocess a source file
 ImageAddOns.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/ImageAddOns.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/ImageAddOns.cpp.i
 .PHONY : ImageAddOns.cpp.i
 
 ImageAddOns.s: ImageAddOns.cpp.s
@@ -194,7 +194,7 @@ ImageAddOns.s: ImageAddOns.cpp.s
 
 # target to generate assembly for a file
 ImageAddOns.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/ImageAddOns.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/ImageAddOns.cpp.s
 .PHONY : ImageAddOns.cpp.s
 
 ImageElement.o: ImageElement.cpp.o
@@ -203,7 +203,7 @@ ImageElement.o: ImageElement.cpp.o
 
 # target to build an object file
 ImageElement.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/ImageElement.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/ImageElement.cpp.o
 .PHONY : ImageElement.cpp.o
 
 ImageElement.i: ImageElement.cpp.i
@@ -212,7 +212,7 @@ ImageElement.i: ImageElement.cpp.i
 
 # target to preprocess a source file
 ImageElement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/ImageElement.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/ImageElement.cpp.i
 .PHONY : ImageElement.cpp.i
 
 ImageElement.s: ImageElement.cpp.s
@@ -221,7 +221,7 @@ ImageElement.s: ImageElement.cpp.s
 
 # target to generate assembly for a file
 ImageElement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/ImageElement.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/ImageElement.cpp.s
 .PHONY : ImageElement.cpp.s
 
 LevelFiveState.o: LevelFiveState.cpp.o
@@ -230,7 +230,7 @@ LevelFiveState.o: LevelFiveState.cpp.o
 
 # target to build an object file
 LevelFiveState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelFiveState.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelFiveState.cpp.o
 .PHONY : LevelFiveState.cpp.o
 
 LevelFiveState.i: LevelFiveState.cpp.i
@@ -239,7 +239,7 @@ LevelFiveState.i: LevelFiveState.cpp.i
 
 # target to preprocess a source file
 LevelFiveState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelFiveState.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelFiveState.cpp.i
 .PHONY : LevelFiveState.cpp.i
 
 LevelFiveState.s: LevelFiveState.cpp.s
@@ -248,7 +248,7 @@ LevelFiveState.s: LevelFiveState.cpp.s
 
 # target to generate assembly for a file
 LevelFiveState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelFiveState.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelFiveState.cpp.s
 .PHONY : LevelFiveState.cpp.s
 
 LevelFourState.o: LevelFourState.cpp.o
@@ -257,7 +257,7 @@ LevelFourState.o: LevelFourState.cpp.o
 
 # target to build an object file
 LevelFourState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelFourState.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelFourState.cpp.o
 .PHONY : LevelFourState.cpp.o
 
 LevelFourState.i: LevelFourState.cpp.i
@@ -266,7 +266,7 @@ LevelFourState.i: LevelFourState.cpp.i
 
 # target to preprocess a source file
 LevelFourState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelFourState.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelFourState.cpp.i
 .PHONY : LevelFourState.cpp.i
 
 LevelFourState.s: LevelFourState.cpp.s
@@ -275,7 +275,7 @@ LevelFourState.s: LevelFourState.cpp.s
 
 # target to generate assembly for a file
 LevelFourState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelFourState.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelFourState.cpp.s
 .PHONY : LevelFourState.cpp.s
 
 LevelOneState.o: LevelOneState.cpp.o
@@ -284,7 +284,7 @@ LevelOneState.o: LevelOneState.cpp.o
 
 # target to build an object file
 LevelOneState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelOneState.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelOneState.cpp.o
 .PHONY : LevelOneState.cpp.o
 
 LevelOneState.i: LevelOneState.cpp.i
@@ -293,7 +293,7 @@ LevelOneState.i: LevelOneState.cpp.i
 
 # target to preprocess a source file
 LevelOneState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelOneState.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelOneState.cpp.i
 .PHONY : LevelOneState.cpp.i
 
 LevelOneState.s: LevelOneState.cpp.s
@@ -302,7 +302,7 @@ LevelOneState.s: LevelOneState.cpp.s
 
 # target to generate assembly for a file
 LevelOneState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelOneState.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelOneState.cpp.s
 .PHONY : LevelOneState.cpp.s
 
 LevelState.o: LevelState.cpp.o
@@ -311,7 +311,7 @@ LevelState.o: LevelState.cpp.o
 
 # target to build an object file
 LevelState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelState.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelState.cpp.o
 .PHONY : LevelState.cpp.o
 
 LevelState.i: LevelState.cpp.i
@@ -320,7 +320,7 @@ LevelState.i: LevelState.cpp.i
 
 # target to preprocess a source file
 LevelState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelState.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelState.cpp.i
 .PHONY : LevelState.cpp.i
 
 LevelState.s: LevelState.cpp.s
@@ -329,7 +329,7 @@ LevelState.s: LevelState.cpp.s
 
 # target to generate assembly for a file
 LevelState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelState.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelState.cpp.s
 .PHONY : LevelState.cpp.s
 
 LevelThreeState.o: LevelThreeState.cpp.o
@@ -338,7 +338,7 @@ LevelThreeState.o: LevelThreeState.cpp.o
 
 # target to build an object file
 LevelThreeState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelThreeState.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelThreeState.cpp.o
 .PHONY : LevelThreeState.cpp.o
 
 LevelThreeState.i: LevelThreeState.cpp.i
@@ -347,7 +347,7 @@ LevelThreeState.i: LevelThreeState.cpp.i
 
 # target to preprocess a source file
 LevelThreeState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelThreeState.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelThreeState.cpp.i
 .PHONY : LevelThreeState.cpp.i
 
 LevelThreeState.s: LevelThreeState.cpp.s
@@ -356,7 +356,7 @@ LevelThreeState.s: LevelThreeState.cpp.s
 
 # target to generate assembly for a file
 LevelThreeState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelThreeState.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelThreeState.cpp.s
 .PHONY : LevelThreeState.cpp.s
 
 LevelTwoState.o: LevelTwoState.cpp.o
@@ -365,7 +365,7 @@ LevelTwoState.o: LevelTwoState.cpp.o
 
 # target to build an object file
 LevelTwoState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelTwoState.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelTwoState.cpp.o
 .PHONY : LevelTwoState.cpp.o
 
 LevelTwoState.i: LevelTwoState.cpp.i
@@ -374,7 +374,7 @@ LevelTwoState.i: LevelTwoState.cpp.i
 
 # target to preprocess a source file
 LevelTwoState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelTwoState.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelTwoState.cpp.i
 .PHONY : LevelTwoState.cpp.i
 
 LevelTwoState.s: LevelTwoState.cpp.s
@@ -383,7 +383,7 @@ LevelTwoState.s: LevelTwoState.cpp.s
 
 # target to generate assembly for a file
 LevelTwoState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/LevelTwoState.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/LevelTwoState.cpp.s
 .PHONY : LevelTwoState.cpp.s
 
 Mask.o: Mask.cpp.o
@@ -392,7 +392,7 @@ Mask.o: Mask.cpp.o
 
 # target to build an object file
 Mask.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/Mask.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Mask.cpp.o
 .PHONY : Mask.cpp.o
 
 Mask.i: Mask.cpp.i
@@ -401,7 +401,7 @@ Mask.i: Mask.cpp.i
 
 # target to preprocess a source file
 Mask.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/Mask.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Mask.cpp.i
 .PHONY : Mask.cpp.i
 
 Mask.s: Mask.cpp.s
@@ -410,7 +410,7 @@ Mask.s: Mask.cpp.s
 
 # target to generate assembly for a file
 Mask.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/Mask.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Mask.cpp.s
 .PHONY : Mask.cpp.s
 
 NoLevelState.o: NoLevelState.cpp.o
@@ -419,7 +419,7 @@ NoLevelState.o: NoLevelState.cpp.o
 
 # target to build an object file
 NoLevelState.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/NoLevelState.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/NoLevelState.cpp.o
 .PHONY : NoLevelState.cpp.o
 
 NoLevelState.i: NoLevelState.cpp.i
@@ -428,7 +428,7 @@ NoLevelState.i: NoLevelState.cpp.i
 
 # target to preprocess a source file
 NoLevelState.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/NoLevelState.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/NoLevelState.cpp.i
 .PHONY : NoLevelState.cpp.i
 
 NoLevelState.s: NoLevelState.cpp.s
@@ -437,7 +437,7 @@ NoLevelState.s: NoLevelState.cpp.s
 
 # target to generate assembly for a file
 NoLevelState.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/NoLevelState.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/NoLevelState.cpp.s
 .PHONY : NoLevelState.cpp.s
 
 Pandemic.o: Pandemic.cpp.o
@@ -446,7 +446,7 @@ Pandemic.o: Pandemic.cpp.o
 
 # target to build an object file
 Pandemic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/Pandemic.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Pandemic.cpp.o
 .PHONY : Pandemic.cpp.o
 
 Pandemic.i: Pandemic.cpp.i
@@ -455,7 +455,7 @@ Pandemic.i: Pandemic.cpp.i
 
 # target to preprocess a source file
 Pandemic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/Pandemic.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Pandemic.cpp.i
 .PHONY : Pandemic.cpp.i
 
 Pandemic.s: Pandemic.cpp.s
@@ -464,7 +464,7 @@ Pandemic.s: Pandemic.cpp.s
 
 # target to generate assembly for a file
 Pandemic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/Pandemic.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Pandemic.cpp.s
 .PHONY : Pandemic.cpp.s
 
 PandemicStrategy.o: PandemicStrategy.cpp.o
@@ -473,7 +473,7 @@ PandemicStrategy.o: PandemicStrategy.cpp.o
 
 # target to build an object file
 PandemicStrategy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/PandemicStrategy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/PandemicStrategy.cpp.o
 .PHONY : PandemicStrategy.cpp.o
 
 PandemicStrategy.i: PandemicStrategy.cpp.i
@@ -482,7 +482,7 @@ PandemicStrategy.i: PandemicStrategy.cpp.i
 
 # target to preprocess a source file
 PandemicStrategy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/PandemicStrategy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/PandemicStrategy.cpp.i
 .PHONY : PandemicStrategy.cpp.i
 
 PandemicStrategy.s: PandemicStrategy.cpp.s
@@ -491,7 +491,7 @@ PandemicStrategy.s: PandemicStrategy.cpp.s
 
 # target to generate assembly for a file
 PandemicStrategy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/PandemicStrategy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/PandemicStrategy.cpp.s
 .PHONY : PandemicStrategy.cpp.s
 
 Poster.o: Poster.cpp.o
@@ -500,7 +500,7 @@ Poster.o: Poster.cpp.o
 
 # target to build an object file
 Poster.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/Poster.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Poster.cpp.o
 .PHONY : Poster.cpp.o
 
 Poster.i: Poster.cpp.i
@@ -509,7 +509,7 @@ Poster.i: Poster.cpp.i
 
 # target to preprocess a source file
 Poster.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/Poster.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Poster.cpp.i
 .PHONY : Poster.cpp.i
 
 Poster.s: Poster.cpp.s
@@ -518,7 +518,7 @@ Poster.s: Poster.cpp.s
 
 # target to generate assembly for a file
 Poster.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/Poster.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Poster.cpp.s
 .PHONY : Poster.cpp.s
 
 TemperatureCheck.o: TemperatureCheck.cpp.o
@@ -527,7 +527,7 @@ TemperatureCheck.o: TemperatureCheck.cpp.o
 
 # target to build an object file
 TemperatureCheck.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/TemperatureCheck.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/TemperatureCheck.cpp.o
 .PHONY : TemperatureCheck.cpp.o
 
 TemperatureCheck.i: TemperatureCheck.cpp.i
@@ -536,7 +536,7 @@ TemperatureCheck.i: TemperatureCheck.cpp.i
 
 # target to preprocess a source file
 TemperatureCheck.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/TemperatureCheck.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/TemperatureCheck.cpp.i
 .PHONY : TemperatureCheck.cpp.i
 
 TemperatureCheck.s: TemperatureCheck.cpp.s
@@ -545,7 +545,7 @@ TemperatureCheck.s: TemperatureCheck.cpp.s
 
 # target to generate assembly for a file
 TemperatureCheck.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/TemperatureCheck.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/TemperatureCheck.cpp.s
 .PHONY : TemperatureCheck.cpp.s
 
 UseHandSanitiser.o: UseHandSanitiser.cpp.o
@@ -554,7 +554,7 @@ UseHandSanitiser.o: UseHandSanitiser.cpp.o
 
 # target to build an object file
 UseHandSanitiser.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/UseHandSanitiser.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/UseHandSanitiser.cpp.o
 .PHONY : UseHandSanitiser.cpp.o
 
 UseHandSanitiser.i: UseHandSanitiser.cpp.i
@@ -563,7 +563,7 @@ UseHandSanitiser.i: UseHandSanitiser.cpp.i
 
 # target to preprocess a source file
 UseHandSanitiser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/UseHandSanitiser.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/UseHandSanitiser.cpp.i
 .PHONY : UseHandSanitiser.cpp.i
 
 UseHandSanitiser.s: UseHandSanitiser.cpp.s
@@ -572,7 +572,7 @@ UseHandSanitiser.s: UseHandSanitiser.cpp.s
 
 # target to generate assembly for a file
 UseHandSanitiser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/UseHandSanitiser.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/UseHandSanitiser.cpp.s
 .PHONY : UseHandSanitiser.cpp.s
 
 WashHands.o: WashHands.cpp.o
@@ -581,7 +581,7 @@ WashHands.o: WashHands.cpp.o
 
 # target to build an object file
 WashHands.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/WashHands.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/WashHands.cpp.o
 .PHONY : WashHands.cpp.o
 
 WashHands.i: WashHands.cpp.i
@@ -590,7 +590,7 @@ WashHands.i: WashHands.cpp.i
 
 # target to preprocess a source file
 WashHands.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/WashHands.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/WashHands.cpp.i
 .PHONY : WashHands.cpp.i
 
 WashHands.s: WashHands.cpp.s
@@ -599,7 +599,7 @@ WashHands.s: WashHands.cpp.s
 
 # target to generate assembly for a file
 WashHands.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/WashHands.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/WashHands.cpp.s
 .PHONY : WashHands.cpp.s
 
 levelFiveStrategy.o: levelFiveStrategy.cpp.o
@@ -608,7 +608,7 @@ levelFiveStrategy.o: levelFiveStrategy.cpp.o
 
 # target to build an object file
 levelFiveStrategy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelFiveStrategy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelFiveStrategy.cpp.o
 .PHONY : levelFiveStrategy.cpp.o
 
 levelFiveStrategy.i: levelFiveStrategy.cpp.i
@@ -617,7 +617,7 @@ levelFiveStrategy.i: levelFiveStrategy.cpp.i
 
 # target to preprocess a source file
 levelFiveStrategy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelFiveStrategy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelFiveStrategy.cpp.i
 .PHONY : levelFiveStrategy.cpp.i
 
 levelFiveStrategy.s: levelFiveStrategy.cpp.s
@@ -626,7 +626,7 @@ levelFiveStrategy.s: levelFiveStrategy.cpp.s
 
 # target to generate assembly for a file
 levelFiveStrategy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelFiveStrategy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelFiveStrategy.cpp.s
 .PHONY : levelFiveStrategy.cpp.s
 
 levelFourStrategy.o: levelFourStrategy.cpp.o
@@ -635,7 +635,7 @@ levelFourStrategy.o: levelFourStrategy.cpp.o
 
 # target to build an object file
 levelFourStrategy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelFourStrategy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelFourStrategy.cpp.o
 .PHONY : levelFourStrategy.cpp.o
 
 levelFourStrategy.i: levelFourStrategy.cpp.i
@@ -644,7 +644,7 @@ levelFourStrategy.i: levelFourStrategy.cpp.i
 
 # target to preprocess a source file
 levelFourStrategy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelFourStrategy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelFourStrategy.cpp.i
 .PHONY : levelFourStrategy.cpp.i
 
 levelFourStrategy.s: levelFourStrategy.cpp.s
@@ -653,7 +653,7 @@ levelFourStrategy.s: levelFourStrategy.cpp.s
 
 # target to generate assembly for a file
 levelFourStrategy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelFourStrategy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelFourStrategy.cpp.s
 .PHONY : levelFourStrategy.cpp.s
 
 levelOneStrategy.o: levelOneStrategy.cpp.o
@@ -662,7 +662,7 @@ levelOneStrategy.o: levelOneStrategy.cpp.o
 
 # target to build an object file
 levelOneStrategy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelOneStrategy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelOneStrategy.cpp.o
 .PHONY : levelOneStrategy.cpp.o
 
 levelOneStrategy.i: levelOneStrategy.cpp.i
@@ -671,7 +671,7 @@ levelOneStrategy.i: levelOneStrategy.cpp.i
 
 # target to preprocess a source file
 levelOneStrategy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelOneStrategy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelOneStrategy.cpp.i
 .PHONY : levelOneStrategy.cpp.i
 
 levelOneStrategy.s: levelOneStrategy.cpp.s
@@ -680,7 +680,7 @@ levelOneStrategy.s: levelOneStrategy.cpp.s
 
 # target to generate assembly for a file
 levelOneStrategy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelOneStrategy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelOneStrategy.cpp.s
 .PHONY : levelOneStrategy.cpp.s
 
 levelThreeStrategy.o: levelThreeStrategy.cpp.o
@@ -689,7 +689,7 @@ levelThreeStrategy.o: levelThreeStrategy.cpp.o
 
 # target to build an object file
 levelThreeStrategy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelThreeStrategy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelThreeStrategy.cpp.o
 .PHONY : levelThreeStrategy.cpp.o
 
 levelThreeStrategy.i: levelThreeStrategy.cpp.i
@@ -698,7 +698,7 @@ levelThreeStrategy.i: levelThreeStrategy.cpp.i
 
 # target to preprocess a source file
 levelThreeStrategy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelThreeStrategy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelThreeStrategy.cpp.i
 .PHONY : levelThreeStrategy.cpp.i
 
 levelThreeStrategy.s: levelThreeStrategy.cpp.s
@@ -707,7 +707,7 @@ levelThreeStrategy.s: levelThreeStrategy.cpp.s
 
 # target to generate assembly for a file
 levelThreeStrategy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelThreeStrategy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelThreeStrategy.cpp.s
 .PHONY : levelThreeStrategy.cpp.s
 
 levelTwoStrategy.o: levelTwoStrategy.cpp.o
@@ -716,7 +716,7 @@ levelTwoStrategy.o: levelTwoStrategy.cpp.o
 
 # target to build an object file
 levelTwoStrategy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelTwoStrategy.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelTwoStrategy.cpp.o
 .PHONY : levelTwoStrategy.cpp.o
 
 levelTwoStrategy.i: levelTwoStrategy.cpp.i
@@ -725,7 +725,7 @@ levelTwoStrategy.i: levelTwoStrategy.cpp.i
 
 # target to preprocess a source file
 levelTwoStrategy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelTwoStrategy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelTwoStrategy.cpp.i
 .PHONY : levelTwoStrategy.cpp.i
 
 levelTwoStrategy.s: levelTwoStrategy.cpp.s
@@ -734,7 +734,7 @@ levelTwoStrategy.s: levelTwoStrategy.cpp.s
 
 # target to generate assembly for a file
 levelTwoStrategy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/levelTwoStrategy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/levelTwoStrategy.cpp.s
 .PHONY : levelTwoStrategy.cpp.s
 
 main.o: main.cpp.o
@@ -743,7 +743,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -752,7 +752,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -761,7 +761,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A.dir/build.make CMakeFiles/A.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -772,7 +772,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... A"
+	@echo "... A2"
 	@echo "... BaseImage.o"
 	@echo "... BaseImage.i"
 	@echo "... BaseImage.s"
