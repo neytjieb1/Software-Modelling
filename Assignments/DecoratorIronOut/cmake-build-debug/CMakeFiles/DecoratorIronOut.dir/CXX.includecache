@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/DecoratorIronOut/main.cpp
+iostream
+-
+vector
+-
+fstream
+-
+
