@@ -9,6 +9,7 @@ CMakeFiles/A.dir/BaseImage.cpp.o: ../termcolor.h
 
 CMakeFiles/A.dir/ImageAddOns.cpp.o: ../ImageAddOns.cpp
 CMakeFiles/A.dir/ImageAddOns.cpp.o: ../ImageAddOns.h
+CMakeFiles/A.dir/ImageAddOns.cpp.o: ../ImageElement.h
 CMakeFiles/A.dir/ImageAddOns.cpp.o: ../Poster.h
 CMakeFiles/A.dir/ImageAddOns.cpp.o: ../termcolor.h
 
@@ -50,6 +51,7 @@ CMakeFiles/A.dir/LevelTwoState.cpp.o: ../LevelTwoState.cpp
 CMakeFiles/A.dir/LevelTwoState.cpp.o: ../LevelTwoState.h
 
 CMakeFiles/A.dir/Mask.cpp.o: ../ImageAddOns.h
+CMakeFiles/A.dir/Mask.cpp.o: ../ImageElement.h
 CMakeFiles/A.dir/Mask.cpp.o: ../Mask.cpp
 CMakeFiles/A.dir/Mask.cpp.o: ../Mask.h
 CMakeFiles/A.dir/Mask.cpp.o: ../Poster.h
@@ -84,18 +86,21 @@ CMakeFiles/A.dir/Poster.cpp.o: ../Poster.h
 CMakeFiles/A.dir/Poster.cpp.o: ../termcolor.h
 
 CMakeFiles/A.dir/TemperatureCheck.cpp.o: ../ImageAddOns.h
+CMakeFiles/A.dir/TemperatureCheck.cpp.o: ../ImageElement.h
 CMakeFiles/A.dir/TemperatureCheck.cpp.o: ../Poster.h
 CMakeFiles/A.dir/TemperatureCheck.cpp.o: ../TemperatureCheck.cpp
 CMakeFiles/A.dir/TemperatureCheck.cpp.o: ../TemperatureCheck.h
 CMakeFiles/A.dir/TemperatureCheck.cpp.o: ../termcolor.h
 
 CMakeFiles/A.dir/UseHandSanitiser.cpp.o: ../ImageAddOns.h
+CMakeFiles/A.dir/UseHandSanitiser.cpp.o: ../ImageElement.h
 CMakeFiles/A.dir/UseHandSanitiser.cpp.o: ../Poster.h
 CMakeFiles/A.dir/UseHandSanitiser.cpp.o: ../UseHandSanitiser.cpp
 CMakeFiles/A.dir/UseHandSanitiser.cpp.o: ../UseHandSanitiser.h
 CMakeFiles/A.dir/UseHandSanitiser.cpp.o: ../termcolor.h
 
 CMakeFiles/A.dir/WashHands.cpp.o: ../ImageAddOns.h
+CMakeFiles/A.dir/WashHands.cpp.o: ../ImageElement.h
 CMakeFiles/A.dir/WashHands.cpp.o: ../Poster.h
 CMakeFiles/A.dir/WashHands.cpp.o: ../WashHands.cpp
 CMakeFiles/A.dir/WashHands.cpp.o: ../WashHands.h
@@ -137,6 +142,9 @@ CMakeFiles/A.dir/main.cpp.o: ../Mask.h
 CMakeFiles/A.dir/main.cpp.o: ../Pandemic.h
 CMakeFiles/A.dir/main.cpp.o: ../PandemicStrategy.h
 CMakeFiles/A.dir/main.cpp.o: ../Poster.h
+CMakeFiles/A.dir/main.cpp.o: ../TemperatureCheck.h
+CMakeFiles/A.dir/main.cpp.o: ../UseHandSanitiser.h
+CMakeFiles/A.dir/main.cpp.o: ../WashHands.h
 CMakeFiles/A.dir/main.cpp.o: ../main.cpp
 CMakeFiles/A.dir/main.cpp.o: ../termcolor.h
 

@@ -5,12 +5,22 @@
 #ifndef A_IMAGEADDONS_H
 #define A_IMAGEADDONS_H
 #include "Poster.h"
+#include "ImageElement.h"
+
+#include <fstream>
+#include <iostream>
+#include <cstring>
+#include <vector>
+using namespace std;
 
 class ImageAddOns : public Poster{
 public:
+    ImageAddOns();
     ImageAddOns(Poster *imageElement);
-    virtual void drawPoster(Poster* );
+    void drawPoster() override;
     ~ImageAddOns();
+    virtual string getFilename() = 0;
+    string fillAndPad(string line,int end);
 
 protected:
     Poster* addOn;

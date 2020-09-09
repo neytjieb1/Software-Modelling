@@ -8,10 +8,10 @@
 
 class Mask : public ImageAddOns{
 public:
-    Mask(Poster* image) : ImageAddOns(image) {};
+    Mask(Poster* image);
     ~Mask();
     void drawPoster() override;
+    string getFilename() override {"/home/jo/CLionProjects/Software-Modelling/Assignments/A2/maskAlert.txt";};
 };
-
 
 #endif //A_MASK_H

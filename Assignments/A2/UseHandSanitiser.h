@@ -8,9 +8,10 @@
 
 class UseHandSanitiser : public ImageAddOns{
 public:
-    UseHandSanitiser(Poster* );
+    UseHandSanitiser(Poster* image);
     ~UseHandSanitiser();
     void drawPoster() override;
+    string getFilename() override {"/home/jo/CLionProjects/Software-Modelling/Assignments/A2/sanitiser.txt";};
 
 };
 

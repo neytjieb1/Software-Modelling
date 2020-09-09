@@ -5,21 +5,22 @@
 #ifndef A_IMAGEELEMENT_H
 #define A_IMAGEELEMENT_H
 #include "Poster.h"
+#include <cstring>
 
 class ImageElement: public Poster {
 public:
-    ImageElement() : Poster() {};
-    ImageElement(int width) : Poster(0, width) {
-        this->imageWidth = new char[width];
+    ImageElement() : Poster() {
     };
-    void drawPoster() override {
-
-        cout << borderPixel <<  "**Drawing an image Element**" << borderPixel << endl;
-
-    }
+    ImageElement(int height, int width) : Poster(height, width) {
+        //imageWidth.reserve(20);
+        //this->imageWidth = new char[width];
+        //strcpy(imageWidth, "*THIS MESSAGE IS BROUGHT TO YOU BY THE GOVERNMENT*");
+    };
+    void drawPoster() override ;
+    void addLine(string line);
 
 private:
-    char* imageWidth;
+    vector<string> imageWidth;
 };
 
 

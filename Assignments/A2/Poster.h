@@ -6,6 +6,7 @@
 #define A_POSTER_H
 #include "termcolor.h"
 #include <iostream>
+#include <vector>
 using namespace std;
 
 class ImageAddOns;
@@ -21,16 +22,12 @@ public:
 
 protected:
     Poster(int height, int width) {
-        if (height!=0) {
-            this->height = height;
-        }
-        if (width!=0) {
-            this->width = width;
-        }
+        this->height = height;
+        this->width = width;
     }
     int height = 0;
     int width = 0;
-    char borderPixel = 'x';
+    char borderPixel = '|';
 
 };
 
