@@ -87,6 +87,9 @@
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/DecoratorIronOut/Decorator.h">
 			<Option target="DecoratorIronOut"/>
 		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/DecoratorIronOut/Poster.h">
+			<Option target="DecoratorIronOut"/>
+		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/DecoratorIronOut/Prototype.h">
 			<Option target="DecoratorIronOut"/>
 		</Unit>

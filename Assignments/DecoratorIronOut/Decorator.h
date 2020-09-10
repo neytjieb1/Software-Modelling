@@ -70,14 +70,35 @@ public:
     void addImage(Poster *i) override {};
     void drawPoster() override {
         cout << termcolor::reset;
-        if (getColour() == Red) cout << termcolor::red;
-        if (getColour() == Orange) cout << termcolor::color<252,132,3>;
-        if (getColour() == Yellow) cout << termcolor::yellow;
-        if (getColour() == Blue) cout << termcolor::blue;
-        if (getColour() == Green) cout << termcolor::green;
-        if (getColour() == White) cout << termcolor::white;
-        for (string l: lines)
-            cout << l << endl; };
+        switch (getColour()) {
+            case Red:
+                cout << termcolor::red;
+                break;
+            case Orange:
+                cout << termcolor::color<252,132,3>;
+                break;
+            case Yellow:
+                cout << termcolor::yellow;
+                break;
+            case Blue:
+                cout << termcolor::blue;
+                break;
+            case Green:
+                cout << termcolor::green;
+                break;
+            case White:
+                cout << termcolor::bold;
+                break;
+            default:
+                cout << termcolor::reset;
+        }
+        for (string l: lines) {
+            cout << 'x' << l << 'x' << endl;
+        }
+
+    };
+
+
     Poster * clone() override {
         vector<string> clonedLines;
         for (string l: lines) {
@@ -111,12 +132,12 @@ public:
     }
     void addLine(string line) override {};
     void drawPoster() override {
-        cout <<termcolor::white << "Header" << endl;
+        string endLine = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+        cout <<termcolor::white << endLine << endl;
         for (Poster* p: imageHeight) {
-            cout << "drawing an image" << endl;
             p->drawPoster();
         }
-        cout << termcolor::reset << "Footer" << endl;
+        cout << termcolor::reset << endLine << endl;
     };
     void addImage(Poster *i) override {
         if (imageHeight.size() < getHeight()) {
@@ -155,6 +176,8 @@ public:
     void addImage(Poster *i) override {
         if (topping == nullptr) {
             topping = i;
+            //<static_cast<Decorator*>(i)->getLines();
+            //lines.insert(this->lines.end(), )
         } else{
             topping->addImage(i);
         }
@@ -174,6 +197,7 @@ public:
             return topping->clone();
         }
     };
+    vector<string> getLines() {return lines;};
 protected:
     ~Decorator() { delete topping; };
     void readFile(string filename) {
@@ -197,10 +221,10 @@ private:
 class Mask : public Decorator {
 public:
     Mask() : Decorator() {
-        readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/maskAlert.txt");
+        //readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/maskAlert.txt");
+        readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/mask_pic.txt");
     }
     void drawPoster() override {
-        addLine("MASK MASK MASK");
         for (string l: lines) {
             addLine(l);
         }
@@ -213,7 +237,8 @@ public:
 class TemperatureCheck: public Decorator {
 public:
     TemperatureCheck() {
-        readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/tempCheck.txt");
+        //readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/tempCheck.txt");
+        readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/temp_gun_pic.txt");
     } ;
     ~TemperatureCheck() {};
     void drawPoster() override {
@@ -227,10 +252,10 @@ public:
 class WashHands : public Decorator {
 public:
     WashHands() : Decorator() {
-        readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/washhands.txt");
+        //readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/washhands.txt");
+        readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/washHands_pic.txt");
     }
     void drawPoster() override {
-        addLine("WASH WASH WASH");
         for (string l: lines) {
             addLine(l);
         }
@@ -242,16 +267,17 @@ public:
 class UseHandSanitiser : public Decorator{
 public:
     UseHandSanitiser() {
-        readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/sanitiser.txt");
+        //readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/sanitiser.txt");
+        readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/sanitiser_pic.txt");
     };
     void drawPoster() override {
-        addLine("SANITISE SANITISE SANITISE");
         for (string l: lines) {
             addLine(l);
         }
         Decorator::drawPoster();
     };
     ~UseHandSanitiser() {};
+
 
 };
 

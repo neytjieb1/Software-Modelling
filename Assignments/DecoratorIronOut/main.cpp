@@ -8,15 +8,23 @@ using  namespace std;
 int main() {
     Poster* test_poster;
 
-    /*Poster* e1 = new WashHands();
-    e1->addImage(new ImageElement(5));
-    zero_poster = new BaseImage(5);
-    zero_poster->addImage(e1);
-    zero_poster->setColor(Orange);
-    zero_poster->drawPoster();
-    delete zero_poster;*/
+    Poster* e1 = new Mask();
+    e1->addImage(new UseHandSanitiser());
+    e1->addImage(new TemperatureCheck());
+    e1->addImage(new WashHands());
+    e1->addImage(new ImageElement(5, Green));
 
-    PosterPrototype* proto[6];
+
+    test_poster = new BaseImage(5);
+    test_poster->addImage(e1);
+    test_poster->drawPoster();
+
+    //Poster* t= test_poster->clone();
+    //t->drawPoster();
+
+    delete test_poster;
+
+    /*PosterPrototype* proto[6];
     proto[0] = new Level0Proto();
     proto[1] = new Level1Proto();
     proto[2] = new Level2Proto();
@@ -29,6 +37,8 @@ int main() {
     cout << "\nIntermediary\n"<< endl;
     test_poster->drawPoster();
     delete test_poster;
+
+    */
 
 
 
