@@ -21,7 +21,7 @@ public:
         e1->addImage(new ImageElement(5, White));
         zero_poster = new BaseImage(5);
         zero_poster->addImage(e1);
-        zero_poster->drawPoster(); //to initialise all lines finally
+        zero_poster->drawImage(); //to initialise all lines finally
     };
     Poster* clone() override {
         return zero_poster->clone();
@@ -40,7 +40,7 @@ public:
         one_poster = new BaseImage(5);
         one_poster->addImage(e1);
         //one_poster->setColor(Green);
-        one_poster->drawPoster(); //to initialise all lines finally
+        one_poster->drawImage(); //to initialise all lines finally
     };
     Poster* clone() override {
         return one_poster->clone();
@@ -61,7 +61,7 @@ public:
         two_poster = new BaseImage(5);
         two_poster->addImage(e1);
         two_poster->addImage(e2);
-        two_poster->drawPoster(); //to initialise all lines finally
+        two_poster->drawImage(); //to initialise all lines finally
     };
     Poster* clone() override {
         return two_poster->clone();
@@ -70,7 +70,6 @@ public:
 private:
     Poster* two_poster;
 };
-
 
 class Level3Proto : public PosterPrototype {
 public:
@@ -85,7 +84,7 @@ public:
         three_poster = new BaseImage(5);
         three_poster->addImage(e1);
         three_poster->addImage(e2);
-        three_poster->drawPoster(); //to initialise all lines finally
+        three_poster->drawImage(); //to initialise all lines finally
     };
     Poster* clone() override {
         return three_poster->clone();
@@ -112,7 +111,7 @@ public:
         four_poster->addImage(e1);
         four_poster->addImage(e2);
         four_poster->addImage(e3);
-        four_poster->drawPoster(); //to initialise all lines finally
+        four_poster->drawImage(); //to initialise all lines finally
     };
     Poster* clone() override {
         return four_poster->clone();
@@ -136,12 +135,11 @@ public:
         e3->addImage(new WashHands());
         e3->addImage(new ImageElement(5,Red));
 
-
         five_poster = new BaseImage(5);
         five_poster->addImage(e1);
         five_poster->addImage(e2);
         five_poster->addImage(e3);
-        five_poster->drawPoster(); //to initialise all lines finally
+        five_poster->drawImage(); //to initialise all lines finally
     };
     Poster* clone() override {
         return five_poster->clone();

@@ -20,11 +20,10 @@ public:
         height = h;
         colour = c;};
     virtual void drawPoster() = 0;
+    virtual void drawImage() = 0;
     virtual void addLine(string line) = 0;
     virtual void addImage(Poster* i) = 0;
-    void setColor(Colours c) {
-        colour = c;
-    };
+    virtual void setColor(Colours c) = 0;
     virtual Poster* clone() = 0;
 
     void setHeight(int h) {height = h;};
@@ -33,9 +32,9 @@ public:
 
 private:
     int height;
-    Colours colour;
 
 protected:
+    Colours colour;
     char borderPixel = 'x';
     Colours getColour() {
 /*
@@ -69,6 +68,7 @@ public:
     ImageElement(int h, Colours c) : Poster(h, c) {};
     void addLine(string line) override {lines.push_back(line);};
     void addImage(Poster *i) override {};
+    void setColor(Colours c) override {colour = c;}
     void drawPoster() override {
         cout << termcolor::reset;
         switch (getColour()) {
@@ -98,6 +98,7 @@ public:
         }
 
     };
+    void drawImage() override {}
 
 
     Poster * clone() override {
@@ -132,6 +133,20 @@ public:
         }
     }
     void addLine(string line) override {};
+    void addImage(Poster *i) override {
+        if (imageHeight.size() < getHeight()) {
+            imageHeight.push_back( i);
+        }
+        else {
+            cout << "Full. Can't add more to poster" << endl;
+        }
+    }
+    void setColor(Colours c) override {
+        for (Poster* p: imageHeight) {
+            p->setColor(c);
+        }
+    }
+
     void drawPoster() override {
         string endLine = " THE MESSAGE IS FROM THE GOVERNMENT ";
         for (int i = 0; i < 14; ++i) {
@@ -143,14 +158,11 @@ public:
         }
         cout <<termcolor::white << termcolor::bold << termcolor::italic << endLine << endl;
     };
-    void addImage(Poster *i) override {
-        if (imageHeight.size() < getHeight()) {
-            imageHeight.push_back( i);
+    void drawImage() override {
+        for (Poster* p: imageHeight) {
+            p->drawImage();
         }
-        else {
-            cout << "Full. Can't add more to poster" << endl;
-        }
-    }
+    };
     Poster * clone() override {
         vector<Poster*> temp;
         for (Poster* p: imageHeight) {
@@ -186,11 +198,17 @@ public:
             topping->addImage(i);
         }
     }
-    //virtual void drawImage() {};
+    void setColor(Colours c) override {};
     void drawPoster() override {
         if (topping == nullptr) return;
         else {
             topping->drawPoster();
+        }
+    }
+    void drawImage() override{
+        if (topping == nullptr) return;
+        else {
+            topping->drawImage();
         }
     }
     Poster * clone() override {
@@ -228,10 +246,16 @@ public:
         readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/mask_pic.txt");
     }
     void drawPoster() override {
+        /*for (string l: lines) {
+            addLine(l);
+        }*/
+        Decorator::drawPoster();
+    }
+    void drawImage() override {
         for (string l: lines) {
             addLine(l);
         }
-        Decorator::drawPoster();
+        Decorator::drawImage();
     }
     ~Mask() {};
 
@@ -244,11 +268,17 @@ public:
     } ;
     ~TemperatureCheck() {};
     void drawPoster() override {
+        /*for (string l: lines) {
+            addLine(l);
+        }*/
+        Decorator::drawPoster();
+    };
+    void drawImage() override {
         for (string l: lines) {
             addLine(l);
         }
-        Decorator::drawPoster();
-    };
+        Decorator::drawImage();
+    }
 };
 
 class WashHands : public Decorator {
@@ -257,10 +287,16 @@ public:
         readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/washHands_pic.txt");
     }
     void drawPoster() override {
+        /*for (string l: lines) {
+            addLine(l);
+        }*/
+        Decorator::drawPoster();
+    }
+    void drawImage() override {
         for (string l: lines) {
             addLine(l);
         }
-        Decorator::drawPoster();
+        Decorator::drawImage();
     }
     ~WashHands() {};
 };
@@ -271,11 +307,17 @@ public:
         readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/sanitiser_pic.txt");
     };
     void drawPoster() override {
+        /*for (string l: lines) {
+            addLine(l);
+        }*/
+        Decorator::drawPoster();
+    };
+    void drawImage() override {
         for (string l: lines) {
             addLine(l);
         }
-        Decorator::drawPoster();
-    };
+        Decorator::drawImage();
+    }
     ~UseHandSanitiser() {};
 
 
