@@ -197,33 +197,6 @@ ImageAddOns.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/ImageAddOns.cpp.s
 .PHONY : ImageAddOns.cpp.s
 
-ImageElement.o: ImageElement.cpp.o
-
-.PHONY : ImageElement.o
-
-# target to build an object file
-ImageElement.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/ImageElement.cpp.o
-.PHONY : ImageElement.cpp.o
-
-ImageElement.i: ImageElement.cpp.i
-
-.PHONY : ImageElement.i
-
-# target to preprocess a source file
-ImageElement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/ImageElement.cpp.i
-.PHONY : ImageElement.cpp.i
-
-ImageElement.s: ImageElement.cpp.s
-
-.PHONY : ImageElement.s
-
-# target to generate assembly for a file
-ImageElement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/ImageElement.cpp.s
-.PHONY : ImageElement.cpp.s
-
 LevelFiveState.o: LevelFiveState.cpp.o
 
 .PHONY : LevelFiveState.o
@@ -494,33 +467,6 @@ PandemicStrategy.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/PandemicStrategy.cpp.s
 .PHONY : PandemicStrategy.cpp.s
 
-Poster.o: Poster.cpp.o
-
-.PHONY : Poster.o
-
-# target to build an object file
-Poster.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Poster.cpp.o
-.PHONY : Poster.cpp.o
-
-Poster.i: Poster.cpp.i
-
-.PHONY : Poster.i
-
-# target to preprocess a source file
-Poster.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Poster.cpp.i
-.PHONY : Poster.cpp.i
-
-Poster.s: Poster.cpp.s
-
-.PHONY : Poster.s
-
-# target to generate assembly for a file
-Poster.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A2.dir/build.make CMakeFiles/A2.dir/Poster.cpp.s
-.PHONY : Poster.cpp.s
-
 TemperatureCheck.o: TemperatureCheck.cpp.o
 
 .PHONY : TemperatureCheck.o
@@ -779,9 +725,6 @@ help:
 	@echo "... ImageAddOns.o"
 	@echo "... ImageAddOns.i"
 	@echo "... ImageAddOns.s"
-	@echo "... ImageElement.o"
-	@echo "... ImageElement.i"
-	@echo "... ImageElement.s"
 	@echo "... LevelFiveState.o"
 	@echo "... LevelFiveState.i"
 	@echo "... LevelFiveState.s"
@@ -812,9 +755,6 @@ help:
 	@echo "... PandemicStrategy.o"
 	@echo "... PandemicStrategy.i"
 	@echo "... PandemicStrategy.s"
-	@echo "... Poster.o"
-	@echo "... Poster.i"
-	@echo "... Poster.s"
 	@echo "... TemperatureCheck.o"
 	@echo "... TemperatureCheck.i"
 	@echo "... TemperatureCheck.s"

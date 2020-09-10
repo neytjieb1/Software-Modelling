@@ -24,11 +24,15 @@ using namespace std;
 
 Pandemic::Pandemic() {
     cout << "Pandemic Constructor" << endl;
+    levelPoster = nullptr;
+    initialisePosters();
 }
 
 Pandemic::Pandemic(string name, int level) {
     this->name = name;
     setInitialStrategy_State(level);
+    initialisePosters();
+    levelPoster = proto[level]->clone();
 }
 
 void Pandemic::increaseLevel() {
@@ -49,11 +53,13 @@ void Pandemic::decreaseLevel() {
 }
 
 void Pandemic::changeLevel(int i) {
+    //CHANGING STATE
     LevelState *tempState = this->levelState->changePandemicLevel(i);
     delete this->levelState;
     this->levelState = tempState;
     this->levelState->handle();
 
+    //CHANGING STRATEGY
     PandemicStrategy* tempStrategy = nullptr;
     if (this->levelStrategy!= nullptr) {
         tempStrategy = this->levelStrategy->changePandemicLevel(i);
@@ -63,8 +69,20 @@ void Pandemic::changeLevel(int i) {
         this->levelStrategy = new levelOneStrategy();
     }
 
+    //CHANGING POSTER
+    if (levelPoster == nullptr) {
+        delete this->levelPoster;
+    }
+    int level;
+    try {
+        level = stoi(getLevel().substr(getLevel().length() - 1, 1));
+    }
+    catch(std::invalid_argument& e){
+        level = 0;  //for case where "none" returns e
+    }
+    levelPoster = proto[level]->clone();
+    levelPoster->drawPoster();
 }
-
 
 string Pandemic::getLevel() {
     return this->levelState->getPandemicState();
@@ -112,4 +130,13 @@ void Pandemic::setInitialStrategy_State(int level) {
         default:
             cout << "You got it all wrong if you want the country to be at level " << level << endl;
     }
+}
+
+void Pandemic::initialisePosters() {
+    proto[0] = new Level0Proto();
+    proto[1] = new Level1Proto();
+    proto[2] = new Level2Proto();
+    proto[3] = new Level3Proto();
+    proto[4] = new Level4Proto();
+    proto[5] = new Level5Proto();
 }

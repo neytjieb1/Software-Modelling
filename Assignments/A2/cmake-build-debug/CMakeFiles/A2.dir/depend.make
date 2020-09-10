@@ -12,11 +12,6 @@ CMakeFiles/A2.dir/ImageAddOns.cpp.o: ../ImageElement.h
 CMakeFiles/A2.dir/ImageAddOns.cpp.o: ../Poster.h
 CMakeFiles/A2.dir/ImageAddOns.cpp.o: ../termcolor.h
 
-CMakeFiles/A2.dir/ImageElement.cpp.o: ../ImageElement.cpp
-CMakeFiles/A2.dir/ImageElement.cpp.o: ../ImageElement.h
-CMakeFiles/A2.dir/ImageElement.cpp.o: ../Poster.h
-CMakeFiles/A2.dir/ImageElement.cpp.o: ../termcolor.h
-
 CMakeFiles/A2.dir/LevelFiveState.cpp.o: ../LevelFiveState.cpp
 CMakeFiles/A2.dir/LevelFiveState.cpp.o: ../LevelFiveState.h
 CMakeFiles/A2.dir/LevelFiveState.cpp.o: ../LevelFourState.h
@@ -61,28 +56,34 @@ CMakeFiles/A2.dir/NoLevelState.cpp.o: ../LevelState.h
 CMakeFiles/A2.dir/NoLevelState.cpp.o: ../NoLevelState.cpp
 CMakeFiles/A2.dir/NoLevelState.cpp.o: ../NoLevelState.h
 
+CMakeFiles/A2.dir/Pandemic.cpp.o: ../BaseImage.h
+CMakeFiles/A2.dir/Pandemic.cpp.o: ../ImageAddOns.h
+CMakeFiles/A2.dir/Pandemic.cpp.o: ../ImageElement.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../LevelFiveState.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../LevelFourState.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../LevelOneState.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../LevelState.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../LevelThreeState.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../LevelTwoState.h
+CMakeFiles/A2.dir/Pandemic.cpp.o: ../Mask.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../NoLevelState.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../Pandemic.cpp
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../Pandemic.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../PandemicStrategy.h
+CMakeFiles/A2.dir/Pandemic.cpp.o: ../Poster.h
+CMakeFiles/A2.dir/Pandemic.cpp.o: ../PosterPrototype.h
+CMakeFiles/A2.dir/Pandemic.cpp.o: ../TemperatureCheck.h
+CMakeFiles/A2.dir/Pandemic.cpp.o: ../UseHandSanitiser.h
+CMakeFiles/A2.dir/Pandemic.cpp.o: ../WashHands.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../levelFiveStrategy.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../levelFourStrategy.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../levelOneStrategy.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../levelThreeStrategy.h
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../levelTwoStrategy.h
+CMakeFiles/A2.dir/Pandemic.cpp.o: ../termcolor.h
 
 CMakeFiles/A2.dir/PandemicStrategy.cpp.o: ../PandemicStrategy.cpp
 CMakeFiles/A2.dir/PandemicStrategy.cpp.o: ../PandemicStrategy.h
-
-CMakeFiles/A2.dir/Poster.cpp.o: ../Poster.cpp
-CMakeFiles/A2.dir/Poster.cpp.o: ../Poster.h
-CMakeFiles/A2.dir/Poster.cpp.o: ../termcolor.h
 
 CMakeFiles/A2.dir/TemperatureCheck.cpp.o: ../ImageAddOns.h
 CMakeFiles/A2.dir/TemperatureCheck.cpp.o: ../ImageElement.h
@@ -141,6 +142,7 @@ CMakeFiles/A2.dir/main.cpp.o: ../Mask.h
 CMakeFiles/A2.dir/main.cpp.o: ../Pandemic.h
 CMakeFiles/A2.dir/main.cpp.o: ../PandemicStrategy.h
 CMakeFiles/A2.dir/main.cpp.o: ../Poster.h
+CMakeFiles/A2.dir/main.cpp.o: ../PosterPrototype.h
 CMakeFiles/A2.dir/main.cpp.o: ../TemperatureCheck.h
 CMakeFiles/A2.dir/main.cpp.o: ../UseHandSanitiser.h
 CMakeFiles/A2.dir/main.cpp.o: ../WashHands.h

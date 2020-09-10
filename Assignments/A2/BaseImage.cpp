@@ -4,6 +4,7 @@
 
 #include "BaseImage.h"
 
+/*
 void BaseImage::drawPoster() {
 //header
     cout << termcolor::reset << termcolor::crossed;
@@ -41,3 +42,4 @@ BaseImage::BaseImage() {
 }
 
 void BaseImage::addLine(string line) {}
+*/

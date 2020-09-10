@@ -9,66 +9,64 @@
 #include "WashHands.h"
 #include "UseHandSanitiser.h"
 
+#include <string>
 void drawPoster(Poster *poster);
 
 int main() {
 
     ////*** ***SECTION A*** ***////
 
-    /* Pandemic* coronavirus = new Pandemic("Covid-19", 1);
-     cout << coronavirus->getName() << " at " << coronavirus->getLevel() << endl << endl;
+    Pandemic *coronavirus = new Pandemic("Covid-19", 1);
+    cout << coronavirus->getName() << " at " << coronavirus->getLevel() << endl << endl;
 
-     for (int i = 0; i < 5; ++i) {
-         coronavirus->increaseLevel();
-         coronavirus->takeAction();
-         cout << endl;
-     }
-     cout << coronavirus->getName() << " at " << coronavirus->getLevel() << endl << endl;
-     for (int i = 0; i < 6; ++i) {
-         coronavirus->decreaseLevel();
-         coronavirus->takeAction();
-         cout << endl;
-     }
-     cout << endl << coronavirus->getName() << " at " << coronavirus->getLevel() << endl << endl;
 
-     for (int i = 0; i < 6; ++i) {
-         coronavirus->increaseLevel();
-         coronavirus->takeAction();
-         cout << endl;
-     }*/
+    coronavirus->decreaseLevel();
+    cout << coronavirus->getName() << " at " << coronavirus->getLevel() << endl << endl;
+    for (int i = 0; i < 5; ++i) {
+        coronavirus->increaseLevel();
+        coronavirus->takeAction();
+        cout << endl;
+    }
+
+
+
+
+    /*cout << coronavirus->getName() << " at " << coronavirus->getLevel() << endl << endl;
+    for (int i = 0; i < 6; ++i) {
+        coronavirus->decreaseLevel();
+        coronavirus->takeAction();
+        cout << endl;
+    }
+    cout << endl << coronavirus->getName() << " at " << coronavirus->getLevel() << endl << endl;
+
+    for (int i = 0; i < 6; ++i) {
+        coronavirus->increaseLevel();
+        coronavirus->takeAction();
+        cout << endl;
+    }*/
 
 
     ////*** ***SECTION B*** ***////
-    Poster* e1;
-    e1 = new Mask();
+    /*Poster* test_poster;
+    Poster* e1 = new Mask();
     e1->addImage(new UseHandSanitiser());
-    e1->addImage(new Mask());
-    e1->addImage(new ImageElement());
+    e1->addImage(new TemperatureCheck());
+    e1->addImage(new WashHands());
+    e1->addImage(new ImageElement(5, Green));
+    test_poster = new BaseImage(5);
+    test_poster->addImage(e1);
+    test_poster->drawPoster();*/
 
-    Poster* e2;
-    e2 = new UseHandSanitiser();
-    e2->addImage(new ImageElement());
-    e2->addImage(new ImageElement());
 
-    Poster* e3 = new WashHands();
-    e3->addImage(new ImageElement());
+    ////*** ***SECTION C*** ***////
+    /*cout << "\n\nCLONE\n\n";
 
-    Poster* poster = new BaseImage();
-    poster->addImage(e1);
-    poster->addImage(e2);
-    poster->addImage(e3);
+    Poster* t= test_poster->clone();
+    t->setColor(Blue);
+    t->drawPoster();
 
-    for (int i = 0; i < 5; ++i) {
-        Poster* e = new WashHands();
-        e->addImage(new ImageElement());
-        poster->addImage(e);
-    }
+    delete test_poster;*/
 
-    poster->drawPoster();
-
-    delete e1;
-    delete e2;
-    delete poster;
 
     return 0;
 

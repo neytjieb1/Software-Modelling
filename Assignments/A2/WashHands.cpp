@@ -20,6 +20,7 @@
     }
     inFile.close();
 }*/
+/*
 
 WashHands::WashHands() {
     readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/washhands.txt");
@@ -34,3 +35,4 @@ void WashHands::drawPoster() {
 }
 
 WashHands::~WashHands() {}
+*/

@@ -6,11 +6,19 @@
 #define A_MASK_H
 #include "ImageAddOns.h"
 
-class Mask : public ImageAddOns{
+class Mask : public ImageAddOns {
 public:
-    Mask();
-    ~Mask();
-    void drawPoster() override;
+    Mask() : ImageAddOns() {
+        readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/mask_pic.txt");
+    }
+    void drawPoster() override {
+        for (string l: lines) {
+            addLine(l);
+        }
+        ImageAddOns::drawPoster();
+    }
+    ~Mask() {};
+
 };
 
 #endif //A_MASK_H

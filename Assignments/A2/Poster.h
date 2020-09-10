@@ -10,24 +10,29 @@
 using namespace std;
 
 class ImageAddOns;
+enum Colours {Red, Orange, Yellow, Blue, Green, White};
 
 class Poster {
 public:
-    Poster() {height = 0;};
+    Poster(int h, Colours c = White) {
+        height = h;
+        colour = c;};
     virtual void drawPoster() = 0;
     virtual void addLine(string line) = 0;
     virtual void addImage(Poster* i) = 0;
+    virtual void setColor(Colours c) = 0;
+    virtual Poster* clone() = 0;
+    Colours getColour() {return colour;};
     void setHeight(int h) {height = h;};
     int getHeight() {return height;};
     virtual ~Poster() {};
 
 private:
-    int height = 0;
+    int height;
 
 protected:
-    char borderPixel = '|';
-    int width = 30;
-
+    Colours colour;
+    char borderPixel = 'x';
 };
 
 

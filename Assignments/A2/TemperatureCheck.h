@@ -8,9 +8,16 @@
 
 class TemperatureCheck: public ImageAddOns {
 public:
-    TemperatureCheck() ;
-    ~TemperatureCheck();
-    void drawPoster() override;
+    TemperatureCheck() {
+        readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/temp_gun_pic.txt");
+    } ;
+    ~TemperatureCheck() {};
+    void drawPoster() override {
+        for (string l: lines) {
+            addLine(l);
+        }
+        ImageAddOns::drawPoster();
+    };
 };
 
 

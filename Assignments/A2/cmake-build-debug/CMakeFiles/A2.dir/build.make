@@ -103,22 +103,9 @@ CMakeFiles/A2.dir/ImageAddOns.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/ImageAddOns.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageAddOns.cpp -o CMakeFiles/A2.dir/ImageAddOns.cpp.s
 
-CMakeFiles/A2.dir/ImageElement.cpp.o: CMakeFiles/A2.dir/flags.make
-CMakeFiles/A2.dir/ImageElement.cpp.o: ../ImageElement.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/A2.dir/ImageElement.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/ImageElement.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageElement.cpp
-
-CMakeFiles/A2.dir/ImageElement.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/ImageElement.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageElement.cpp > CMakeFiles/A2.dir/ImageElement.cpp.i
-
-CMakeFiles/A2.dir/ImageElement.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/ImageElement.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageElement.cpp -o CMakeFiles/A2.dir/ImageElement.cpp.s
-
 CMakeFiles/A2.dir/LevelFiveState.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/LevelFiveState.cpp.o: ../LevelFiveState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/A2.dir/LevelFiveState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/A2.dir/LevelFiveState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/LevelFiveState.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelFiveState.cpp
 
 CMakeFiles/A2.dir/LevelFiveState.cpp.i: cmake_force
@@ -131,7 +118,7 @@ CMakeFiles/A2.dir/LevelFiveState.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/levelFiveStrategy.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/levelFiveStrategy.cpp.o: ../levelFiveStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/A2.dir/levelFiveStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/A2.dir/levelFiveStrategy.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/levelFiveStrategy.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/levelFiveStrategy.cpp
 
 CMakeFiles/A2.dir/levelFiveStrategy.cpp.i: cmake_force
@@ -144,7 +131,7 @@ CMakeFiles/A2.dir/levelFiveStrategy.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/LevelFourState.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/LevelFourState.cpp.o: ../LevelFourState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/A2.dir/LevelFourState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/A2.dir/LevelFourState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/LevelFourState.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelFourState.cpp
 
 CMakeFiles/A2.dir/LevelFourState.cpp.i: cmake_force
@@ -157,7 +144,7 @@ CMakeFiles/A2.dir/LevelFourState.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/levelFourStrategy.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/levelFourStrategy.cpp.o: ../levelFourStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/A2.dir/levelFourStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/A2.dir/levelFourStrategy.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/levelFourStrategy.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/levelFourStrategy.cpp
 
 CMakeFiles/A2.dir/levelFourStrategy.cpp.i: cmake_force
@@ -170,7 +157,7 @@ CMakeFiles/A2.dir/levelFourStrategy.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/LevelOneState.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/LevelOneState.cpp.o: ../LevelOneState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/A2.dir/LevelOneState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/A2.dir/LevelOneState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/LevelOneState.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelOneState.cpp
 
 CMakeFiles/A2.dir/LevelOneState.cpp.i: cmake_force
@@ -183,7 +170,7 @@ CMakeFiles/A2.dir/LevelOneState.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/levelOneStrategy.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/levelOneStrategy.cpp.o: ../levelOneStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/A2.dir/levelOneStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/A2.dir/levelOneStrategy.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/levelOneStrategy.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/levelOneStrategy.cpp
 
 CMakeFiles/A2.dir/levelOneStrategy.cpp.i: cmake_force
@@ -196,7 +183,7 @@ CMakeFiles/A2.dir/levelOneStrategy.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/LevelState.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/LevelState.cpp.o: ../LevelState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/A2.dir/LevelState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/A2.dir/LevelState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/LevelState.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelState.cpp
 
 CMakeFiles/A2.dir/LevelState.cpp.i: cmake_force
@@ -209,7 +196,7 @@ CMakeFiles/A2.dir/LevelState.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/LevelThreeState.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/LevelThreeState.cpp.o: ../LevelThreeState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/A2.dir/LevelThreeState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/A2.dir/LevelThreeState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/LevelThreeState.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelThreeState.cpp
 
 CMakeFiles/A2.dir/LevelThreeState.cpp.i: cmake_force
@@ -222,7 +209,7 @@ CMakeFiles/A2.dir/LevelThreeState.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/levelThreeStrategy.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/levelThreeStrategy.cpp.o: ../levelThreeStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/A2.dir/levelThreeStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/A2.dir/levelThreeStrategy.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/levelThreeStrategy.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/levelThreeStrategy.cpp
 
 CMakeFiles/A2.dir/levelThreeStrategy.cpp.i: cmake_force
@@ -235,7 +222,7 @@ CMakeFiles/A2.dir/levelThreeStrategy.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/LevelTwoState.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/LevelTwoState.cpp.o: ../LevelTwoState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/A2.dir/LevelTwoState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/A2.dir/LevelTwoState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/LevelTwoState.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelTwoState.cpp
 
 CMakeFiles/A2.dir/LevelTwoState.cpp.i: cmake_force
@@ -248,7 +235,7 @@ CMakeFiles/A2.dir/LevelTwoState.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/levelTwoStrategy.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/levelTwoStrategy.cpp.o: ../levelTwoStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/A2.dir/levelTwoStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/A2.dir/levelTwoStrategy.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/levelTwoStrategy.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/levelTwoStrategy.cpp
 
 CMakeFiles/A2.dir/levelTwoStrategy.cpp.i: cmake_force
@@ -261,7 +248,7 @@ CMakeFiles/A2.dir/levelTwoStrategy.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/main.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/A2.dir/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/A2.dir/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/main.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/main.cpp
 
 CMakeFiles/A2.dir/main.cpp.i: cmake_force
@@ -274,7 +261,7 @@ CMakeFiles/A2.dir/main.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/Mask.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Mask.cpp.o: ../Mask.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/A2.dir/Mask.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/A2.dir/Mask.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Mask.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Mask.cpp
 
 CMakeFiles/A2.dir/Mask.cpp.i: cmake_force
@@ -287,7 +274,7 @@ CMakeFiles/A2.dir/Mask.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/NoLevelState.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/NoLevelState.cpp.o: ../NoLevelState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/A2.dir/NoLevelState.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/A2.dir/NoLevelState.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/NoLevelState.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/NoLevelState.cpp
 
 CMakeFiles/A2.dir/NoLevelState.cpp.i: cmake_force
@@ -300,7 +287,7 @@ CMakeFiles/A2.dir/NoLevelState.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/Pandemic.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/Pandemic.cpp.o: ../Pandemic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/A2.dir/Pandemic.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/A2.dir/Pandemic.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Pandemic.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Pandemic.cpp
 
 CMakeFiles/A2.dir/Pandemic.cpp.i: cmake_force
@@ -313,7 +300,7 @@ CMakeFiles/A2.dir/Pandemic.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/PandemicStrategy.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/PandemicStrategy.cpp.o: ../PandemicStrategy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/A2.dir/PandemicStrategy.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/A2.dir/PandemicStrategy.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/PandemicStrategy.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/PandemicStrategy.cpp
 
 CMakeFiles/A2.dir/PandemicStrategy.cpp.i: cmake_force
@@ -324,22 +311,9 @@ CMakeFiles/A2.dir/PandemicStrategy.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/PandemicStrategy.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A2/PandemicStrategy.cpp -o CMakeFiles/A2.dir/PandemicStrategy.cpp.s
 
-CMakeFiles/A2.dir/Poster.cpp.o: CMakeFiles/A2.dir/flags.make
-CMakeFiles/A2.dir/Poster.cpp.o: ../Poster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/A2.dir/Poster.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/Poster.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.cpp
-
-CMakeFiles/A2.dir/Poster.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A2.dir/Poster.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.cpp > CMakeFiles/A2.dir/Poster.cpp.i
-
-CMakeFiles/A2.dir/Poster.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A2.dir/Poster.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.cpp -o CMakeFiles/A2.dir/Poster.cpp.s
-
 CMakeFiles/A2.dir/TemperatureCheck.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/TemperatureCheck.cpp.o: ../TemperatureCheck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/A2.dir/TemperatureCheck.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/A2.dir/TemperatureCheck.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/TemperatureCheck.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/TemperatureCheck.cpp
 
 CMakeFiles/A2.dir/TemperatureCheck.cpp.i: cmake_force
@@ -352,7 +326,7 @@ CMakeFiles/A2.dir/TemperatureCheck.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/UseHandSanitiser.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/UseHandSanitiser.cpp.o: ../UseHandSanitiser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/A2.dir/UseHandSanitiser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/A2.dir/UseHandSanitiser.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/UseHandSanitiser.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/UseHandSanitiser.cpp
 
 CMakeFiles/A2.dir/UseHandSanitiser.cpp.i: cmake_force
@@ -365,7 +339,7 @@ CMakeFiles/A2.dir/UseHandSanitiser.cpp.s: cmake_force
 
 CMakeFiles/A2.dir/WashHands.cpp.o: CMakeFiles/A2.dir/flags.make
 CMakeFiles/A2.dir/WashHands.cpp.o: ../WashHands.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/A2.dir/WashHands.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/A2.dir/WashHands.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A2.dir/WashHands.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A2/WashHands.cpp
 
 CMakeFiles/A2.dir/WashHands.cpp.i: cmake_force
@@ -380,7 +354,6 @@ CMakeFiles/A2.dir/WashHands.cpp.s: cmake_force
 A2_OBJECTS = \
 "CMakeFiles/A2.dir/BaseImage.cpp.o" \
 "CMakeFiles/A2.dir/ImageAddOns.cpp.o" \
-"CMakeFiles/A2.dir/ImageElement.cpp.o" \
 "CMakeFiles/A2.dir/LevelFiveState.cpp.o" \
 "CMakeFiles/A2.dir/levelFiveStrategy.cpp.o" \
 "CMakeFiles/A2.dir/LevelFourState.cpp.o" \
@@ -397,7 +370,6 @@ A2_OBJECTS = \
 "CMakeFiles/A2.dir/NoLevelState.cpp.o" \
 "CMakeFiles/A2.dir/Pandemic.cpp.o" \
 "CMakeFiles/A2.dir/PandemicStrategy.cpp.o" \
-"CMakeFiles/A2.dir/Poster.cpp.o" \
 "CMakeFiles/A2.dir/TemperatureCheck.cpp.o" \
 "CMakeFiles/A2.dir/UseHandSanitiser.cpp.o" \
 "CMakeFiles/A2.dir/WashHands.cpp.o"
@@ -407,7 +379,6 @@ A2_EXTERNAL_OBJECTS =
 
 A2: CMakeFiles/A2.dir/BaseImage.cpp.o
 A2: CMakeFiles/A2.dir/ImageAddOns.cpp.o
-A2: CMakeFiles/A2.dir/ImageElement.cpp.o
 A2: CMakeFiles/A2.dir/LevelFiveState.cpp.o
 A2: CMakeFiles/A2.dir/levelFiveStrategy.cpp.o
 A2: CMakeFiles/A2.dir/LevelFourState.cpp.o
@@ -424,13 +395,12 @@ A2: CMakeFiles/A2.dir/Mask.cpp.o
 A2: CMakeFiles/A2.dir/NoLevelState.cpp.o
 A2: CMakeFiles/A2.dir/Pandemic.cpp.o
 A2: CMakeFiles/A2.dir/PandemicStrategy.cpp.o
-A2: CMakeFiles/A2.dir/Poster.cpp.o
 A2: CMakeFiles/A2.dir/TemperatureCheck.cpp.o
 A2: CMakeFiles/A2.dir/UseHandSanitiser.cpp.o
 A2: CMakeFiles/A2.dir/WashHands.cpp.o
 A2: CMakeFiles/A2.dir/build.make
 A2: CMakeFiles/A2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable A2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable A2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/A2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

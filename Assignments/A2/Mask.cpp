@@ -22,6 +22,7 @@
     ImageAddOns::drawPoster();
 
 }*/
+/*
 
 Mask::Mask() {
     readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/maskAlert.txt");
@@ -36,3 +37,4 @@ void Mask::drawPoster() {
     }
     ImageAddOns::drawPoster();
 }
+*/

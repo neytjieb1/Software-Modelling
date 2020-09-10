@@ -7,6 +7,8 @@
 #include <string>
 #include "LevelState.h"
 #include "PandemicStrategy.h"
+#include "Poster.h"
+#include "PosterPrototype.h"
 
 using namespace std;
 
@@ -19,6 +21,10 @@ private:
     LevelState* levelState;
     PandemicStrategy* levelStrategy;
     void changeLevel(int);     //function to abstract functionality from increase- and decreaseLevel
+    void initialisePosters();
+
+    Poster* levelPoster;
+    PosterPrototype* proto[6];
 
 
 public:

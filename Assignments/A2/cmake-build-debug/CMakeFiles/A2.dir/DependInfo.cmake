@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/BaseImage.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/BaseImage.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageAddOns.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/ImageAddOns.cpp.o"
-  "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageElement.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/ImageElement.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelFiveState.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/LevelFiveState.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelFourState.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/LevelFourState.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelOneState.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/LevelOneState.cpp.o"
@@ -17,7 +16,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/NoLevelState.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/NoLevelState.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/Pandemic.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/Pandemic.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/PandemicStrategy.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/PandemicStrategy.cpp.o"
-  "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/Poster.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/TemperatureCheck.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/TemperatureCheck.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/UseHandSanitiser.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/UseHandSanitiser.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/WashHands.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A2/cmake-build-debug/CMakeFiles/A2.dir/WashHands.cpp.o"

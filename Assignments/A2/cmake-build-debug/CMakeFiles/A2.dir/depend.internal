@@ -12,11 +12,6 @@ CMakeFiles/A2.dir/ImageAddOns.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageElement.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/termcolor.h
-CMakeFiles/A2.dir/ImageElement.cpp.o
- /home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageElement.cpp
- /home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageElement.h
- /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.h
- /home/jo/CLionProjects/Software-Modelling/Assignments/A2/termcolor.h
 CMakeFiles/A2.dir/LevelFiveState.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelFiveState.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelFiveState.h
@@ -62,28 +57,34 @@ CMakeFiles/A2.dir/NoLevelState.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/NoLevelState.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/NoLevelState.h
 CMakeFiles/A2.dir/Pandemic.cpp.o
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A2/BaseImage.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageAddOns.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageElement.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelFiveState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelFourState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelOneState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelThreeState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/LevelTwoState.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Mask.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/NoLevelState.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Pandemic.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Pandemic.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/PandemicStrategy.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A2/PosterPrototype.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A2/TemperatureCheck.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A2/UseHandSanitiser.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A2/WashHands.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/levelFiveStrategy.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/levelFourStrategy.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/levelOneStrategy.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/levelThreeStrategy.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/levelTwoStrategy.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A2/termcolor.h
 CMakeFiles/A2.dir/PandemicStrategy.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/PandemicStrategy.cpp
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/PandemicStrategy.h
-CMakeFiles/A2.dir/Poster.cpp.o
- /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.cpp
- /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.h
- /home/jo/CLionProjects/Software-Modelling/Assignments/A2/termcolor.h
 CMakeFiles/A2.dir/TemperatureCheck.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageAddOns.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageElement.h
@@ -142,6 +143,7 @@ CMakeFiles/A2.dir/main.cpp.o
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Pandemic.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/PandemicStrategy.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.h
+ /home/jo/CLionProjects/Software-Modelling/Assignments/A2/PosterPrototype.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/TemperatureCheck.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/UseHandSanitiser.h
  /home/jo/CLionProjects/Software-Modelling/Assignments/A2/WashHands.h

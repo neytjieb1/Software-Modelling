@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -30,15 +33,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22799b0c-1b72-4824-8ce2-42cf1c16385f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PosterPrototype.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaseImage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BaseImage.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaseImage.h" beforeDir="false" afterPath="$PROJECT_DIR$/BaseImage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ImageAddOns.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageAddOns.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ImageAddOns.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageAddOns.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImageElement.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ImageElement.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageElement.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ImageElement.h" beforeDir="false" afterPath="$PROJECT_DIR$/ImageElement.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mask.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Mask.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mask.h" beforeDir="false" afterPath="$PROJECT_DIR$/Mask.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandemic.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Pandemic.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandemic.h" beforeDir="false" afterPath="$PROJECT_DIR$/Pandemic.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poster.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Poster.h" beforeDir="false" afterPath="$PROJECT_DIR$/Poster.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TemperatureCheck.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureCheck.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TemperatureCheck.h" beforeDir="false" afterPath="$PROJECT_DIR$/TemperatureCheck.h" afterDir="false" />
@@ -46,11 +54,38 @@
       <change beforePath="$PROJECT_DIR$/UseHandSanitiser.h" beforeDir="false" afterPath="$PROJECT_DIR$/UseHandSanitiser.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WashHands.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/WashHands.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WashHands.h" beforeDir="false" afterPath="$PROJECT_DIR$/WashHands.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/A2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/A2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/BaseImage.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/BaseImage.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/ImageAddOns.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/ImageAddOns.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/ImageElement.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/Mask.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/Mask.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/Pandemic.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/Pandemic.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/Poster.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/TemperatureCheck.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/TemperatureCheck.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/UseHandSanitiser.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/UseHandSanitiser.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/WashHands.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/WashHands.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maskAlert.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maskAlert.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanitiser.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sanitiser.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tempCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tempCheck.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/washhands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/washhands.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/Decorator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/Decorator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/Poster.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/DecoratorIronOut" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/cmake-build-debug/DecoratorIronOut" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Factory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Factory.h" afterDir="false" />
@@ -93,7 +128,6 @@
       <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/memo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/memo.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/memo.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/memo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/memosender.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/memosender.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/memosender.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/memosender.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/readme.md" afterDir="false" />
     </list>
@@ -162,7 +196,7 @@
       <workItem from="1599208390229" duration="261000" />
       <workItem from="1599472575132" duration="9778000" />
       <workItem from="1599547234531" duration="18136000" />
-      <workItem from="1599627957208" duration="3655000" />
+      <workItem from="1599627957208" duration="14537000" />
     </task>
     <servers />
   </component>
@@ -182,54 +216,58 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser" timestamp="1599667769621">
+    <state x="278" y="60" width="800" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599668158246">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser/0.30.1366.738@0.30.1366.738" timestamp="1599667769621" />
+    <state x="278" y="60" width="800" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1366.738@0.30.1366.738" timestamp="1599668158246" />
+    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser" timestamp="1599728304749">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser/0.30.1366.738@0.30.1366.738" timestamp="1599728304749" />
     <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598948724845">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1366.738@0.30.1366.738" timestamp="1598948724845" />
-    <state width="886" height="434" key="GridCell.Tab.0.bottom" timestamp="1599668018107">
+    <state width="886" height="434" key="GridCell.Tab.0.bottom" timestamp="1599731134822">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="886" height="434" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1599668018107" />
-    <state width="886" height="434" key="GridCell.Tab.0.center" timestamp="1599668018107">
+    <state width="886" height="434" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1599731134822" />
+    <state width="886" height="434" key="GridCell.Tab.0.center" timestamp="1599731134822">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="886" height="434" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1599668018107" />
-    <state width="886" height="434" key="GridCell.Tab.0.left" timestamp="1599668018106">
+    <state width="886" height="434" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1599731134822" />
+    <state width="886" height="434" key="GridCell.Tab.0.left" timestamp="1599731134821">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="886" height="434" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1599668018106" />
-    <state width="886" height="434" key="GridCell.Tab.0.right" timestamp="1599668018107">
+    <state width="886" height="434" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1599731134821" />
+    <state width="886" height="434" key="GridCell.Tab.0.right" timestamp="1599731134822">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="886" height="434" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1599668018107" />
-    <state width="1320" height="233" key="GridCell.Tab.1.bottom" timestamp="1599590644386">
+    <state width="886" height="434" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1599731134822" />
+    <state width="1320" height="233" key="GridCell.Tab.1.bottom" timestamp="1599730644598">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1320" height="233" key="GridCell.Tab.1.bottom/0.30.1366.738@0.30.1366.738" timestamp="1599590644386" />
-    <state width="1320" height="233" key="GridCell.Tab.1.center" timestamp="1599590644386">
+    <state width="1320" height="233" key="GridCell.Tab.1.bottom/0.30.1366.738@0.30.1366.738" timestamp="1599730644598" />
+    <state width="1320" height="233" key="GridCell.Tab.1.center" timestamp="1599730644597">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1320" height="233" key="GridCell.Tab.1.center/0.30.1366.738@0.30.1366.738" timestamp="1599590644386" />
-    <state width="1320" height="233" key="GridCell.Tab.1.left" timestamp="1599590644386">
+    <state width="1320" height="233" key="GridCell.Tab.1.center/0.30.1366.738@0.30.1366.738" timestamp="1599730644597" />
+    <state width="1320" height="233" key="GridCell.Tab.1.left" timestamp="1599730644597">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1320" height="233" key="GridCell.Tab.1.left/0.30.1366.738@0.30.1366.738" timestamp="1599590644386" />
-    <state width="1320" height="233" key="GridCell.Tab.1.right" timestamp="1599590644386">
+    <state width="1320" height="233" key="GridCell.Tab.1.left/0.30.1366.738@0.30.1366.738" timestamp="1599730644597" />
+    <state width="1320" height="233" key="GridCell.Tab.1.right" timestamp="1599730644598">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state width="1320" height="233" key="GridCell.Tab.1.right/0.30.1366.738@0.30.1366.738" timestamp="1599590644386" />
+    <state width="1320" height="233" key="GridCell.Tab.1.right/0.30.1366.738@0.30.1366.738" timestamp="1599730644598" />
     <state x="187" y="34" width="992" height="733" key="SettingsEditor" timestamp="1598462587212">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
     <state x="187" y="34" width="992" height="733" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1598462587212" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1599588065394">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1599668152691">
       <screen x="0" y="30" width="1366" height="738" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.30.1366.738@0.30.1366.738" timestamp="1599588065394" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.30.1366.738@0.30.1366.738" timestamp="1599668152691" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -253,6 +291,16 @@
           <url>file://$PROJECT_DIR$/TemperatureCheck.cpp</url>
           <line>7</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/BaseImage.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Mask.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

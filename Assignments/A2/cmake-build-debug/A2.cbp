@@ -98,9 +98,6 @@
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageAddOns.h">
 			<Option target="A2"/>
 		</Unit>
-		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageElement.cpp">
-			<Option target="A2"/>
-		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A2/ImageElement.h">
 			<Option target="A2"/>
 		</Unit>
@@ -164,10 +161,10 @@
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A2/PandemicStrategy.h">
 			<Option target="A2"/>
 		</Unit>
-		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.cpp">
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.h">
 			<Option target="A2"/>
 		</Unit>
-		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A2/Poster.h">
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A2/PosterPrototype.h">
 			<Option target="A2"/>
 		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A2/TemperatureCheck.cpp">

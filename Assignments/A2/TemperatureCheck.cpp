@@ -5,7 +5,7 @@
 #include "TemperatureCheck.h"
 
 
-TemperatureCheck::TemperatureCheck() {
+/*TemperatureCheck::TemperatureCheck() {
     readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/tempCheck.txt");
 }
 
@@ -18,4 +18,4 @@ void TemperatureCheck::drawPoster() {
         addLine(l);
     }
     ImageAddOns::drawPoster();
-}
+}*/

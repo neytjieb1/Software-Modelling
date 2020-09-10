@@ -20,7 +20,7 @@
 
     return string(newLine.begin(), newLine.end());
 }*/
-ImageAddOns::ImageAddOns() {
+/*ImageAddOns::ImageAddOns() {
     topping = nullptr;
 }
 
@@ -64,4 +64,4 @@ void ImageAddOns::readFile(string filename) {
         lines.push_back(line);
     }
     inFile.close();
-}
+}*/

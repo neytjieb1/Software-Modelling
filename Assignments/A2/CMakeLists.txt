@@ -10,7 +10,6 @@ add_executable(A2
         BaseImage.h
         ImageAddOns.cpp
         ImageAddOns.h
-        ImageElement.cpp
         ImageElement.h
         LevelFiveState.cpp
         LevelFiveState.h
@@ -43,7 +42,6 @@ add_executable(A2
         Pandemic.h
         PandemicStrategy.cpp
         PandemicStrategy.h
-        Poster.cpp
         Poster.h
         TemperatureCheck.cpp
         TemperatureCheck.h
@@ -51,4 +49,4 @@ add_executable(A2
         UseHandSanitiser.cpp
         UseHandSanitiser.h
         WashHands.cpp
-        WashHands.h)
+        WashHands.h PosterPrototype.h)

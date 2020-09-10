@@ -5,6 +5,7 @@
 #include "UseHandSanitiser.h"
 
 
+/*
 UseHandSanitiser::UseHandSanitiser() {
     readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/sanitiser.txt");
 }
@@ -18,3 +19,4 @@ void UseHandSanitiser::drawPoster() {
 }
 
 UseHandSanitiser::~UseHandSanitiser() {}
+*/
