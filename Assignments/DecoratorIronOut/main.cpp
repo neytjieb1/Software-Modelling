@@ -6,18 +6,17 @@ using  namespace std;
 
 
 int main() {
-    Poster* test_poster;
 
+    //TESTING DRAWING. WORKS PERFECTLY
+    /*Poster* test_poster;
     Poster* e1 = new Mask();
     e1->addImage(new UseHandSanitiser());
     e1->addImage(new TemperatureCheck());
     e1->addImage(new WashHands());
     e1->addImage(new ImageElement(5, Green));
-
-
     test_poster = new BaseImage(5);
     test_poster->addImage(e1);
-    test_poster->drawPoster();
+    test_poster->drawPoster();*/
 
     //Poster* t= test_poster->clone();
     //t->drawPoster();

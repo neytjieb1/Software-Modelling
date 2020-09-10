@@ -36,6 +36,7 @@ private:
     Colours colour;
 
 protected:
+    char borderPixel = 'x';
     Colours getColour() {
 /*
         switch (colour) {
@@ -93,7 +94,7 @@ public:
                 cout << termcolor::reset;
         }
         for (string l: lines) {
-            cout << 'x' << l << 'x' << endl;
+            cout << borderPixel << " " << l << " " << borderPixel << endl;
         }
 
     };
@@ -132,12 +133,15 @@ public:
     }
     void addLine(string line) override {};
     void drawPoster() override {
-        string endLine = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-        cout <<termcolor::white << endLine << endl;
+        string endLine = " THE MESSAGE IS FROM THE GOVERNMENT ";
+        for (int i = 0; i < 14; ++i) {
+            endLine = borderPixel + endLine + borderPixel;
+        }
+        cout <<termcolor::white << termcolor::bold << termcolor::italic << endLine << endl;
         for (Poster* p: imageHeight) {
             p->drawPoster();
         }
-        cout << termcolor::reset << endLine << endl;
+        cout <<termcolor::white << termcolor::bold << termcolor::italic << endLine << endl;
     };
     void addImage(Poster *i) override {
         if (imageHeight.size() < getHeight()) {
@@ -221,7 +225,6 @@ private:
 class Mask : public Decorator {
 public:
     Mask() : Decorator() {
-        //readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/maskAlert.txt");
         readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/mask_pic.txt");
     }
     void drawPoster() override {
@@ -237,7 +240,6 @@ public:
 class TemperatureCheck: public Decorator {
 public:
     TemperatureCheck() {
-        //readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/tempCheck.txt");
         readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/temp_gun_pic.txt");
     } ;
     ~TemperatureCheck() {};
@@ -252,7 +254,6 @@ public:
 class WashHands : public Decorator {
 public:
     WashHands() : Decorator() {
-        //readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/washhands.txt");
         readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/washHands_pic.txt");
     }
     void drawPoster() override {
@@ -267,7 +268,6 @@ public:
 class UseHandSanitiser : public Decorator{
 public:
     UseHandSanitiser() {
-        //readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/sanitiser.txt");
         readFile("/home/jo/CLionProjects/Software-Modelling/Assignments/A2/sanitiser_pic.txt");
     };
     void drawPoster() override {
