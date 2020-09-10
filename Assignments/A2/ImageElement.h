@@ -40,8 +40,7 @@ public:
         }
 
     };
-
-
+    void drawImageElements() override {}
     Poster * clone() override {
         vector<string> clonedLines;
         for (string l: lines) {

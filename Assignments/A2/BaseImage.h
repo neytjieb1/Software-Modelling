@@ -30,6 +30,11 @@ public:
         }
         cout <<termcolor::white << termcolor::bold << termcolor::italic << endLine << termcolor::reset << endl;
     };
+    void drawImageElements() override {
+        for (Poster* p: imageHeight) {
+            p->drawImageElements();
+        }
+    };
     void addImage(Poster *i) override {
         if (imageHeight.size() < getHeight()) {
             imageHeight.push_back( i);

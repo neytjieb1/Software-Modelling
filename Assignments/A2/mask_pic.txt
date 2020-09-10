@@ -3,33 +3,13 @@
                 ║║║╠═╣╚═╗╠╩╗  ╠═╣║  ║╣ ╠╦╝ ║                
                 ╩ ╩╩ ╩╚═╝╩ ╩  ╩ ╩╩═╝╚═╝╩╚═ ╩                
                                                             
-MMMMMMMMMMMMMMMMMMWWWWWNNXXKKKKKKKXNWWWWWWWMMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMWWWWX0kxolc:;;;,,;;;:cloxk0XWWWWMMMMMMMMMMMMMM
-MMMMMMMMMMMWWWX0xl:,'...''''''''..''..'',:lx0XWWWMMMMMMMMMMM
-MMMMMMMMWWWN0dc,''''''''''..'''''''...'''''',cd0NWWWMMMMMMMM
-MMMMMMMWWXOl,'.'''''''',;lodxxxxxxddoc;'''''''',lONWWMMMMMMM
-MMMMMWWNOl,'''.''''',cdkkxdlcc:ccclodxkxo:'''''.',lONWWMMMMM
-MMMMWWKo,'''.''.'',okkd:,'...'''....'';lxOx:''''''',oKWWMMMM
-MMWWW0c'''''.''''ckOl,'.''.''..'''''''''':x0d;'''''''c0WWWMM
-MMWNO:'''''.''.'l0x;'.'''''''''''''''''''''lOk:'''''.':OWWWM
-MWW0:'''''''.''l0x,'''''''''''''''''''''''''c0k;.'''''':0WWM
-WWXl'..''''''.;kO:.',,'''''''''''''''''''''''oKo'''..'''lXWW
-WWk,'''.''''''oKd''l0Kx;''''''''''''''''..'',oKx,''''''',kWW
-WXl''''''.''.;kO:.'ckOd,''.'''..''.'',;cldxOOKNk,''''''''lXW
-W0:.'''''..':xX0ollllc;''..'',,;:loxkO0OOkdlcdKx,'''''''.:0W
-W0;.''''''.:0WMMWWWWWNXklcoxkOO00Okdoc:,''.',x0c''''''''.;0W
-W0:.''.''''lXMMMMMMMMMMMN0kxolc:;,'....'''.,d0o'.'''''''.:0W
-WKc''''''''lXMMMMMMMMMMMXl'.'''''''''''''',d0o,'''.''''''cKW
-WNd'..''''.cKMMMMMMMMMMMNd''''..''''.....,d0o'''.'.''''''dNW
-WW0:'.''.'';OWMMMMMMMMMMM0lcccccccccccccldKx,.''.''''''':0WW
-WWNx,'''''.'oXMMMMMMMMMMMN0kkkkkkkkkkkkkOX0c''''''.'''',xNWW
-MWWXo,'''''',xNMMMMMMMMMW0c''''''''''''':0k,.''''''''.,dXWWM
-MMWWXd,'''''',xXNXKK00NKd;'''''''.''''''c0x,.'''''''',dXWWMM
-MMMWWNx;'''''.,;:;;,'c0k,.''''''''.''''.c0x''''''''';xNWWMMM
-MMMMWWN0l,''''''''''';k0l;;;;;:;;;;;;;;:xKo''''''',l0WWWMMMM
-MMMMMMWWNOc,'.''''''.':dxxxxxxxxxxxxxxxxxl,''''',lONWWMMMMMM
-MMMMMMMWWWNOo;'''''''''.''''''''''''''''''''.';oONWWMMMMMMMM
-MMMMMMMMMMWWNKko:,''''''.'''''''''''''''''':okKNWWMMMMMMMMMM
-MMMMMMMMMMMMWWWWX0xoc;,'''...'''..''',;coxOXWWWWMMMMMMMMMMMM
-MMMMMMMMMMMMMMMWWWWWNX0OkxxddddddxxkO0XNWWWWMMMMMMMMMMMMMMMM
-MMMMMMMMMMMMMMMMMMMWWWWWWWWWWWWWWWWWWWWWWMMMMMMMMMMMMMMMMMMM
+                          .;cllc;.                          
+                      .:oOKNNNNNNKOo:.                      
+                  .,lkKNNNNNNNNNNNNNNKkl'.                  
+           ';,,,,:kK0OO0KXXNNNNNNXXK0OO0Kk:,,,,;'           
+         .:c.    ,kkxk0KXNNNNNNNNNNXK0kxkk,    .c:.         
+         .cc.    ,kOOKXNNNNNNNNNNNNNNXKOOk,     cc.         
+          .,;,;,,lOOkO0KXXNNNNNNNNNXK0OkOOl,,,,;,.          
+              ....,oOXNNNNNNNNNNNNNNNNXOo,....              
+                    .':ldkO000000Okdl:'.                    
+                           ......                           

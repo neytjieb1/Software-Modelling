@@ -20,6 +20,7 @@ public:
     virtual void drawPoster() = 0;
     virtual void addLine(string line) = 0;
     virtual void addImage(Poster* i) = 0;
+    virtual void drawImageElements() = 0;
     virtual void setColor(Colours c) = 0;
     virtual Poster* clone() = 0;
     Colours getColour() {return colour;};

@@ -40,6 +40,12 @@ public:
             topping->drawPoster();
         }
     }
+    void drawImageElements() override{
+        if (topping == nullptr) return;
+        else {
+            topping->drawImageElements();
+        }
+    }
     Poster * clone() override {
         if (topping== nullptr) {
             return nullptr;

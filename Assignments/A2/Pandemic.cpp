@@ -43,7 +43,6 @@ void Pandemic::increaseLevel() {
     }
 }
 
-
 void Pandemic::decreaseLevel() {
     if (this->levelState->getPandemicState() == "none") {
         cout << "If we need a level below 0, South Africa can take its place on the world stage. Let's stay at 0" << endl;

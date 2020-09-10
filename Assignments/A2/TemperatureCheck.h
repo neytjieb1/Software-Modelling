@@ -13,11 +13,14 @@ public:
     } ;
     ~TemperatureCheck() {};
     void drawPoster() override {
+        ImageAddOns::drawPoster();
+    };
+    void drawImageElements() override {
         for (string l: lines) {
             addLine(l);
         }
-        ImageAddOns::drawPoster();
-    };
+        ImageAddOns::drawImageElements();
+    }
 };
 
 
