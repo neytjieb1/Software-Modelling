@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/A3.dir/Task2/main.cpp.o CMakeFiles/A3.dir/Task1/marks.cpp.o CMakeFiles/A3.dir/Task1/capture.cpp.o CMakeFiles/A3.dir/Task2/Human.cpp.o CMakeFiles/A3.dir/Task2/Subject.cpp.o CMakeFiles/A3.dir/Task2/Observers.cpp.o CMakeFiles/A3.dir/Task2/Prisoner.cpp.o CMakeFiles/A3.dir/Task2/PrisonArea.cpp.o CMakeFiles/A3.dir/Task2/BorderGuard.cpp.o  -o A3 
