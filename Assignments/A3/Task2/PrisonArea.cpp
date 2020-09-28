@@ -14,9 +14,10 @@ PrisonArea::PrisonArea(double width, double height) : mWidth(width), mHeight(hei
 }
 
 PrisonArea::~PrisonArea() {
-    for (BorderGuard *bg: mBorderGuards) {
+    while (mBorderGuards.size()!=0){
         mBorderGuards.pop_back();
     }
+    delete mPrisoner;
 }
 
 

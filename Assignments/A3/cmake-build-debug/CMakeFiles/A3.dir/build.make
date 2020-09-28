@@ -194,6 +194,123 @@ CMakeFiles/A3.dir/Task2/BorderGuard.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/Task2/BorderGuard.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/BorderGuard.cpp -o CMakeFiles/A3.dir/Task2/BorderGuard.cpp.s
 
+CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o: CMakeFiles/A3.dir/flags.make
+CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o: ../Task3/DynamicArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/DynamicArray.cpp
+
+CMakeFiles/A3.dir/Task3/DynamicArray.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A3.dir/Task3/DynamicArray.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/DynamicArray.cpp > CMakeFiles/A3.dir/Task3/DynamicArray.cpp.i
+
+CMakeFiles/A3.dir/Task3/DynamicArray.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/Task3/DynamicArray.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/DynamicArray.cpp -o CMakeFiles/A3.dir/Task3/DynamicArray.cpp.s
+
+CMakeFiles/A3.dir/Task3/main.cpp.o: CMakeFiles/A3.dir/flags.make
+CMakeFiles/A3.dir/Task3/main.cpp.o: ../Task3/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/A3.dir/Task3/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A3.dir/Task3/main.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/main.cpp
+
+CMakeFiles/A3.dir/Task3/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A3.dir/Task3/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/main.cpp > CMakeFiles/A3.dir/Task3/main.cpp.i
+
+CMakeFiles/A3.dir/Task3/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/Task3/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/main.cpp -o CMakeFiles/A3.dir/Task3/main.cpp.s
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o: CMakeFiles/A3.dir/flags.make
+CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o: ../Task4_IncorrectOne/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/test.cpp
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/test.cpp > CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.i
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/test.cpp -o CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.s
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.o: CMakeFiles/A3.dir/flags.make
+CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.o: ../Task4_IncorrectOne/User.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/User.cpp
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/User.cpp > CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.i
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/User.cpp -o CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.s
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o: CMakeFiles/A3.dir/flags.make
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o: ../Task4_IncorrectOne/SocialSiteMediator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteMediator.cpp
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteMediator.cpp > CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.i
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteMediator.cpp -o CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.s
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o: CMakeFiles/A3.dir/flags.make
+CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o: ../Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp > CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.i
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp -o CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.s
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o: CMakeFiles/A3.dir/flags.make
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o: ../Task4_IncorrectOne/SocialSiteUser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteUser.cpp
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteUser.cpp > CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.i
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteUser.cpp -o CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.s
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.o: CMakeFiles/A3.dir/flags.make
+CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.o: ../Task4_IncorrectOne/Inbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/Inbox.cpp
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/Inbox.cpp > CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.i
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/Inbox.cpp -o CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.s
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.o: CMakeFiles/A3.dir/flags.make
+CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.o: ../Task4_IncorrectOne/OldStatus.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/OldStatus.cpp
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/OldStatus.cpp > CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.i
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/OldStatus.cpp -o CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.s
+
 # Object files for target A3
 A3_OBJECTS = \
 "CMakeFiles/A3.dir/Task2/main.cpp.o" \
@@ -204,7 +321,16 @@ A3_OBJECTS = \
 "CMakeFiles/A3.dir/Task2/Observers.cpp.o" \
 "CMakeFiles/A3.dir/Task2/Prisoner.cpp.o" \
 "CMakeFiles/A3.dir/Task2/PrisonArea.cpp.o" \
-"CMakeFiles/A3.dir/Task2/BorderGuard.cpp.o"
+"CMakeFiles/A3.dir/Task2/BorderGuard.cpp.o" \
+"CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o" \
+"CMakeFiles/A3.dir/Task3/main.cpp.o" \
+"CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o" \
+"CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.o" \
+"CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o" \
+"CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o" \
+"CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o" \
+"CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.o" \
+"CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.o"
 
 # External object files for target A3
 A3_EXTERNAL_OBJECTS =
@@ -218,9 +344,18 @@ A3: CMakeFiles/A3.dir/Task2/Observers.cpp.o
 A3: CMakeFiles/A3.dir/Task2/Prisoner.cpp.o
 A3: CMakeFiles/A3.dir/Task2/PrisonArea.cpp.o
 A3: CMakeFiles/A3.dir/Task2/BorderGuard.cpp.o
+A3: CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o
+A3: CMakeFiles/A3.dir/Task3/main.cpp.o
+A3: CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o
+A3: CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.o
+A3: CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o
+A3: CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o
+A3: CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o
+A3: CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.o
+A3: CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.o
 A3: CMakeFiles/A3.dir/build.make
 A3: CMakeFiles/A3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable A3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable A3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/A3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

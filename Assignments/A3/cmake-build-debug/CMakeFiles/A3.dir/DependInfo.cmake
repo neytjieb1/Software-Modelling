@@ -13,6 +13,15 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/Prisoner.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task2/Prisoner.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/Subject.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task2/Subject.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/main.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task2/main.cpp.o"
+  "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/DynamicArray.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o"
+  "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/main.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task3/main.cpp.o"
+  "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o"
+  "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/Inbox.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.o"
+  "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/OldStatus.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.o"
+  "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteMediator.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o"
+  "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteUser.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o"
+  "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/User.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.o"
+  "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/test.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A3/cmake-build-debug/CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

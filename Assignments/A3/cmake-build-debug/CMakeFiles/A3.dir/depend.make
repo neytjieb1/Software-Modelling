@@ -44,3 +44,51 @@ CMakeFiles/A3.dir/Task2/main.cpp.o: ../Task2/Prisoner.h
 CMakeFiles/A3.dir/Task2/main.cpp.o: ../Task2/Subject.h
 CMakeFiles/A3.dir/Task2/main.cpp.o: ../Task2/main.cpp
 
+CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o: ../Task3/ConcreteIterator.cpp
+CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o: ../Task3/ConcreteIterator.h
+CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o: ../Task3/DynamicArray.cpp
+CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o: ../Task3/DynamicArray.h
+CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o: ../Task3/Iterator.h
+CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o: ../Task3/LinearStructure.h
+CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o: ../Task3/Node.h
+
+CMakeFiles/A3.dir/Task3/main.cpp.o: ../Task3/ConcreteIterator.h
+CMakeFiles/A3.dir/Task3/main.cpp.o: ../Task3/DynamicArray.h
+CMakeFiles/A3.dir/Task3/main.cpp.o: ../Task3/Iterator.h
+CMakeFiles/A3.dir/Task3/main.cpp.o: ../Task3/LinearStructure.h
+CMakeFiles/A3.dir/Task3/main.cpp.o: ../Task3/Node.h
+CMakeFiles/A3.dir/Task3/main.cpp.o: ../Task3/main.cpp
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o: ../Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp
+CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o: ../Task4_IncorrectOne/ConcreteSocialSiteMediator.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o: ../Task4_IncorrectOne/Inbox.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o: ../Task4_IncorrectOne/OldStatus.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o: ../Task4_IncorrectOne/SocialSiteMediator.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o: ../Task4_IncorrectOne/SocialSiteUser.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o: ../Task4_IncorrectOne/User.h
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.o: ../Task4_IncorrectOne/Inbox.cpp
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.o: ../Task4_IncorrectOne/OldStatus.cpp
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o: ../Task4_IncorrectOne/SocialSiteMediator.cpp
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o: ../Task4_IncorrectOne/SocialSiteMediator.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o: ../Task4_IncorrectOne/User.h
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o: ../Task4_IncorrectOne/Inbox.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o: ../Task4_IncorrectOne/OldStatus.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o: ../Task4_IncorrectOne/SocialSiteUser.cpp
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o: ../Task4_IncorrectOne/SocialSiteUser.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o: ../Task4_IncorrectOne/User.h
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.o: ../Task4_IncorrectOne/User.cpp
+CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.o: ../Task4_IncorrectOne/User.h
+
+CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o: ../Task4_IncorrectOne/ConcreteSocialSiteMediator.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o: ../Task4_IncorrectOne/Inbox.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o: ../Task4_IncorrectOne/OldStatus.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o: ../Task4_IncorrectOne/SocialSiteMediator.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o: ../Task4_IncorrectOne/SocialSiteUser.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o: ../Task4_IncorrectOne/User.h
+CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o: ../Task4_IncorrectOne/test.cpp
+

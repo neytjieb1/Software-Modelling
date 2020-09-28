@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include "Prisoner.h"
 #include "BorderGuard.h"
@@ -5,26 +6,35 @@
 
 int main() {
     PrisonArea *prisonArea = new PrisonArea(10, 6);
-    prisonArea->print();
-/*    cout << "UP UP" << endl;
-    prisonArea->getPrisoner()->runTowards(Up);
-    prisonArea->getPrisoner()->runTowards(Up);
-    prisonArea->print();
-
-    cout << "UP" << endl;
-    prisonArea->getPrisoner()->runTowards(Up);
-    prisonArea->print();*/
+    //prisonArea->print();
 
     cout << "RIGHT RIGHT RIGHT RIGHT" << endl;
-    prisonArea->getPrisoner()->runTowards(Right);
-    prisonArea->getPrisoner()->runTowards(Right);
-    prisonArea->getPrisoner()->runTowards(Right);
-    prisonArea->getPrisoner()->runTowards(Right);
-    prisonArea->print();
+    for (int i = 0; i < 4; ++i) {
+        prisonArea->getPrisoner()->runTowards(Right);
+    }
+    //prisonArea->print();
 
     cout << "RIGHT" << endl;
     prisonArea->getPrisoner()->runTowards(Right);
     prisonArea->print();
 
-    prisonArea->printGuards();
+    */
+/*cout << "\n\nUP AND LEFT" << endl;
+    for (int i = 0; i < 3; ++i) {
+        prisonArea->getPrisoner()->runTowards(Up);
+        prisonArea->getPrisoner()->runTowards(Left);
+        prisonArea->getPrisoner()->runTowards(Left);
+    }
+    prisonArea->print();
+
+    cout << "UP" << endl;
+    prisonArea->getPrisoner()->runTowards(Up);
+    prisonArea->print();*//*
+
+
+    delete prisonArea;
+
+    return 0;
+
 }
+*/

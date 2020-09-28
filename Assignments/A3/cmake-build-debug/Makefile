@@ -386,6 +386,249 @@ Task2/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task2/main.cpp.s
 .PHONY : Task2/main.cpp.s
 
+Task3/DynamicArray.o: Task3/DynamicArray.cpp.o
+
+.PHONY : Task3/DynamicArray.o
+
+# target to build an object file
+Task3/DynamicArray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o
+.PHONY : Task3/DynamicArray.cpp.o
+
+Task3/DynamicArray.i: Task3/DynamicArray.cpp.i
+
+.PHONY : Task3/DynamicArray.i
+
+# target to preprocess a source file
+Task3/DynamicArray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task3/DynamicArray.cpp.i
+.PHONY : Task3/DynamicArray.cpp.i
+
+Task3/DynamicArray.s: Task3/DynamicArray.cpp.s
+
+.PHONY : Task3/DynamicArray.s
+
+# target to generate assembly for a file
+Task3/DynamicArray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task3/DynamicArray.cpp.s
+.PHONY : Task3/DynamicArray.cpp.s
+
+Task3/main.o: Task3/main.cpp.o
+
+.PHONY : Task3/main.o
+
+# target to build an object file
+Task3/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task3/main.cpp.o
+.PHONY : Task3/main.cpp.o
+
+Task3/main.i: Task3/main.cpp.i
+
+.PHONY : Task3/main.i
+
+# target to preprocess a source file
+Task3/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task3/main.cpp.i
+.PHONY : Task3/main.cpp.i
+
+Task3/main.s: Task3/main.cpp.s
+
+.PHONY : Task3/main.s
+
+# target to generate assembly for a file
+Task3/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task3/main.cpp.s
+.PHONY : Task3/main.cpp.s
+
+Task4_IncorrectOne/ConcreteSocialSiteMediator.o: Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o
+
+.PHONY : Task4_IncorrectOne/ConcreteSocialSiteMediator.o
+
+# target to build an object file
+Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o
+.PHONY : Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o
+
+Task4_IncorrectOne/ConcreteSocialSiteMediator.i: Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.i
+
+.PHONY : Task4_IncorrectOne/ConcreteSocialSiteMediator.i
+
+# target to preprocess a source file
+Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.i
+.PHONY : Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.i
+
+Task4_IncorrectOne/ConcreteSocialSiteMediator.s: Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.s
+
+.PHONY : Task4_IncorrectOne/ConcreteSocialSiteMediator.s
+
+# target to generate assembly for a file
+Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.s
+.PHONY : Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.s
+
+Task4_IncorrectOne/Inbox.o: Task4_IncorrectOne/Inbox.cpp.o
+
+.PHONY : Task4_IncorrectOne/Inbox.o
+
+# target to build an object file
+Task4_IncorrectOne/Inbox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.o
+.PHONY : Task4_IncorrectOne/Inbox.cpp.o
+
+Task4_IncorrectOne/Inbox.i: Task4_IncorrectOne/Inbox.cpp.i
+
+.PHONY : Task4_IncorrectOne/Inbox.i
+
+# target to preprocess a source file
+Task4_IncorrectOne/Inbox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.i
+.PHONY : Task4_IncorrectOne/Inbox.cpp.i
+
+Task4_IncorrectOne/Inbox.s: Task4_IncorrectOne/Inbox.cpp.s
+
+.PHONY : Task4_IncorrectOne/Inbox.s
+
+# target to generate assembly for a file
+Task4_IncorrectOne/Inbox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.s
+.PHONY : Task4_IncorrectOne/Inbox.cpp.s
+
+Task4_IncorrectOne/OldStatus.o: Task4_IncorrectOne/OldStatus.cpp.o
+
+.PHONY : Task4_IncorrectOne/OldStatus.o
+
+# target to build an object file
+Task4_IncorrectOne/OldStatus.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.o
+.PHONY : Task4_IncorrectOne/OldStatus.cpp.o
+
+Task4_IncorrectOne/OldStatus.i: Task4_IncorrectOne/OldStatus.cpp.i
+
+.PHONY : Task4_IncorrectOne/OldStatus.i
+
+# target to preprocess a source file
+Task4_IncorrectOne/OldStatus.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.i
+.PHONY : Task4_IncorrectOne/OldStatus.cpp.i
+
+Task4_IncorrectOne/OldStatus.s: Task4_IncorrectOne/OldStatus.cpp.s
+
+.PHONY : Task4_IncorrectOne/OldStatus.s
+
+# target to generate assembly for a file
+Task4_IncorrectOne/OldStatus.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.s
+.PHONY : Task4_IncorrectOne/OldStatus.cpp.s
+
+Task4_IncorrectOne/SocialSiteMediator.o: Task4_IncorrectOne/SocialSiteMediator.cpp.o
+
+.PHONY : Task4_IncorrectOne/SocialSiteMediator.o
+
+# target to build an object file
+Task4_IncorrectOne/SocialSiteMediator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o
+.PHONY : Task4_IncorrectOne/SocialSiteMediator.cpp.o
+
+Task4_IncorrectOne/SocialSiteMediator.i: Task4_IncorrectOne/SocialSiteMediator.cpp.i
+
+.PHONY : Task4_IncorrectOne/SocialSiteMediator.i
+
+# target to preprocess a source file
+Task4_IncorrectOne/SocialSiteMediator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.i
+.PHONY : Task4_IncorrectOne/SocialSiteMediator.cpp.i
+
+Task4_IncorrectOne/SocialSiteMediator.s: Task4_IncorrectOne/SocialSiteMediator.cpp.s
+
+.PHONY : Task4_IncorrectOne/SocialSiteMediator.s
+
+# target to generate assembly for a file
+Task4_IncorrectOne/SocialSiteMediator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.s
+.PHONY : Task4_IncorrectOne/SocialSiteMediator.cpp.s
+
+Task4_IncorrectOne/SocialSiteUser.o: Task4_IncorrectOne/SocialSiteUser.cpp.o
+
+.PHONY : Task4_IncorrectOne/SocialSiteUser.o
+
+# target to build an object file
+Task4_IncorrectOne/SocialSiteUser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o
+.PHONY : Task4_IncorrectOne/SocialSiteUser.cpp.o
+
+Task4_IncorrectOne/SocialSiteUser.i: Task4_IncorrectOne/SocialSiteUser.cpp.i
+
+.PHONY : Task4_IncorrectOne/SocialSiteUser.i
+
+# target to preprocess a source file
+Task4_IncorrectOne/SocialSiteUser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.i
+.PHONY : Task4_IncorrectOne/SocialSiteUser.cpp.i
+
+Task4_IncorrectOne/SocialSiteUser.s: Task4_IncorrectOne/SocialSiteUser.cpp.s
+
+.PHONY : Task4_IncorrectOne/SocialSiteUser.s
+
+# target to generate assembly for a file
+Task4_IncorrectOne/SocialSiteUser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.s
+.PHONY : Task4_IncorrectOne/SocialSiteUser.cpp.s
+
+Task4_IncorrectOne/User.o: Task4_IncorrectOne/User.cpp.o
+
+.PHONY : Task4_IncorrectOne/User.o
+
+# target to build an object file
+Task4_IncorrectOne/User.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.o
+.PHONY : Task4_IncorrectOne/User.cpp.o
+
+Task4_IncorrectOne/User.i: Task4_IncorrectOne/User.cpp.i
+
+.PHONY : Task4_IncorrectOne/User.i
+
+# target to preprocess a source file
+Task4_IncorrectOne/User.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.i
+.PHONY : Task4_IncorrectOne/User.cpp.i
+
+Task4_IncorrectOne/User.s: Task4_IncorrectOne/User.cpp.s
+
+.PHONY : Task4_IncorrectOne/User.s
+
+# target to generate assembly for a file
+Task4_IncorrectOne/User.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.s
+.PHONY : Task4_IncorrectOne/User.cpp.s
+
+Task4_IncorrectOne/test.o: Task4_IncorrectOne/test.cpp.o
+
+.PHONY : Task4_IncorrectOne/test.o
+
+# target to build an object file
+Task4_IncorrectOne/test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o
+.PHONY : Task4_IncorrectOne/test.cpp.o
+
+Task4_IncorrectOne/test.i: Task4_IncorrectOne/test.cpp.i
+
+.PHONY : Task4_IncorrectOne/test.i
+
+# target to preprocess a source file
+Task4_IncorrectOne/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.i
+.PHONY : Task4_IncorrectOne/test.cpp.i
+
+Task4_IncorrectOne/test.s: Task4_IncorrectOne/test.cpp.s
+
+.PHONY : Task4_IncorrectOne/test.s
+
+# target to generate assembly for a file
+Task4_IncorrectOne/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A3.dir/build.make CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.s
+.PHONY : Task4_IncorrectOne/test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -422,6 +665,33 @@ help:
 	@echo "... Task2/main.o"
 	@echo "... Task2/main.i"
 	@echo "... Task2/main.s"
+	@echo "... Task3/DynamicArray.o"
+	@echo "... Task3/DynamicArray.i"
+	@echo "... Task3/DynamicArray.s"
+	@echo "... Task3/main.o"
+	@echo "... Task3/main.i"
+	@echo "... Task3/main.s"
+	@echo "... Task4_IncorrectOne/ConcreteSocialSiteMediator.o"
+	@echo "... Task4_IncorrectOne/ConcreteSocialSiteMediator.i"
+	@echo "... Task4_IncorrectOne/ConcreteSocialSiteMediator.s"
+	@echo "... Task4_IncorrectOne/Inbox.o"
+	@echo "... Task4_IncorrectOne/Inbox.i"
+	@echo "... Task4_IncorrectOne/Inbox.s"
+	@echo "... Task4_IncorrectOne/OldStatus.o"
+	@echo "... Task4_IncorrectOne/OldStatus.i"
+	@echo "... Task4_IncorrectOne/OldStatus.s"
+	@echo "... Task4_IncorrectOne/SocialSiteMediator.o"
+	@echo "... Task4_IncorrectOne/SocialSiteMediator.i"
+	@echo "... Task4_IncorrectOne/SocialSiteMediator.s"
+	@echo "... Task4_IncorrectOne/SocialSiteUser.o"
+	@echo "... Task4_IncorrectOne/SocialSiteUser.i"
+	@echo "... Task4_IncorrectOne/SocialSiteUser.s"
+	@echo "... Task4_IncorrectOne/User.o"
+	@echo "... Task4_IncorrectOne/User.i"
+	@echo "... Task4_IncorrectOne/User.s"
+	@echo "... Task4_IncorrectOne/test.o"
+	@echo "... Task4_IncorrectOne/test.i"
+	@echo "... Task4_IncorrectOne/test.s"
 .PHONY : help
 
 

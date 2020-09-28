@@ -10,6 +10,15 @@ file(REMOVE_RECURSE
   "CMakeFiles/A3.dir/Task2/Prisoner.cpp.o"
   "CMakeFiles/A3.dir/Task2/Subject.cpp.o"
   "CMakeFiles/A3.dir/Task2/main.cpp.o"
+  "CMakeFiles/A3.dir/Task3/DynamicArray.cpp.o"
+  "CMakeFiles/A3.dir/Task3/main.cpp.o"
+  "CMakeFiles/A3.dir/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp.o"
+  "CMakeFiles/A3.dir/Task4_IncorrectOne/Inbox.cpp.o"
+  "CMakeFiles/A3.dir/Task4_IncorrectOne/OldStatus.cpp.o"
+  "CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteMediator.cpp.o"
+  "CMakeFiles/A3.dir/Task4_IncorrectOne/SocialSiteUser.cpp.o"
+  "CMakeFiles/A3.dir/Task4_IncorrectOne/User.cpp.o"
+  "CMakeFiles/A3.dir/Task4_IncorrectOne/test.cpp.o"
 )
 
 # Per-language clean rules from dependency scanning.

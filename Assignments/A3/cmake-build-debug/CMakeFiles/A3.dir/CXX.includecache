@@ -20,10 +20,6 @@ iostream
 
 /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/Observers.h
 
-/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/PrisonArea.cpp
-PrisonArea.h
-/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/PrisonArea.h
-
 /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/PrisonArea.h
 Prisoner.h
 /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/Prisoner.h
@@ -43,4 +39,14 @@ Observers.h
 /home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/Observers.h
 vector
 -
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/main.cpp
+iostream
+-
+Prisoner.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/Prisoner.h
+BorderGuard.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/BorderGuard.h
+PrisonArea.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/PrisonArea.h
 

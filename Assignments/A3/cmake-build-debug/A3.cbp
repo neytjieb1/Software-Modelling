@@ -129,6 +129,57 @@
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task2/main.cpp">
 			<Option target="A3"/>
 		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/DynamicArray.cpp">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/DynamicArray.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/LinearStructure.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task3/main.cpp">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/ConcreteSocialSiteMediator.cpp">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/ConcreteSocialSiteMediator.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/Inbox.cpp">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/Inbox.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/OldStatus.cpp">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/OldStatus.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteMediator.cpp">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteMediator.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteUser.cpp">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/SocialSiteUser.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/User.cpp">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/User.h">
+			<Option target="A3"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/Task4_IncorrectOne/test.cpp">
+			<Option target="A3"/>
+		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
