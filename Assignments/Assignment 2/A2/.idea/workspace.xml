@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="22799b0c-1b72-4824-8ce2-42cf1c16385f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/A.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseImage.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseImage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageAddOns.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageAddOns.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageElement.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelFiveState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelFiveState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelFourState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelFourState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelOneState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelOneState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelThreeState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelThreeState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelTwoState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LevelTwoState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mask.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoLevelState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoLevelState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandemic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandemic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PandemicStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PandemicStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Poster.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PosterPrototype.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemperatureCheck.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemperatureCheck.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseHandSanitiser.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UseHandSanitiser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WashHands.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WashHands.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/A2.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/BaseImage.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/ImageAddOns.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/ImageElement.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/LevelFiveState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/LevelFourState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/LevelOneState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/LevelState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/LevelThreeState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/LevelTwoState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/Mask.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/NoLevelState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/Pandemic.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/PandemicStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/Poster.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/TemperatureCheck.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/UseHandSanitiser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/WashHands.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/levelFiveStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/levelFourStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/levelOneStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/levelThreeStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/levelTwoStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/BaseImage.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/ImageAddOns.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/LevelFiveState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/LevelFourState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/LevelOneState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/LevelState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/LevelThreeState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/LevelTwoState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/Mask.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/NoLevelState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/Pandemic.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/PandemicStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/TemperatureCheck.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/UseHandSanitiser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/WashHands.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/levelFiveStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/levelFourStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/levelOneStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/levelThreeStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/levelTwoStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/A2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/levelFiveStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/levelFiveStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/levelFourStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/levelFourStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/levelOneStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/levelOneStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/levelThreeStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/levelThreeStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/levelTwoStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/levelTwoStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mask_pic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanitiser_pic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_gun_pic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp_pic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/termcolor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/washHands_pic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DecoratorIronOut/Decorator.h" beforeDir="false" afterPath="$PROJECT_DIR$/../DecoratorIronOut/Decorator.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Factory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Factory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Shape.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Shape.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/ShapesAbstractFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/ShapesAbstractFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Sweet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Sweet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Sweet.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/Sweet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/AbstractFactory/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/Component.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/GraphicMemory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/GraphicMemory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/Pizza.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/Pizza.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SalesOrder.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SalesOrder.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SalesTicket.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SalesTicket.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SomeClass.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/SomeClass.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Composite_Decorator/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Decorator_Composite/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Decorator_Composite/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Decorator_Composite/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Decorator_Composite/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Decorator_Composite/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Decorator_Composite/main.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Strategy_State/State/Context.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Strategy_State/State/Context.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Strategy_State/State/Context.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Strategy_State/State/Context.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Strategy_State/State/State.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Strategy_State/State/State.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Strategy_State/State/State.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Strategy_State/State/State.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Examples/ClassExamples/Strategy_State/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Examples/ClassExamples/Strategy_State/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/MemoTypes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/MemoTypes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/MemoTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/MemoTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/Staff.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/Staff.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/memo.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/memo.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/memosender.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/memosender.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/Tut2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/Tut2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/cmake-build-debug/Tut2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/memo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/memo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/memo.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/memo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/memosender.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/memosender.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tutorials/Tut2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tutorials/Tut2/readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1ge2IAcOpmDxJHubWVLlBmtWd5X" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Assignment 2/A2" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22799b0c-1b72-4824-8ce2-42cf1c16385f" name="Default Changelist" comment="" />
+      <created>1598460654897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598460654897</updated>
+      <workItem from="1598460656214" duration="29000" />
+      <workItem from="1598461571294" duration="6218000" />
+      <workItem from="1598591896466" duration="2590000" />
+      <workItem from="1598620178727" duration="2215000" />
+      <workItem from="1598867840651" duration="6905000" />
+      <workItem from="1598961192636" duration="533000" />
+      <workItem from="1598961797204" duration="2940000" />
+      <workItem from="1599059111115" duration="319000" />
+      <workItem from="1599208390229" duration="261000" />
+      <workItem from="1599472575132" duration="9778000" />
+      <workItem from="1599547234531" duration="18136000" />
+      <workItem from="1599627957208" duration="23369000" />
+      <workItem from="1599759422974" duration="84000" />
+      <workItem from="1599759518162" duration="25000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="278" y="60" width="800" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599668158246">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="278" y="60" width="800" height="680" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1366.738@0.30.1366.738" timestamp="1599668158246" />
+    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser" timestamp="1599728304749">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="491" y="118" width="374" height="565" key="#com.intellij.ide.util.MemberChooser/0.30.1366.738@0.30.1366.738" timestamp="1599728304749" />
+    <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598948724845">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="416" y="148" width="524" height="504" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1366.738@0.30.1366.738" timestamp="1598948724845" />
+    <state x="466" y="157" width="424" height="487" key="FileChooserDialogImpl" timestamp="1599759540350">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="466" y="157" width="424" height="487" key="FileChooserDialogImpl/0.30.1366.738@0.30.1366.738" timestamp="1599759540350" />
+    <state width="1366" height="674" key="GridCell.Tab.0.bottom" timestamp="1599753935536">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1366" height="674" key="GridCell.Tab.0.bottom/0.30.1366.738@0.30.1366.738" timestamp="1599753935536" />
+    <state width="1366" height="674" key="GridCell.Tab.0.center" timestamp="1599753935536">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1366" height="674" key="GridCell.Tab.0.center/0.30.1366.738@0.30.1366.738" timestamp="1599753935536" />
+    <state width="1366" height="674" key="GridCell.Tab.0.left" timestamp="1599753935536">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1366" height="674" key="GridCell.Tab.0.left/0.30.1366.738@0.30.1366.738" timestamp="1599753935536" />
+    <state width="1366" height="674" key="GridCell.Tab.0.right" timestamp="1599753935536">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1366" height="674" key="GridCell.Tab.0.right/0.30.1366.738@0.30.1366.738" timestamp="1599753935536" />
+    <state width="1320" height="233" key="GridCell.Tab.1.bottom" timestamp="1599753935533">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1320" height="233" key="GridCell.Tab.1.bottom/0.30.1366.738@0.30.1366.738" timestamp="1599753935533" />
+    <state width="1320" height="233" key="GridCell.Tab.1.center" timestamp="1599753935533">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1320" height="233" key="GridCell.Tab.1.center/0.30.1366.738@0.30.1366.738" timestamp="1599753935533" />
+    <state width="1320" height="233" key="GridCell.Tab.1.left" timestamp="1599753935533">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1320" height="233" key="GridCell.Tab.1.left/0.30.1366.738@0.30.1366.738" timestamp="1599753935533" />
+    <state width="1320" height="233" key="GridCell.Tab.1.right" timestamp="1599753935533">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state width="1320" height="233" key="GridCell.Tab.1.right/0.30.1366.738@0.30.1366.738" timestamp="1599753935533" />
+    <state x="187" y="34" width="992" height="733" key="SettingsEditor" timestamp="1598462587212">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="187" y="34" width="992" height="733" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1598462587212" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1599668152691">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.30.1366.738@0.30.1366.738" timestamp="1599668152691" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Pandemic.h</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/WashHands.cpp</url>
+          <line>7</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Mask.cpp</url>
+          <line>19</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/TemperatureCheck.cpp</url>
+          <line>7</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/BaseImage.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Mask.cpp</url>
+          <line>37</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>61</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/ImageAddOns.h</url>
+          <line>70</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

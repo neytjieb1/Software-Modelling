@@ -1,0 +1,328 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/BaseImage.cpp
+BaseImage.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/BaseImage.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/BaseImage.h
+Poster.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Poster.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/ImageAddOns.cpp
+ImageAddOns.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/ImageAddOns.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/ImageAddOns.h
+Poster.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Poster.h
+ImageElement.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/ImageElement.h
+fstream
+-
+iostream
+-
+cstring
+-
+vector
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/ImageElement.h
+Poster.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Poster.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelFiveState.cpp
+LevelFourState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelFourState.h
+LevelFiveState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelFiveState.h
+iostream
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelFiveState.h
+LevelState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelState.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelFourState.cpp
+LevelThreeState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelThreeState.h
+LevelFourState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelFourState.h
+LevelFiveState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelFiveState.h
+iostream
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelFourState.h
+LevelState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelState.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelOneState.cpp
+NoLevelState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/NoLevelState.h
+LevelOneState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelOneState.h
+LevelTwoState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelTwoState.h
+iostream
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelOneState.h
+LevelState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelState.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelState.cpp
+LevelState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelState.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelState.h
+string
+-
+iostream
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelThreeState.cpp
+LevelTwoState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelTwoState.h
+LevelThreeState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelThreeState.h
+LevelFourState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelFourState.h
+iostream
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelThreeState.h
+LevelState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelState.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelTwoState.cpp
+LevelOneState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelOneState.h
+LevelTwoState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelTwoState.h
+LevelThreeState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelThreeState.h
+iostream
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelTwoState.h
+LevelState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelState.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Mask.cpp
+Mask.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Mask.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Mask.h
+ImageAddOns.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/ImageAddOns.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/NoLevelState.cpp
+LevelOneState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelOneState.h
+NoLevelState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/NoLevelState.h
+iostream
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/NoLevelState.h
+LevelState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelState.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Pandemic.cpp
+Pandemic.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Pandemic.h
+NoLevelState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/NoLevelState.h
+LevelOneState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelOneState.h
+LevelTwoState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelTwoState.h
+LevelThreeState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelThreeState.h
+LevelFourState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelFourState.h
+LevelFiveState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelFiveState.h
+PandemicStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PandemicStrategy.h
+levelOneStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelOneStrategy.h
+levelTwoStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelTwoStrategy.h
+levelThreeStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelThreeStrategy.h
+levelFourStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelFourStrategy.h
+levelFiveStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelFiveStrategy.h
+iostream
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Pandemic.h
+string
+-
+LevelState.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/LevelState.h
+PandemicStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PandemicStrategy.h
+Poster.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Poster.h
+PosterPrototype.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PosterPrototype.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PandemicStrategy.cpp
+PandemicStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PandemicStrategy.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PandemicStrategy.h
+string
+-
+iostream
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Poster.cpp
+Poster.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Poster.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Poster.h
+termcolor.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/termcolor.h
+iostream
+-
+vector
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PosterPrototype.h
+BaseImage.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/BaseImage.h
+WashHands.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/WashHands.h
+Mask.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Mask.h
+TemperatureCheck.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/TemperatureCheck.h
+UseHandSanitiser.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/UseHandSanitiser.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/TemperatureCheck.cpp
+TemperatureCheck.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/TemperatureCheck.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/TemperatureCheck.h
+ImageAddOns.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/ImageAddOns.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/UseHandSanitiser.cpp
+UseHandSanitiser.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/UseHandSanitiser.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/UseHandSanitiser.h
+ImageAddOns.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/ImageAddOns.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/WashHands.cpp
+WashHands.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/WashHands.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/WashHands.h
+ImageAddOns.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/ImageAddOns.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelFiveStrategy.cpp
+levelFiveStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelFiveStrategy.h
+levelFourStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelFourStrategy.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelFiveStrategy.h
+PandemicStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PandemicStrategy.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelFourStrategy.cpp
+levelThreeStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelThreeStrategy.h
+levelFourStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelFourStrategy.h
+levelFiveStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelFiveStrategy.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelFourStrategy.h
+PandemicStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PandemicStrategy.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelOneStrategy.cpp
+levelOneStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelOneStrategy.h
+levelTwoStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelTwoStrategy.h
+iostream
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelOneStrategy.h
+PandemicStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PandemicStrategy.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelThreeStrategy.cpp
+levelTwoStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelTwoStrategy.h
+levelThreeStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelThreeStrategy.h
+levelFourStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelFourStrategy.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelThreeStrategy.h
+PandemicStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PandemicStrategy.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelTwoStrategy.cpp
+levelOneStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelOneStrategy.h
+levelTwoStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelTwoStrategy.h
+levelThreeStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelThreeStrategy.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/levelTwoStrategy.h
+PandemicStrategy.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/PandemicStrategy.h
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/main.cpp
+iostream
+-
+Pandemic.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Pandemic.h
+vector
+-
+termcolor.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/termcolor.h
+BaseImage.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/BaseImage.h
+Mask.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/Mask.h
+TemperatureCheck.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/TemperatureCheck.h
+WashHands.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/WashHands.h
+UseHandSanitiser.h
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/UseHandSanitiser.h
+string
+-
+
+/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 2/A2/termcolor.h
+unistd.h
+-
+io.h
+-
+windows.h
+-
+iostream
+-
+cstdio
+-
+

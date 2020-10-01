@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8500dcd-c42b-48e2-9986-71feed2ac887" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../A3/Task1/capture.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A3/Task1/marks.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A3/Task2/Human.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A3/Task2/Human.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A3/Task2/Observers.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A3/Task2/Observers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A3/Task2/Prisoner.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A3/Task2/Prisoner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A3/Task2/Subject.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A3/Task2/Subject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../A3/Task2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/.idea/A.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/BaseImage.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/BaseImage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/ImageAddOns.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/ImageAddOns.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/ImageElement.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelFiveState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelFiveState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelFourState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelFourState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelOneState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelOneState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelThreeState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelThreeState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelTwoState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/LevelTwoState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/Mask.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/Mask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/NoLevelState.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/NoLevelState.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/Pandemic.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/Pandemic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/PandemicStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/PandemicStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/Poster.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/PosterPrototype.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/TemperatureCheck.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/TemperatureCheck.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/UseHandSanitiser.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/UseHandSanitiser.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/WashHands.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/WashHands.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/A" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/A.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/A2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/A2.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/BaseImage.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/ImageAddOns.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/ImageElement.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/LevelFiveState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/LevelFourState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/LevelOneState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/LevelState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/LevelThreeState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/LevelTwoState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/Mask.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/NoLevelState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/Pandemic.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/PandemicStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/Poster.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/TemperatureCheck.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/UseHandSanitiser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/WashHands.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/levelFiveStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/levelFourStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/levelOneStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/levelThreeStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/levelTwoStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/BaseImage.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/ImageAddOns.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/LevelFiveState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/LevelFourState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/LevelOneState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/LevelState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/LevelThreeState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/LevelTwoState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/Mask.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/NoLevelState.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/Pandemic.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/PandemicStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/TemperatureCheck.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/UseHandSanitiser.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/WashHands.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/levelFiveStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/levelFourStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/levelOneStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/levelThreeStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/levelTwoStrategy.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/A2.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/levelFiveStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/levelFiveStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/levelFourStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/levelFourStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/levelOneStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/levelOneStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/levelThreeStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/levelThreeStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/levelTwoStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/levelTwoStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/mask_pic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/sanitiser_pic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/temp_gun_pic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/temp_pic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/termcolor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../A2/washHands_pic.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/.idea/DecoratorIronOut.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/Decorator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/Prototype.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/3.17.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/3.17.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/3.17.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/3.17.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/DependInfo.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/build.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/cmake_clean.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/depend.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/flags.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/link.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/DecoratorIronOut.dir/progress.make" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/DecoratorIronOut" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/DecoratorIronOut.cbp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../DecoratorIronOut/termcolor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/Factory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/Factory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/Shape.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/Shape.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/ShapesAbstractFactory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/ShapesAbstractFactory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/Sweet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/Sweet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/Sweet.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/Sweet.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/AbstractFactory/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/Component.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/GraphicMemory.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/GraphicMemory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/Pizza.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/Pizza.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/SalesOrder.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/SalesOrder.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/SalesTicket.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/SalesTicket.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/SomeClass.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/SomeClass.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Composite_Decorator/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Decorator_Composite/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Decorator_Composite/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Decorator_Composite/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Decorator_Composite/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Decorator_Composite/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Decorator_Composite/main.cu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Strategy_State/State/Context.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Strategy_State/State/Context.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Strategy_State/State/Context.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Strategy_State/State/Context.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Strategy_State/State/State.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Strategy_State/State/State.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Strategy_State/State/State.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Strategy_State/State/State.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Examples/ClassExamples/Strategy_State/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Examples/ClassExamples/Strategy_State/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/MemoTypes.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/MemoTypes.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/MemoTypes.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/MemoTypes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/Staff.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/Staff.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/memo.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/memo.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/memosender.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/memosender.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/Tut2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/Tut2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/cmake-build-debug/Tut2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/memo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/memo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/memo.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/memo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/memosender.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/memosender.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Tutorials/Tut2/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Tutorials/Tut2/readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1hKlD9k9zg7zGEyVEvDieAORyXy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SectionB/Readme.md" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8500dcd-c42b-48e2-9986-71feed2ac887" name="Default Changelist" comment="" />
+      <created>1599767542283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599767542283</updated>
+      <workItem from="1599767543352" duration="2969000" />
+      <workItem from="1600098851268" duration="20000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="445" y="202" width="465" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599767569831">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="445" y="202" width="465" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1366.738@0.30.1366.738" timestamp="1599767569831" />
+    <state x="466" y="157" width="424" height="487" key="FileChooserDialogImpl" timestamp="1599767770815">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="466" y="157" width="424" height="487" key="FileChooserDialogImpl/0.30.1366.738@0.30.1366.738" timestamp="1599767770815" />
+    <state x="187" y="34" width="992" height="733" key="SettingsEditor" timestamp="1600098870256">
+      <screen x="0" y="30" width="1366" height="738" />
+    </state>
+    <state x="187" y="34" width="992" height="733" key="SettingsEditor/0.30.1366.738@0.30.1366.738" timestamp="1600098870256" />
+  </component>
+</project>
