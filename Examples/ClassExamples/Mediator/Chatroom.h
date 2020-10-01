@@ -21,7 +21,7 @@ class Chatroom {  // Mediator
     void broadcast(string);
     bool talkTo(int,string);
     void leave(int);
-//    virtual ~Chatroom();  // Will need to implement.  Cannot remove chatters but can make them 0
+    virtual ~Chatroom() {};  // Will need to implement.  Cannot remove chatters but can make them 0
                             // The Participants in the vector can then be removed. 
   protected:
     vector<Participant*> participant;
@@ -31,7 +31,7 @@ class Chatroom {  // Mediator
 class ModuleChatroom : public Chatroom {  // Concrete Mediator
   public:
     ModuleChatroom(string);
-//    virtual ~ModuleChatroom();
+    virtual ~ModuleChatroom();
   protected:
     string name;
 };

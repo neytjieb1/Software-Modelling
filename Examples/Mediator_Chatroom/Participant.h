@@ -5,6 +5,7 @@
 #ifndef MEDIATOR_CHATROOM_PARTICIPANT_H
 #define MEDIATOR_CHATROOM_PARTICIPANT_H
 
+class Chatter;
 
 class Participant {
 public:

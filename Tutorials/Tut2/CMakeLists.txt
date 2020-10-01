@@ -3,4 +3,4 @@ project(Tut2)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Tut2 main.cpp memo.cpp memo.h memosender.cpp memosender.h MemoTypes.cpp MemoTypes.h)
+add_executable(Tut2 main.cpp memo.cpp memo.h memosender.h MemoTypes.h Staff.h MemoTypes.cpp)

@@ -224,33 +224,6 @@ memo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut2.dir/build.make CMakeFiles/Tut2.dir/memo.cpp.s
 .PHONY : memo.cpp.s
 
-memosender.o: memosender.cpp.o
-
-.PHONY : memosender.o
-
-# target to build an object file
-memosender.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut2.dir/build.make CMakeFiles/Tut2.dir/memosender.cpp.o
-.PHONY : memosender.cpp.o
-
-memosender.i: memosender.cpp.i
-
-.PHONY : memosender.i
-
-# target to preprocess a source file
-memosender.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut2.dir/build.make CMakeFiles/Tut2.dir/memosender.cpp.i
-.PHONY : memosender.cpp.i
-
-memosender.s: memosender.cpp.s
-
-.PHONY : memosender.s
-
-# target to generate assembly for a file
-memosender.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Tut2.dir/build.make CMakeFiles/Tut2.dir/memosender.cpp.s
-.PHONY : memosender.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -269,9 +242,6 @@ help:
 	@echo "... memo.o"
 	@echo "... memo.i"
 	@echo "... memo.s"
-	@echo "... memosender.o"
-	@echo "... memosender.i"
-	@echo "... memosender.s"
 .PHONY : help
 
 

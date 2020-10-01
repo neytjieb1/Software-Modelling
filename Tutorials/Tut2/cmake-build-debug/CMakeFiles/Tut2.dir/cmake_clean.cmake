@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Tut2.dir/MemoTypes.cpp.o"
   "CMakeFiles/Tut2.dir/main.cpp.o"
   "CMakeFiles/Tut2.dir/memo.cpp.o"
-  "CMakeFiles/Tut2.dir/memosender.cpp.o"
   "Tut2"
   "Tut2.pdb"
 )

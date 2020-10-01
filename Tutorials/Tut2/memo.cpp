@@ -15,6 +15,11 @@ Memo::Memo(const Memo& memo)
     mSignature = memo.mSignature;
 }
 
-void Memo::send(string method) {
 
-}
+/*Memo *Memo::clone() {
+    return new Memo(this->mDate, this->mMessage, this->mSignature);
+}*/
+
+/*void Memo::send(Staff *staffMember) {
+
+}*/

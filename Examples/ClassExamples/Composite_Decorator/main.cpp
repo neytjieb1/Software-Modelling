@@ -1,131 +1,50 @@
 #include <iostream>
-
+#include "SalesOrder.h"
+#include "SomeClass.h"
+#include "SalesTicket.h"
 using namespace std;
+#include "GraphicMemory.h"
+#include "Pizza.h"
 
-class Component {
-public:
-    virtual void printTicket() = 0;
-    virtual ~Component() {};
-};
-
-class SalesTicket: public Component {
-public:
-    void printTicket();
-    virtual ~SalesTicket() {};
-};
-
-void SalesTicket::printTicket() {
-    cout<<"Cash Sale Ticket"<<endl;
-}
-
-class SomeClass: public Component {
-public:
-    virtual void printTicket();
-    SomeClass(Component* myC);
-    // Need to add a destructor - MUST be virtual
-    virtual ~SomeClass();
-private:
-    Component *myComp;
-};
+/*int main(){
+    Ellipse* e1 = new Ellipse(42, 51, 69);
+    Ellipse* e2 = new Ellipse(16, 64, 86);
+    Ellipse* e3 = new Ellipse(1, 33, 7);
+    CompositeGraphic* g1 = new CompositeGraphic();
+    CompositeGraphic g2;
+    g1->addGraphic(e1);
+    g1->addGraphic(e2);
+    g2.addGraphic(e3);
+    g2.addGraphic(g1);
+    std::cout<<"g1 = "<<std::endl;
+    g1->print();
+    std::cout<<"g2 = "<<std::endl;
+    g2.print();
+    /*
+      g2 is on the stack and therefore not necessary to explicitly call delete for the structure.
+     */
+    /*return 0;
+}*/
 
 
+/*
 
-SomeClass::SomeClass(Component* myC) {
-    myComp = myC;
-}
+ g2
+ |-1-> e3
+ |-2-> g1
+	   |-2.1-> e1
+	   |-2.2-> e2
 
-void SomeClass::printTicket() {
-    if (myComp)
-        myComp->printTicket();
-}
-
-SomeClass::~SomeClass(){
-    delete myComp;
-}
-
-class Header1: public SomeClass {
-public:
-    Header1(Component* c);
-    void printTicket();
-};
-
-Header1::Header1(Component* c) : SomeClass(c) { }
-
-void Header1::printTicket() {
-    cout<<"Welcome to the Crazy Zone"<<endl;
-    SomeClass::printTicket();
-}
-
-
-class Header2: public SomeClass {
-public:
-    Header2(Component* c);
-    void printTicket();
-};
-
-Header2::Header2(Component* c) : SomeClass(c) { }
-
-void Header2::printTicket()
-{
-    cout<<"Shopping at the Crazy Zone"<<endl;
-    SomeClass::printTicket();
-}
-
-
-class Footer1: public SomeClass {
-public:
-    Footer1(Component* c);
-    void printTicket();
-};
-
-Footer1::Footer1(Component* c) : SomeClass(c) { }
-
-void Footer1::printTicket() {
-    SomeClass::printTicket();
-    cout << "It was a pleasure doing" <<
-         " business with you"<<endl;
-}
-
-class Footer2: public SomeClass {
-public:
-    Footer2(Component* c);
-    void printTicket();
-};
-
-Footer2::Footer2(Component* c) : SomeClass(c) { }
-
-void Footer2::printTicket() {
-    SomeClass::printTicket();
-    cout << "Enjoy your day"<<endl;
-}
-
-class SalesOrder {
-public:
-    SalesOrder(Component*);
-    void printTicket();
-    ~SalesOrder();
-private:
-    Component* order;
-};
+ */
 
 
 
-
-SalesOrder::SalesOrder(Component* c) : order(c) {}
-
-void SalesOrder::printTicket() {
-    order->printTicket();
-}
-
-SalesOrder::~SalesOrder(){
-    delete order;
-}
-
-int main() {
-
-    SalesOrder* s = new SalesOrder(new Footer1(
-            new Header1(
-                    new SalesTicket)));
+/*int main() {
+    Component* basicTicket = new CardTicket;
+    //SalesTicket* basicTicket = new SalesTicket;
+    SomeClass* theBottom = new Footer1(basicTicket);
+    //SalesOrder* s = new SalesOrder(theBottom);
+    SalesOrder* s = new SalesOrder(new Header1(new Footer1(new CardTicket)));
     // Note: SalesTicket is being decorated.
 
     s->printTicket();
@@ -134,13 +53,57 @@ int main() {
     delete s;
 
     return 0;
-}
-
+}*/
 /*
  Example of output:
 
  Welcome to the Crazy Zone
  Cash Sale Ticket
  It was a pleasure doing business with you
+
+ */
+#include <vector>
+int main() {
+    vector<int> values;
+    values.push_back(985);
+    values.push_back(420);
+    values.push_back(396);
+    vector<string>::iterator it;
+    for(vector<int>::iterator it = values.begin(); it!=values.end(); ++it) {
+        cout << *it << endl;
+    }
+
+    /*Pizza* myPizza;
+    myPizza = new TomatoTopping();
+    myPizza->add(new MozerallaTopping());
+    myPizza->add(new HamTopping());
+    myPizza->add(new HamTopping());
+    myPizza->add(new ThickPizzaBase());
+    cout << "Cost = " << myPizza->total() << endl;
+
+
+    delete myPizza;
+
+    return 0;*/
+}
+
+/* Program output:
+
+ Creating tomato topping
+ Creating Mozeralla topping
+ In PizzaTopping add
+ Creating ham topping
+ In PizzaTopping add
+ In PizzaTopping add
+ Creating ham topping
+ In PizzaTopping add
+ In PizzaTopping add
+ In PizzaTopping add
+ Creating a thick base
+ In PizzaTopping add
+ In PizzaTopping add
+ In PizzaTopping add
+ In PizzaTopping add
+ Cost = 70
 
  */

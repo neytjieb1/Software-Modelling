@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jo/CLionProjects/Software-Modelling/Examples/Mediator_Chatroom/Chatroom.cpp
+iostream
+-
+vector
+-
+Chatroom.h
+/home/jo/CLionProjects/Software-Modelling/Examples/Mediator_Chatroom/Chatroom.h
+Chatter.h
+/home/jo/CLionProjects/Software-Modelling/Examples/Mediator_Chatroom/Chatter.h
+
+/home/jo/CLionProjects/Software-Modelling/Examples/Mediator_Chatroom/Chatroom.h
+string
+-
+vector
+-
+Chatter.h
+/home/jo/CLionProjects/Software-Modelling/Examples/Mediator_Chatroom/Chatter.h
+Participant.h
+/home/jo/CLionProjects/Software-Modelling/Examples/Mediator_Chatroom/Participant.h
+
+/home/jo/CLionProjects/Software-Modelling/Examples/Mediator_Chatroom/Chatter.h
+string
+-
+
+/home/jo/CLionProjects/Software-Modelling/Examples/Mediator_Chatroom/Participant.h
+

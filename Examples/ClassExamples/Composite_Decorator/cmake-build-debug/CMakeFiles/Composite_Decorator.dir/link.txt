@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Composite_Decorator.dir/main.cpp.o CMakeFiles/Composite_Decorator.dir/Pizza.cpp.o  -o Composite_Decorator 

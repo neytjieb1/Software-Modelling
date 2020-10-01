@@ -8,18 +8,22 @@
 
 class WAMemo: public Memo {
 public:
-    WAMemo(string date, string message, string signature, string commMethod) ;
+    WAMemo(string date, string message, string signature) ;
     WAMemo(const WAMemo& wa_memo);
     virtual Memo * clone() override ;
-    virtual void send(string method) override;
-    //void setCommMethod(string c) ;
-    //string getCommMethod() ;
+    virtual void send(Staff* member) override;
+};
 
-private:
-    string communicationMethod;
+class emailMemo: public Memo {
+public:
+    emailMemo(string date, string message, string signature) ;
+    emailMemo(const emailMemo& em_mem);
+    virtual Memo * clone() override ;
+    virtual void send(Staff* member) override;
 };
 
 
-#endif //TUT2_MEMOTYPES_H
 
-//return new Memo(*this);
+
+
+#endif //TUT2_MEMOTYPES_H

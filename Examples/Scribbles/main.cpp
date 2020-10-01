@@ -47,6 +47,7 @@ public:
 };*/
 
 
+/*
 int main() {
     SiegeTank* st = new SiegeTank();
     st->drawUnit();
@@ -55,3 +56,4 @@ int main() {
     //cUpgrade->takeDamage(5);
     return 0;
 }
+*/

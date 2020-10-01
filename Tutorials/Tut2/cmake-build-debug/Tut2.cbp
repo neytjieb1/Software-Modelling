@@ -90,6 +90,9 @@
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/MemoTypes.h">
 			<Option target="Tut2"/>
 		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/Staff.h">
+			<Option target="Tut2"/>
+		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/main.cpp">
 			<Option target="Tut2"/>
 		</Unit>
@@ -97,9 +100,6 @@
 			<Option target="Tut2"/>
 		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memo.h">
-			<Option target="Tut2"/>
-		</Unit>
-		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memosender.cpp">
 			<Option target="Tut2"/>
 		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memosender.h">

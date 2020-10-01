@@ -7,7 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/MemoTypes.cpp" "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/MemoTypes.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/main.cpp" "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/main.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memo.cpp" "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/memo.cpp.o"
-  "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/memosender.cpp" "/home/jo/CLionProjects/Software-Modelling/Tutorials/Tut2/cmake-build-debug/CMakeFiles/Tut2.dir/memosender.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
