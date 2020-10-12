@@ -18,15 +18,3 @@ public:
     }
 };
 #endif //A4_FLY_H
-
-
-/*
- *
- * MoveBackward(RemoteControlVehicle* vehicle) : Command(vehicle) {};
-    void execute() override {
-        receiver->backward();
-    };
-    void undo() override {
-        receiver->forward();
-    };
- */

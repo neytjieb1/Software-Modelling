@@ -4,7 +4,16 @@
 
 #include <iostream>
 using namespace std;
-#include "inclusions.h"
+#include "RemoteControlCar.h"
+#include "RemoteControlPlane.h"
+#include "MoveBackward.h"
+#include "MoveForward.h"
+#include "TurnOff.h"
+#include "TurnOn.h"
+#include "Button.h"
+#include "RocketAdapter.h"
+#include "Fly.h"
+#include "Speed.h"
 
 void demoCommandPattern() {
     cout << "==================COMMAND==================" << endl;
@@ -27,7 +36,7 @@ void demoCommandPattern() {
 
     //I've added functionality to make the vehicle "undo" its previous operation
     cout << endl << "3. Make vehicle undo the last operation in a specific button" << endl;
-    carController[2]->doublepress();
+    carController[2]->doublePress();
 }
 
 void demoAdapterPattern() {
@@ -53,7 +62,7 @@ void demoAdapterPattern() {
 
     //I've added functionality to make the vehicle "undo" its previous operation
     cout << endl << "4. Make vehicle undo the last operation in a specific button" << endl;
-    rocketController[1]->doublepress();
+    rocketController[1]->doublePress();
 
 }
 
@@ -92,11 +101,11 @@ void demoCORPattern() {
 
 int main() {
 
-//    demoCommandPattern();
+    demoCommandPattern();
 
-//    demoAdapterPattern();
+    demoAdapterPattern();
 
-//    demoCORPattern();
+    demoCORPattern();
 
     return 0;
 }
