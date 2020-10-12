@@ -6,7 +6,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/RemoteControlCar.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles/A4.dir/Task1/RemoteControlCar.cpp.o"
   "/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/RemoteControlPlane.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.o"
-  "/home/jo/CLionProjects/Software-Modelling/Assignments/A4/main.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles/A4.dir/main.cpp.o"
+  "/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/main.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles/A4.dir/Task1/main.cpp.o"
+  "/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Test_Chain_of_Responsibility/main.cpp" "/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -12,6 +12,7 @@ public:
     void off() override;
     void forward() override;
     void backward() override;
+    void handleRequest(Command* c) override;
 };
 
 

@@ -4,7 +4,9 @@
 
 #ifndef A4_COMMAND_H
 #define A4_COMMAND_H
-#include "RemoteControlVehicle.h"
+//#include "RemoteControlVehicle.h"
+
+class RemoteControlVehicle;
 
 class Command {
 protected:

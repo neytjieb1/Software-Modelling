@@ -77,22 +77,9 @@ include CMakeFiles/A4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/A4.dir/flags.make
 
-CMakeFiles/A4.dir/main.cpp.o: CMakeFiles/A4.dir/flags.make
-CMakeFiles/A4.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/A4.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A4.dir/main.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A4/main.cpp
-
-CMakeFiles/A4.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A4.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A4/main.cpp > CMakeFiles/A4.dir/main.cpp.i
-
-CMakeFiles/A4.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A4.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A4/main.cpp -o CMakeFiles/A4.dir/main.cpp.s
-
 CMakeFiles/A4.dir/Task1/RemoteControlCar.cpp.o: CMakeFiles/A4.dir/flags.make
 CMakeFiles/A4.dir/Task1/RemoteControlCar.cpp.o: ../Task1/RemoteControlCar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/A4.dir/Task1/RemoteControlCar.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/A4.dir/Task1/RemoteControlCar.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A4.dir/Task1/RemoteControlCar.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/RemoteControlCar.cpp
 
 CMakeFiles/A4.dir/Task1/RemoteControlCar.cpp.i: cmake_force
@@ -105,7 +92,7 @@ CMakeFiles/A4.dir/Task1/RemoteControlCar.cpp.s: cmake_force
 
 CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.o: CMakeFiles/A4.dir/flags.make
 CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.o: ../Task1/RemoteControlPlane.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/RemoteControlPlane.cpp
 
 CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.i: cmake_force
@@ -116,21 +103,49 @@ CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/RemoteControlPlane.cpp -o CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.s
 
+CMakeFiles/A4.dir/Task1/main.cpp.o: CMakeFiles/A4.dir/flags.make
+CMakeFiles/A4.dir/Task1/main.cpp.o: ../Task1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/A4.dir/Task1/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A4.dir/Task1/main.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/main.cpp
+
+CMakeFiles/A4.dir/Task1/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A4.dir/Task1/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/main.cpp > CMakeFiles/A4.dir/Task1/main.cpp.i
+
+CMakeFiles/A4.dir/Task1/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A4.dir/Task1/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/main.cpp -o CMakeFiles/A4.dir/Task1/main.cpp.s
+
+CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.o: CMakeFiles/A4.dir/flags.make
+CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.o: ../Test_Chain_of_Responsibility/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.o -c /home/jo/CLionProjects/Software-Modelling/Assignments/A4/Test_Chain_of_Responsibility/main.cpp
+
+CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jo/CLionProjects/Software-Modelling/Assignments/A4/Test_Chain_of_Responsibility/main.cpp > CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.i
+
+CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jo/CLionProjects/Software-Modelling/Assignments/A4/Test_Chain_of_Responsibility/main.cpp -o CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.s
+
 # Object files for target A4
 A4_OBJECTS = \
-"CMakeFiles/A4.dir/main.cpp.o" \
 "CMakeFiles/A4.dir/Task1/RemoteControlCar.cpp.o" \
-"CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.o"
+"CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.o" \
+"CMakeFiles/A4.dir/Task1/main.cpp.o" \
+"CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.o"
 
 # External object files for target A4
 A4_EXTERNAL_OBJECTS =
 
-A4: CMakeFiles/A4.dir/main.cpp.o
 A4: CMakeFiles/A4.dir/Task1/RemoteControlCar.cpp.o
 A4: CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.o
+A4: CMakeFiles/A4.dir/Task1/main.cpp.o
+A4: CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.o
 A4: CMakeFiles/A4.dir/build.make
 A4: CMakeFiles/A4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable A4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jo/CLionProjects/Software-Modelling/Assignments/A4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable A4"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/A4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

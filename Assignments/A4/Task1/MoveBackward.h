@@ -8,6 +8,7 @@
 
 class MoveBackward : public Command {
 public:
+    MoveBackward(RemoteControlVehicle* vehicle) : Command(vehicle) {};
     void execute() override {
         receiver->backward();
     };

@@ -8,6 +8,7 @@
 
 class TurnOff : public Command {
 public:
+    TurnOff(RemoteControlVehicle* vehicle) : Command(vehicle) {};
     void execute() override {
         receiver->off();
     };

@@ -197,32 +197,59 @@ Task1/RemoteControlPlane.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/A4.dir/build.make CMakeFiles/A4.dir/Task1/RemoteControlPlane.cpp.s
 .PHONY : Task1/RemoteControlPlane.cpp.s
 
-main.o: main.cpp.o
+Task1/main.o: Task1/main.cpp.o
 
-.PHONY : main.o
+.PHONY : Task1/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A4.dir/build.make CMakeFiles/A4.dir/main.cpp.o
-.PHONY : main.cpp.o
+Task1/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A4.dir/build.make CMakeFiles/A4.dir/Task1/main.cpp.o
+.PHONY : Task1/main.cpp.o
 
-main.i: main.cpp.i
+Task1/main.i: Task1/main.cpp.i
 
-.PHONY : main.i
+.PHONY : Task1/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A4.dir/build.make CMakeFiles/A4.dir/main.cpp.i
-.PHONY : main.cpp.i
+Task1/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A4.dir/build.make CMakeFiles/A4.dir/Task1/main.cpp.i
+.PHONY : Task1/main.cpp.i
 
-main.s: main.cpp.s
+Task1/main.s: Task1/main.cpp.s
 
-.PHONY : main.s
+.PHONY : Task1/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/A4.dir/build.make CMakeFiles/A4.dir/main.cpp.s
-.PHONY : main.cpp.s
+Task1/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A4.dir/build.make CMakeFiles/A4.dir/Task1/main.cpp.s
+.PHONY : Task1/main.cpp.s
+
+Test_Chain_of_Responsibility/main.o: Test_Chain_of_Responsibility/main.cpp.o
+
+.PHONY : Test_Chain_of_Responsibility/main.o
+
+# target to build an object file
+Test_Chain_of_Responsibility/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A4.dir/build.make CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.o
+.PHONY : Test_Chain_of_Responsibility/main.cpp.o
+
+Test_Chain_of_Responsibility/main.i: Test_Chain_of_Responsibility/main.cpp.i
+
+.PHONY : Test_Chain_of_Responsibility/main.i
+
+# target to preprocess a source file
+Test_Chain_of_Responsibility/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A4.dir/build.make CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.i
+.PHONY : Test_Chain_of_Responsibility/main.cpp.i
+
+Test_Chain_of_Responsibility/main.s: Test_Chain_of_Responsibility/main.cpp.s
+
+.PHONY : Test_Chain_of_Responsibility/main.s
+
+# target to generate assembly for a file
+Test_Chain_of_Responsibility/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/A4.dir/build.make CMakeFiles/A4.dir/Test_Chain_of_Responsibility/main.cpp.s
+.PHONY : Test_Chain_of_Responsibility/main.cpp.s
 
 # Help Target
 help:
@@ -239,9 +266,12 @@ help:
 	@echo "... Task1/RemoteControlPlane.o"
 	@echo "... Task1/RemoteControlPlane.i"
 	@echo "... Task1/RemoteControlPlane.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Task1/main.o"
+	@echo "... Task1/main.i"
+	@echo "... Task1/main.s"
+	@echo "... Test_Chain_of_Responsibility/main.o"
+	@echo "... Test_Chain_of_Responsibility/main.i"
+	@echo "... Test_Chain_of_Responsibility/main.s"
 .PHONY : help
 
 

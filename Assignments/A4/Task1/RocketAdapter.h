@@ -5,30 +5,35 @@
 #ifndef A4_ROCKETADAPTER_H
 #define A4_ROCKETADAPTER_H
 #include "RemoteControlRocket.h"
+#include "RemoteControlVehicle.h"
 
-class RocketAdapter {
+class RocketAdapter : public RemoteControlVehicle{
 private:
     RemoteControlRocket* adaptee;
 
 public:
-    RocketAdapter(RemoteControlRocket* r) : adaptee(r) {};
-    void on() {
+    RocketAdapter(RemoteControlRocket* r) : RemoteControlVehicle() {
+        adaptee = r;
+    };
+    virtual void on() override {
         adaptee->takeOff();
-        adaptee->on();
     }
-    void off() {
+    virtual void off() override{
         adaptee->stopLaunch();
-        adaptee->off();
     }
-    void forward() {
-        if (adaptee->getOnOffState()) adaptee->increaseThrottle();
+    virtual void forward() override{
+        if (getOnOffState()) adaptee->increaseThrottle();
         else cout << "The Rocket isn't on and can't go faster" << endl;
     };
-    void backward() {
-        if (!adaptee->getOnOffState()) adaptee->decreaseThrottle();
+    virtual void backward() override {
+        if (!getOnOffState()) adaptee->decreaseThrottle();
         else cout << "The Rocket isn't on and can't go slower" << endl;
     }
-
+    void handleRequest(Command* c) override{
+        cout << "Rocket can't handle request. Passing on" << endl;
+        RemoteControlVehicle::handleRequest(c);
+    }
 };
+
 
 #endif //A4_ROCKETADAPTER_H

@@ -1,18 +1,18 @@
 //
-// Created by jo on 2020/10/01.
+// Created by jo on 2020/10/03.
 //
 
-#ifndef A4_REMOTECONTROLVEHICLE_H
-#define A4_REMOTECONTROLVEHICLE_H
+#ifndef A4_RCVEHICLE_H
+#define A4_RCVEHICLE_H
 #include <iostream>
 using namespace std;
 
-#include "Command.h"
+#include "_Command.h"
 
-class RemoteControlVehicle {
+class RCVehicle {
 public:
-    RemoteControlVehicle() : onOffState(false), next(0) {};
-    void add(RemoteControlVehicle* v) {
+    RCVehicle() : onOffState(false), next(0) {};
+    void add(RCVehicle* v) {
         if (next) {
             next->add(v);
         }
@@ -25,7 +25,8 @@ public:
     virtual void forward() = 0;
     virtual void backward() = 0;
     bool getOnOffState() {return onOffState;};
-    virtual void handleRequest(Command* c) {
+
+    virtual void handleRequest(_Command* c) {
         if (next) {
             next->handleRequest(c);
         } else {
@@ -38,9 +39,9 @@ protected:
 
 private:
     bool onOffState;
-    RemoteControlVehicle* next;
+    RCVehicle* next;
 
 };
 
 
-#endif //A4_REMOTECONTROLVEHICLE_H
+#endif //A4_RCVEHICLE_H

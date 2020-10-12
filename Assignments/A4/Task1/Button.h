@@ -12,7 +12,9 @@ private:
 
 public:
     Button(Command* c) : command(c) {};
+    ~Button() {delete command;};        //since dynamically linked
     void press() {command->execute();};
+    void doublepress() {command->undo();};
 };
 
 #endif //A4_BUTTON_H

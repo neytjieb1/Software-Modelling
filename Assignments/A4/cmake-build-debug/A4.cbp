@@ -90,6 +90,9 @@
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/Command.h">
 			<Option target="A4"/>
 		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/Fly.h">
+			<Option target="A4"/>
+		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/MoveBackward.h">
 			<Option target="A4"/>
 		</Unit>
@@ -117,13 +120,40 @@
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/RocketAdapter.h">
 			<Option target="A4"/>
 		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/Speed.h">
+			<Option target="A4"/>
+		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/TurnOff.h">
 			<Option target="A4"/>
 		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/TurnOn.h">
 			<Option target="A4"/>
 		</Unit>
-		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/main.cpp">
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/inclusions.h">
+			<Option target="A4"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Task1/main.cpp">
+			<Option target="A4"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Test_Chain_of_Responsibility/RCCar.h">
+			<Option target="A4"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Test_Chain_of_Responsibility/RCPlane.h">
+			<Option target="A4"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Test_Chain_of_Responsibility/RCVehicle.h">
+			<Option target="A4"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Test_Chain_of_Responsibility/_Command.h">
+			<Option target="A4"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Test_Chain_of_Responsibility/_Fly.h">
+			<Option target="A4"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Test_Chain_of_Responsibility/_Speed.h">
+			<Option target="A4"/>
+		</Unit>
+		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/Test_Chain_of_Responsibility/main.cpp">
 			<Option target="A4"/>
 		</Unit>
 		<Unit filename="/home/jo/CLionProjects/Software-Modelling/Assignments/A4/CMakeLists.txt">

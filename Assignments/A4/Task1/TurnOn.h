@@ -8,6 +8,7 @@
 
 class TurnOn : public Command {
 public:
+    TurnOn(RemoteControlVehicle* vehicle) : Command(vehicle) {};
     void execute() override {
         receiver->on();
     };

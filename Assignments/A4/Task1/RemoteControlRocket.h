@@ -6,9 +6,8 @@
 #define A4_REMOTECONTROLROCKET_H
 #include <iostream>
 using namespace std;
-#include "RemoteControlVehicle.h"
 
-class RemoteControlRocket : public RemoteControlVehicle{
+class RemoteControlRocket{
 public:
     void takeOff() {
         cout << "The RC rocket blasts off its take-off platform" << endl;
@@ -22,16 +21,6 @@ public:
     void decreaseThrottle() {
         cout << "The RC rocket decreases its throttle and ascends at a slower rate" << endl;
     }
-    void on() override {
-        if (!getOnOffState()) flipOnOff();
-        else cout << "RC Rocket is already on" << endl;
-    }
-    void off() override {
-        if (getOnOffState()) flipOnOff();
-        else cout << "RC Plane is already off" << endl;
-    }
-    void forward() override {} ;
-    void backward() override {};
 };
 
 

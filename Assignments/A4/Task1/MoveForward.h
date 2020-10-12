@@ -8,6 +8,7 @@
 
 class MoveForward : public Command {
 public:
+    MoveForward(RemoteControlVehicle* vehicle) : Command(vehicle) {};
     void execute() override {
         receiver->forward();
     };
