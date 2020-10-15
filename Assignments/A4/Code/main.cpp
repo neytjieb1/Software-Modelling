@@ -29,14 +29,20 @@ void demoCommandPattern() {
 
     //exhibit some functionality
     cout << endl << "2. Press some buttons to exhibit functionality" << endl;
-    carController[0]->press();
-    carController[1]->press();
-    carController[0]->press();
-    carController[2]->press();
+    carController[0]->press();   //TurnOn
+    carController[1]->press();   //TurnOff
+    carController[0]->press();   //TurnOn
+    carController[2]->press();   //MoveForward
 
-    //I've added functionality to make the vehicle "undo" its previous operation
+    //I've added functionality to make the vehicle "undo" its previous operation for a specific button
     cout << endl << "3. Make vehicle undo the last operation in a specific button" << endl;
     carController[2]->doublePress();
+
+    //Clearing Memory
+    for (int i = 0; i < 4; ++i) {
+        delete carController[i];
+    }
+    delete car;
 }
 
 void demoAdapterPattern() {
@@ -88,6 +94,8 @@ void demoCORPattern() {
     Command* speed = new Speed(vehicle_first);
     speed->execute();
 
+    delete speed;
+
     //No vehicle can handle command;
     cout << "\n3. NO VEHICLE IN LIST HANDLES COMMAND" << endl;
     cout << "List: plane -> rocket -> plane" << endl;
@@ -97,6 +105,12 @@ void demoCORPattern() {
     vehicle_none->add(new RemoteControlPlane());
     speed = new Speed(vehicle_none);
     speed->execute();
+
+    delete vehicle_last;
+    delete fly;
+    delete vehicle_first;
+    delete vehicle_none;
+    delete speed;
 }
 
 int main() {

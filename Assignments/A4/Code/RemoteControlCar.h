@@ -9,6 +9,8 @@
 
 class RemoteControlCar : public RemoteControlVehicle{
 public:
+    RemoteControlCar();
+    ~RemoteControlCar();
     void on() override;
     void off() override;
     void forward() override;

@@ -5,6 +5,10 @@
 #include "RemoteControlCar.h"
 #include "Speed.h"
 
+RemoteControlCar::RemoteControlCar() {};
+
+RemoteControlCar::~RemoteControlCar() {};
+
 void RemoteControlCar::on() {
     if (!getOnOffState()) {
         cout << "RC car is turned on" << endl;

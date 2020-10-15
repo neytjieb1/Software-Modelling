@@ -12,6 +12,7 @@ using namespace std;
 class RemoteControlVehicle {
 public:
     RemoteControlVehicle() : onOffState(false), next(0) {};
+    virtual ~RemoteControlVehicle() {};
     void add(RemoteControlVehicle* v) {
         if (next) {
             next->add(v);

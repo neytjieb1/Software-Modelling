@@ -15,6 +15,9 @@ public:
     RocketAdapter(RemoteControlRocket* r) : RemoteControlVehicle() {
         adaptee = r;
     };
+    ~RocketAdapter() {
+        delete adaptee;
+    }
     virtual void on() override {
         adaptee->takeOff();
     }

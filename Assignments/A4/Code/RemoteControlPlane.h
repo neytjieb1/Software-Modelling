@@ -8,6 +8,8 @@
 
 class RemoteControlPlane : public RemoteControlVehicle {
 public:
+    RemoteControlPlane(){};
+    ~RemoteControlPlane(){};
     void on() override;
     void off() override;
     void forward() override;
