@@ -2,10 +2,10 @@ Examples/
 Tutorials/
 
 cmake-build-*/
-cmake-build-debug/
+cmake-build/
 
 out/
-
+.idea/
 .idea_modules/
 
 *.zip
