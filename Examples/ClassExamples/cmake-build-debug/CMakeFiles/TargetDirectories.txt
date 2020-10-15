@@ -1,3 +1,0 @@
-/home/jo/CLionProjects/ClassExamples/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jo/CLionProjects/ClassExamples/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jo/CLionProjects/ClassExamples/cmake-build-debug/CMakeFiles/ClassExamples.dir

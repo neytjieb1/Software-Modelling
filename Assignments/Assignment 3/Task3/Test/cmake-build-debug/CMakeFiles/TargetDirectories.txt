@@ -1,3 +1,0 @@
-/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 3/Task3/Test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 3/Task3/Test/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jo/CLionProjects/Software-Modelling/Assignments/Assignment 3/Task3/Test/cmake-build-debug/CMakeFiles/Test.dir

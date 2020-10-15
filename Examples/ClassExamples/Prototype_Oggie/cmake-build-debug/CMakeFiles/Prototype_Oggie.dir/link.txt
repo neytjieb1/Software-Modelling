@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Prototype_Oggie.dir/main.cpp.o CMakeFiles/Prototype_Oggie.dir/Cell.cpp.o CMakeFiles/Prototype_Oggie.dir/Organism.cpp.o  -o Prototype_Oggie 

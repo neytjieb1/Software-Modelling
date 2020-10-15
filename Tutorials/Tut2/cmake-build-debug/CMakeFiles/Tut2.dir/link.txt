@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Tut2.dir/main.cpp.o CMakeFiles/Tut2.dir/memo.cpp.o CMakeFiles/Tut2.dir/MemoTypes.cpp.o  -o Tut2 
