@@ -4,10 +4,13 @@
 
 #include "RacesList.h"
 
-RaceIterator RacesList::createIterator() {
+/*RaceIterator RacesList::createIterator() {
     return RaceIterator(*this, headRace);
-}
+}*/
 
+RacesList::RacesList() {
+    headRace = nullptr;
+}
 
 //IS DONE?
 void RacesList::addRace(Race *race) {
@@ -38,12 +41,15 @@ RaceIterator RacesList::begin() {
 
 RaceIterator RacesList::end() {
     Race* tail = headRace;
-    while (tail->nextRace()!= nullptr) {
+    while (tail!= nullptr) {
         tail = tail->nextRace();
     }
-    return new RaceIterator(*this, tail);
+    return RaceIterator(*this, tail);
 }
 
-const Race * RacesList::getHeadRace() const {
+Race *RacesList::getHeadRace() const {
     return headRace;
 }
+
+
+

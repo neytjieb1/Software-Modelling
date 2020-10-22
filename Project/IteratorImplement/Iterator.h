@@ -5,14 +5,14 @@
 #ifndef PREMODELLING_ITERATOR_H
 #define PREMODELLING_ITERATOR_H
 
-
+class Race;
 class Iterator {
 public:
-    virtual void first();
-    virtual Iterator operator ++(); //virtual void next() = 0;
-    virtual Iterator operator --();//virtual void prev() = 0;
-    virtual bool isLast();
-    virtual Iterator* currentItem();
+    virtual void first() = 0;
+    virtual void operator ++() = 0; //virtual void next() = 0;
+    virtual void operator --() = 0;//virtual void prev() = 0;
+    virtual bool isLast() = 0;
+    virtual Race* currentItem() = 0;
 };
 
 //slicing?

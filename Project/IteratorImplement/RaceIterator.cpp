@@ -6,6 +6,11 @@
 #include "Race.h"
 #include "RacesList.h"
 
+RaceIterator::RaceIterator() {
+    head = nullptr;
+    current = nullptr;
+}
+
 RaceIterator::RaceIterator(const RacesList &source, Race *pRace) {
     head = source.getHeadRace();
     current = pRace;
@@ -20,16 +25,16 @@ void RaceIterator::operator++() {
     if (this != nullptr) {
         this->current = this->current->nextRace();
     }
-    return (*this);
+    //return (*this);
 }
 
-Iterator RaceIterator::operator--() {
-//void RaceIterator::operator--() {
+//Iterator RaceIterator::operator--() {
+void RaceIterator::operator--() {
     if (this != nullptr) {
         this->current = this->current->prevRace();
     }
-    return (*this);
-    problem Problem slicing here. how to stop?
+    //return (*this);
+//    problem Problem slicing here. how to stop?
 }
 
 
@@ -41,15 +46,11 @@ bool RaceIterator::isLast() {
     return current->nextRace()== nullptr;
 }
 
-RaceIterator *RaceIterator::currentItem() {
-    return
+Race* RaceIterator::currentItem() {
+    return current;
 }
 
-RaceIterator::RaceIterator() {
-    head = nullptr;
-    current = nullptr;
 
-}
 
 
 

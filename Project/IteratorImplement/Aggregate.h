@@ -8,10 +8,10 @@
 #include "Race.h"
 #include "RaceIterator.h"
 
-class Aggregate {
+/*class Aggregate {
 public:
     virtual Iterator* createIterator() = 0;
-};
+};*/
 
 
 

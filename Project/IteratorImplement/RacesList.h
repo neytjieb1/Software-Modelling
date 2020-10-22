@@ -6,15 +6,19 @@
 #define LOGISTICS_RACESLIST_H
 
 #include "Aggregate.h"
+#include "Race.h"
 #include "RaceIterator.h"
 
-class RacesList : public Aggregate {
-    //friend class RaceIterator;
+//class RacesList : public Aggregate {
+class RacesList {
+    friend class RaceIterator;
 public:
-    RaceIterator createIterator() override;
+//    RaceIterator createIterator() override;
+    RacesList();
+    //RaceIterator createIterator();
     void addRace(Race* );
     //Race* removeRace();
-    Race * getHeadRace() const;
+    Race* getHeadRace() const;
     bool isEmpty();
     RaceIterator begin();
     RaceIterator end();
