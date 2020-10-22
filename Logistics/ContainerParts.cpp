@@ -12,7 +12,6 @@ CateringEquipment::~CateringEquipment() = default;
 
 void Box::addElement(Container *c) {
     elements.push_back(c);
-
 }
 
 Container *Box::removeElement() {

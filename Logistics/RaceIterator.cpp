@@ -3,23 +3,58 @@
 //
 
 #include "RaceIterator.h"
+#include "Race.h"
+#include "RacesList.h"
+
+RaceIterator::RaceIterator() {
+    head = nullptr;
+    current = nullptr;
+}
+
+RaceIterator::RaceIterator(const RacesList &source, Race *pRace) {
+    head = source.getHeadRace();
+    current = pRace;
+}
 
 void RaceIterator::first() {
-
+    current = head;
 }
 
+//RaceIterator RaceIterator::operator++() {
 void RaceIterator::operator++() {
-
+    if (this != nullptr) {
+        this->current = this->current->nextRace();
+    }
+    //return (*this);
 }
 
+//Iterator RaceIterator::operator--() {
 void RaceIterator::operator--() {
+    if (this != nullptr) {
+        this->current = this->current->prevRace();
+    }
+    //return (*this);
+//    problem Problem slicing here. how to stop?
+}
 
+
+bool RaceIterator::operator==(const RaceIterator &rhs) const {
+    return current == rhs.current;
 }
 
 bool RaceIterator::isLast() {
-    return false;
+    return current->nextRace()== nullptr;
 }
 
-RaceIterator *RaceIterator::currentItem() {
-    return nullptr;
+Race* RaceIterator::currentItem() {
+    return current;
 }
+
+
+
+
+
+
+
+
+

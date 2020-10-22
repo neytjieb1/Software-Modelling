@@ -1,21 +1,23 @@
 //
-// Created by jo on 2020/10/17.
+// Created by jo-anne on 2020/10/22.
 //
 
-#ifndef PREMODELLING_ITERATOR_H
-#define PREMODELLING_ITERATOR_H
+#ifndef LOGISTICS_ITERATOR_H
+#define LOGISTICS_ITERATOR_H
 
-
+class Race;
 class Iterator {
 public:
     virtual void first() = 0;
     virtual void operator ++() = 0; //virtual void next() = 0;
     virtual void operator --() = 0;//virtual void prev() = 0;
     virtual bool isLast() = 0;
-    virtual Iterator* currentItem()  = 0;
+    virtual Race* currentItem() = 0;
 };
 
+//slicing?
 
 
 
-#endif //PREMODELLING_ITERATOR_H
+
+#endif //LOGISTICS_ITERATOR_H

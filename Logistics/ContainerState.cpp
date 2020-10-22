@@ -5,7 +5,7 @@
 #include "ContainerState.h"
 
 void BeingPacked::changeState(Container *container) {
-    container->setState(new InShipping());
+    //container->setState(new InShipping());
 }
 
 string BeingPacked::getState() {
@@ -17,7 +17,7 @@ BeingPacked::~BeingPacked() {
 }
 
 void InShipping::changeState(Container *container) {
-    container->setState(new ArrivedAtDestination());
+    //container->setState(new ArrivedAtDestination());
 }
 
 string InShipping::getState() {
@@ -30,7 +30,7 @@ InShipping::~InShipping() {
 
 
 void ArrivedAtDestination::changeState(Container *container) {
-    container->setState(new BeingPacked());
+    //container->setState(new BeingPacked());
 
 }
 

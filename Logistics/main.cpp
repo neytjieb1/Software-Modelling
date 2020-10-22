@@ -2,8 +2,7 @@
 
 #include "Logistics.h"
 
-int main() {
-
+void testBasicIntegration() {
     RacingDept* racingDept = new RacingDept();
     EngDept* engDept = new EngDept();
     Logistics* a = new Logistics;
@@ -19,16 +18,41 @@ int main() {
     delete a;
     delete engDept;
     delete racingDept;
+}
 
-    //choose team
-    //Colleague* racingDept = new RacingDept();
-    //EngDept* engDept = new EngDept();
-    //Logistics* log = new Logistics();
-    /*engDept->registerForSeason(log);
-    racingDept->registerForSeason(log);
-    log->doYearPlanning();
-    log->preSeasonPreparation();
-    log->raceSeason();
-    log->postSeasonDebrief();*/
+void testIterator(){
+    string names[5] = {"malibu", "florence", "florida", "vermont","venice"};
+    TrackComplexity complexity[5] = {Difficult, Easy, Extreme, Average, Easy};
+    bool european[5] = {1,0,1,1,0};
+    RacesList* raceList = new RacesList;
+    for (int i = 0; i < 5; ++i) {
+        raceList->addRace(new Race(names[i], complexity[i], european[i]));
+    }
+
+    Race* temp = raceList->getHeadRace();
+    while (temp!= NULL) {
+        cout << temp->getLocation() << endl;
+        temp = temp->nextRace();
+    }
+    cout << endl;
+
+    for (RaceIterator t = raceList->begin(); !(t==raceList->end()) ; ++t) {
+        cout << t.currentItem()->getLocation() << endl;
+    }
+    cout << endl;
+
+    raceList->addRace(new Race("vantance", Easy, 0));
+    for (RaceIterator t = raceList->begin(); !(t==raceList->end()) ; ++t) {
+        cout << t.currentItem()->getLocation() << endl;
+    }
+
+}
+
+int main() {
+
+    //testBasicIntegration();
+
+    testIterator();
+
     return 0;
 }

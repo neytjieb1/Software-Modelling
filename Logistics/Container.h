@@ -13,21 +13,19 @@ using namespace std;
 class ContainerState;
 
 class Container {
+    friend class ContainerState;
 private:
     ContainerState* containerCurrentState;
 public:
     Container();
     virtual ~Container();
-    virtual void addElement(Container *) ;
-    virtual Container * removeElement();
-    /**
-     * @details This function prints out contents of container categorised into Boxes
-     */
     virtual void takeStock() ;
     virtual void changeState();
     string getState();
 
-//protected:
+protected:
+    virtual void addElement(Container *) ;
+    virtual Container * removeElement();
     virtual void setState(ContainerState* state);
 
 };

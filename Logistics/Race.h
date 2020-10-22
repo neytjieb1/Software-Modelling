@@ -1,9 +1,10 @@
 //
-// Created by jo on 2020/10/16.
+// Created by jo-anne on 2020/10/22.
 //
 
-#ifndef PREMODELLING_RACE_H
-#define PREMODELLING_RACE_H
+#ifndef LOGISTICS_RACE_H
+#define LOGISTICS_RACE_H
+
 
 #include "enums.h"
 #include <string>
@@ -11,49 +12,37 @@ using namespace std;
 
 class Race {
 private:
-    string RaceLocation;
-    TrackComplexity trackComplexity;
-    bool isEuropeanRace;
-    Race* nextRace;
+    string location;
+    TrackComplexity complexity;
+    bool isInEurope;
+    Race* next;
+    Race* prev;
     //WeatherConditions raceDayWeather;
 public:
-    Race() {
-        RaceLocation = "malibu";
-        trackComplexity = Difficult;
-        isEuropeanRace = false;
-    }
-
-    bool isRaceEuropean() {
-        return isEuropeanRace;
-    };
-    string getLocation() {
-        return RaceLocation;
-    };
-    TrackComplexity getTrackComplexity() {
-        return trackComplexity;
-    }
+    Race();
+    /**
+     * @details Constructor taking in variables.
+     * @warning Should not be instantiated with only one race. Either both or none is better practice
+     * @param next
+     * @param prev
+     */
+    Race(string , TrackComplexity, bool, Race*next = nullptr, Race* prev = nullptr);
+    void setNextRace(Race *);
+    void setPrevRace(Race *);
+    Race* nextRace();
+    Race* prevRace();
+    bool isRaceEuropean();
+    string getLocation();
+    TrackComplexity getTrackComplexity();
     /**
      * @details returns a randomly generated weather condition to be gotten for each separate day.
      * If so inclined, one may use only once at the beginning of each race.
      * @return
      */
-    WeatherConditions getRaceDayWeather() {
-        int r = rand()%3;
-        switch (r) {
-            case 0:
-                return Wet;
-                break;
-            case 1:
-                return Dry;
-                break;
-            case 2:
-                return Rainy;
-                break;
-
-        }
-    };
+    WeatherConditions getRaceDayWeather() ;
 
 };
 
 
-#endif //PREMODELLING_RACE_H
+
+#endif //LOGISTICS_RACE_H

@@ -5,19 +5,27 @@
 #ifndef LOGISTICS_RACESLIST_H
 #define LOGISTICS_RACESLIST_H
 
-#include "Aggregate.h"
 
-class RacesList : public Aggregate {
+#include "Aggregate.h"
+#include "Race.h"
+#include "RaceIterator.h"
+
+//class RacesList : public Aggregate {
+class RacesList {
+    friend class RaceIterator;
 public:
-    RaceIterator* createIterator() override;
+//    RaceIterator createIterator() override;
+    RacesList();
+    //RaceIterator createIterator();
     void addRace(Race* );
-    Race* removeRace();
+    //Race* removeRace();
+    Race* getHeadRace() const;
     bool isEmpty();
-    RaceIterator* begin();
-    RaceIterator* end();
+    RaceIterator begin();
+    RaceIterator end();
 
 private:
-    Race* firstRaceOfSeason; //ie. head
+    Race* headRace; //ie. head
 };
 
 

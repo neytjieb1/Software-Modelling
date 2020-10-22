@@ -5,6 +5,11 @@
 
 #include "Container.h"
 #include "ContainerState.h"
+//
+// Created by jo-anne on 2020/10/22.
+//
+
+#include "Iterator.h"
 
 
 void Container::setState(ContainerState *state) {
