@@ -3,3 +3,15 @@
 //
 
 #include "Driver.h"
+
+bool Driver::isHomeTrack(int trackID) {
+    return false;
+}
+
+int Driver::getXP() {
+    return 0;
+}
+
+void Driver::setXP(int) {
+
+}

@@ -15,8 +15,14 @@ private:
     list<TyresCompounds> tyres;
     string stratName;
 public:
-    Strategy* execute();
-    Strategy(int budget);
+    Strategy* execute() {
+        return nullptr;
+    }
+
+    Strategy(int budget) {
+
+    }
+
     RiskLevel getRiskLevel() {
         return riskLevel;
     }

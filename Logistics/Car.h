@@ -5,7 +5,8 @@
 #ifndef PREMODELLING_CAR_H
 #define PREMODELLING_CAR_H
 
-class Driver;
+#include "Driver.h"
+
 class Car{
 private:
     int speed;

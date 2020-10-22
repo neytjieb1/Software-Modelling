@@ -17,6 +17,12 @@ private:
     Race* nextRace;
     //WeatherConditions raceDayWeather;
 public:
+    Race() {
+        RaceLocation = "malibu";
+        trackComplexity = Difficult;
+        isEuropeanRace = false;
+    }
+
     bool isRaceEuropean() {
         return isEuropeanRace;
     };

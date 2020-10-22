@@ -4,9 +4,7 @@
 
 #include "EngDept.h"
 
-EngDept::~EngDept() {
-
-}
+EngDept::~EngDept() {}
 
 void EngDept::HireEmployees(int budget) {
     cout << "Hiring Employees" << endl;

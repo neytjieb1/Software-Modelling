@@ -12,7 +12,7 @@
 class Mediator {
 protected:
     virtual void sendCarToFactory(Car *) = 0;
-    virtual void flyContainerBack(Container*) =0;
+    virtual void containerHasBeenPacked(Container*) =0;
     virtual void requestContainerStateChange(bool isEuropeanRace) = 0;
 
 public:

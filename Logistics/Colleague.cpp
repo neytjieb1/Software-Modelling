@@ -5,9 +5,7 @@
 #include "Colleague.h"
 #include "Mediator.h"
 
-Colleague::~Colleague() {
-
-}
+Colleague::~Colleague() = default;
 
 void Colleague::addObserver(Mediator *obs) {
     observer = obs;
@@ -18,7 +16,7 @@ void Colleague::notify(Car *car) {
 }
 
 void Colleague::notify(Container *container) {
-    observer->flyContainerBack(container);
+    observer->containerHasBeenPacked(container);
 }
 
 void Colleague::notify(bool isEuropeanRace) {

@@ -14,68 +14,11 @@ class TransportHandler : public Colleague {
 private:
     TransportHandler* nextTransportationMethod;
 public:
-    //void deregisterForSeason(Logistics *) override;
-    void HireEmployees(int budget) override{};
-    /*Container* requestContainer(bool European) override {
-
-    };*/
-    void addAMethod(TransportHandler* transport) {
-        if (nextTransportationMethod) {
-            //notify?
-            //nextTransportationMethod->addAMethod(transport);
-        }
-        else {
-            nextTransportationMethod = transport;
-        }
-    };
-    virtual void transport(Race* fromLocation, Race* destination, Car*car = nullptr) {
-        if (nextTransportationMethod) {
-            nextTransportationMethod->transport(fromLocation, destination, car);
-        } else {
-            cout << "Cannot handle request" << endl;
-        }
-    };
+    void HireEmployees(int budget) override;
+    void addAMethod(TransportHandler* transport) ;
+    virtual void transport(Race* fromLocation, Race* destination, Car*car = nullptr) ;
 };
 
-class Fly : public TransportHandler {
-public:
-    void transport(Race *fromLocation, Race *destination, Car *car = nullptr) override {
-        if (car) {
-            cout << "Car picked up from : " << fromLocation->getLocation() << "and flown out " << endl;
-        }
-        else {
-            TransportHandler::transport(fromLocation, destination, car);
-        }
-
-    }
-};
-class Ship : public TransportHandler {
-public:
-    void transport(Race *fromLocation, Race *destination, Car *car = nullptr ) override {
-        if (fromLocation->isRaceEuropean()!=destination->isRaceEuropean()) {
-            //ship and change state etc
-            requestContainerChangeState(destination->isRaceEuropean());
-            cout << "Container in transport via SHIP" << endl;
-            cout << "From: " << fromLocation->getLocation() << " to " << destination->getLocation() << endl;
-        }
-        else {
-            TransportHandler::transport(fromLocation, destination, car);
-        }
-    };
-};
-class Road : public TransportHandler {
-public:
-    void transport(Race *fromLocation, Race *destination, Car *car = nullptr) override {
-        if (fromLocation->isRaceEuropean() && destination->isRaceEuropean()) {
-            requestContainerChangeState(true);
-            cout << "Container in transport via ROAD";
-            cout << "From: " << fromLocation->getLocation() << " to " << destination->getLocation() << endl;
-        }
-        else {
-            TransportHandler::transport(fromLocation, destination, car);
-        }
-    };
-};
 
 
 #endif //PREMODELLING_TRANSPORTHANDLER_H
