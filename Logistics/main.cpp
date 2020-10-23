@@ -48,11 +48,25 @@ void testIterator(){
 
 }
 
+void testContainerState() {
+    Container* container = new Container();
+    cout << endl;
+
+    for (int i = 0; i < 4; ++i) {
+        cout << container->getState() << endl;
+        container->advanceState();
+    }
+
+    cout << "\nWacky Containers!" << endl;
+}
+
 int main() {
 
     //testBasicIntegration();
 
-    testIterator();
+    //testIterator();
+
+    testContainerState();
 
     return 0;
 }

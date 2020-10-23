@@ -45,7 +45,7 @@ public:
         }
         else {
             Container* temp = observeringLogisticsDept->getNextNonEuropeanContainer();
-            //temp.changeState();
+            //temp.advanceState();
         }
     };
 };*/

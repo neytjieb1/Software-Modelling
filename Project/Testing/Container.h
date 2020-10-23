@@ -6,21 +6,22 @@
 #define PREMODELLING_CONTAINER_H
 
 #include <string>
+#include <list>
+#include <iostream>
 using namespace std;
 
-class ContainerState;
+//class ContainerState;
+#include "ContainerState.h"
 
 class Container {
-    friend class BeingPacked;
-    friend class InShipping;
-    friend class ArrivedAtDestination;
+    friend class ContainerState;
 private:
     ContainerState* containerCurrentState;
 public:
     Container();
     virtual ~Container();
     virtual void takeStock() ;
-    virtual void advanceState();
+    virtual void changeState();
     string getState();
 
 protected:
@@ -29,5 +30,7 @@ protected:
     virtual void setState(ContainerState* state);
 
 };
+
+
 
 #endif //PREMODELLING_CONTAINER_H

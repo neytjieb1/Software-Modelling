@@ -2,17 +2,10 @@
 // Created by jo on 2020/10/17.
 //
 
+
 #include "Container.h"
-#include "SubStates.h"
-#include <iostream>
+#include "ContainerState.h"
 
-Container::Container() {
-    this->containerCurrentState = new BeingPacked();
-}
-
-Container::~Container() {
-    delete containerCurrentState;
-}
 
 void Container::setState(ContainerState *state) {
     delete this->containerCurrentState;
@@ -28,6 +21,14 @@ void Container::takeStock() {
 
 }
 
+Container::Container() {
+    containerCurrentState = new BeingPacked();
+}
+
+Container::~Container() {
+    delete containerCurrentState;
+}
+
 void Container::addElement(Container *) {
     //remains to be implemented
 }
@@ -37,8 +38,8 @@ Container *Container::removeElement() {
     return nullptr;
 }
 
-void Container::advanceState() {
-    containerCurrentState->nextState(this);
+void Container::changeState() {
+    containerCurrentState->advanceState(this);
 }
 
 

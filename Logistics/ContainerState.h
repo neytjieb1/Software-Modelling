@@ -6,35 +6,17 @@
 #define LOGISTICS_CONTAINERSTATE_H
 
 #include "Container.h"
+#include <string>
+using namespace std;
+
+class Container;
 
 class ContainerState {
 public:
-    virtual void changeState(Container*) = 0;
+    virtual void nextState(Container*) = 0;
     virtual string getState() = 0;
     virtual ~ContainerState();
 };
 
-class BeingPacked : public ContainerState {
-public:
-    void changeState(Container *) override;
-    string getState() override;
-    ~BeingPacked();
-};
-
-class InShipping : public ContainerState {
-public:
-    void changeState(Container*) override;
-    string getState() override;
-    ~InShipping();
-};
-
-class ArrivedAtDestination : public ContainerState {
-public:
-    void changeState(Container *) override;
-
-    string getState() override;
-
-    ~ArrivedAtDestination();
-};
 
 #endif //LOGISTICS_CONTAINERSTATE_H
