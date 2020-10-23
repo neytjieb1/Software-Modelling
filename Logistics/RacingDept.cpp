@@ -37,7 +37,7 @@ int RacingDept::RacingWeekend() {
 void RacingDept::postRacePackUp() {
     cout << container->getState();
     container->takeStock();
-    container->changeState();
+    container->advanceState();
     cout << container->getState();
 
 

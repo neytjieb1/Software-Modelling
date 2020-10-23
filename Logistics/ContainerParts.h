@@ -6,6 +6,7 @@
 #define LOGISTICS_CONTAINERPARTS_H
 
 #include "Container.h"
+#include <list>
 
 class Box : public Container {
 private:

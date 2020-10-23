@@ -7,6 +7,7 @@
 
 #include "Car.h"
 #include "Container.h"
+#include <iostream> //both eng- and racing- need it
 
 class Mediator;
 
